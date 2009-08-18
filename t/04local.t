@@ -93,9 +93,10 @@ DateTime::TimeZone::Local->_load_subclass();
     my @err;
     local $SIG{__DIE__} = sub { push @err, shift };
 
-    eval { DateTime::TimeZone::Local->TimeZone() };
+    eval { DateTime::TimeZone::Local->_load_subclass() };
 
-    is( @err, 0, 'error loading local time zone module is not seen by __DIE__ handler' );
+    is_deeply( \@err, [],
+               'error loading local time zone module is not seen by __DIE__ handler' );
 }
 
 no warnings 'redefine';
