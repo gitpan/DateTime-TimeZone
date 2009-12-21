@@ -1,26 +1,22 @@
 ---
-name: DateTime-TimeZone
-version: 1.05
+abstract: 'Time zone object base class and factory'
 author:
   - 'Dave Rolsky <autarch@urth.org>'
-abstract: Time zone object base class and factory
-license: perl
-resources:
-  license: http://dev.perl.org/licenses/
 build_requires:
   Module::Build: 0
-requires:
-  Class::Singleton: 1.03
-  Cwd: 3
-  Params::Validate: 0.72
-  Pod::Man: 1.14
 configure_requires:
-  Module::Build: 0.35
+  Module::Build: 0.36
 dynamic_config: 1
+generated_by: 'Module::Build version 0.36'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: DateTime-TimeZone
 provides:
   DateTime::TimeZone:
     file: lib/DateTime/TimeZone.pm
-    version: 1.05
+    version: 1.06
   DateTime::TimeZone::Africa::Abidjan:
     file: lib/DateTime/TimeZone/Africa/Abidjan.pm
   DateTime::TimeZone::Africa::Accra:
@@ -843,7 +839,11 @@ provides:
     version: 0.01
   DateTime::TimeZone::WET:
     file: lib/DateTime/TimeZone/WET.pm
-generated_by: Module::Build version 0.35
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+requires:
+  Class::Singleton: 1.03
+  Cwd: 3
+  Params::Validate: 0.72
+  Pod::Man: 1.14
+resources:
+  license: http://dev.perl.org/licenses/
+version: 1.06
