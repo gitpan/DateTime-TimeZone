@@ -15,14 +15,14 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 3d9b2401bc0d311c1912d6a3b605cbd4246f4f6e Build.PL
-SHA1 c11ae73a6ca820cb3be150ba9bfb9068bf4ea930 Changes
+SHA1 a39412c6b4d107e95fb0e55aac7a52fa6cc4b38e Changes
 SHA1 f235ba4160673bcb7c9d58c2f09dbc7fc0efadea LICENSE
 SHA1 70846eb7fd2dbb2e2d680daf823472f2d2bb86c9 MANIFEST
 SHA1 862b6f94721125ebc18e28e5ceef11f5be359ccf MANIFEST.base
-SHA1 4a0debc6332c9c2a720e17ceb63cc4c4be7359aa META.yml
+SHA1 9a87678e2877ebaef84c83e70265e6243423669e META.yml
 SHA1 dba90bff8087565ac3b2a210d89ce36050a887fb Makefile.PL
 SHA1 b1c80f73c6cafc9ce1f14d5d1d52fe60dc198a50 README
-SHA1 e23464e75ced00ba8acfb051b4c55b8218ccacbd lib/DateTime/TimeZone.pm
+SHA1 ae7b5dd2480a796512b569acb57bde23fda95281 lib/DateTime/TimeZone.pm
 SHA1 e52c22d67a9853abe697dd86ef615ed103a17aa6 lib/DateTime/TimeZone/Africa/Abidjan.pm
 SHA1 c805bb31a6418bf803edf9217bc09edb6c579d1d lib/DateTime/TimeZone/Africa/Accra.pm
 SHA1 c341f6e5c01930370fe2d77de5f8053991a39a9b lib/DateTime/TimeZone/Africa/Addis_Ababa.pm
@@ -381,7 +381,7 @@ SHA1 38049521f61745f8b923181553cbbd65ce908be6 lib/DateTime/TimeZone/Indian/Reuni
 SHA1 e8412a0b1ed6373f72fd89925a977c767f8cf74d lib/DateTime/TimeZone/Local.pm
 SHA1 71dfbb45772c9839746140a721015bb3e90eeaa2 lib/DateTime/TimeZone/Local/Unix.pm
 SHA1 3d907073971ae89f4079cc343177ca9c56174591 lib/DateTime/TimeZone/Local/VMS.pm
-SHA1 2f1737d4999e0abe0bcb58f8a1601427290e0177 lib/DateTime/TimeZone/Local/Win32.pm
+SHA1 69088cb4ecc46c73e1835b8b72352be29f5d722c lib/DateTime/TimeZone/Local/Win32.pm
 SHA1 8fcacc6365475a936610b445f59dd14882b0dc00 lib/DateTime/TimeZone/MET.pm
 SHA1 055a7079a41652b1f7d171c4801de796a0f303ca lib/DateTime/TimeZone/MST.pm
 SHA1 dbc2dfaaaf5dfc1a8571b139e496336b6fb1f7d3 lib/DateTime/TimeZone/MST7MDT.pm
@@ -461,7 +461,7 @@ SHA1 1fbffd103261f201ed2f3ca45957bf20ee05721c tools/update-from-latest-olson
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.9 (GNU/Linux)
 
-iEYEARECAAYFAksv1bgACgkQIgMCsV8qvRL+9ACfXdiz0WYKhzWkrtfcRLNvCdt9
-hI0An3E3Z3rTi24FhzygCvNoyvf3X5Gh
-=uRMu
+iEYEARECAAYFAkszxrUACgkQIgMCsV8qvRIBDwCePaf+mDrAm7fO901AjorGtT8I
+jLgAoI87SK4hwylN/XzTPHAawvPNhkEz
+=V9S3
 -----END PGP SIGNATURE-----
