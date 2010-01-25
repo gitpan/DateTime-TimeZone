@@ -146,6 +146,7 @@ qw(
   America/Managua
   America/Manaus
   America/Martinique
+  America/Matamoros
   America/Mazatlan
   America/Menominee
   America/Merida
@@ -163,6 +164,7 @@ qw(
   America/Noronha
   America/North_Dakota/Center
   America/North_Dakota/New_Salem
+  America/Ojinaga
   America/Panama
   America/Pangnirtung
   America/Paramaribo
@@ -177,6 +179,7 @@ qw(
   America/Regina
   America/Resolute
   America/Rio_Branco
+  America/Santa_Isabel
   America/Santarem
   America/Santiago
   America/Santo_Domingo
@@ -562,6 +565,7 @@ qw(
     Managua
     Manaus
     Martinique
+    Matamoros
     Mazatlan
     Menominee
     Merida
@@ -579,6 +583,7 @@ qw(
     Noronha
     North_Dakota/Center
     North_Dakota/New_Salem
+    Ojinaga
     Panama
     Pangnirtung
     Paramaribo
@@ -593,6 +598,7 @@ qw(
     Regina
     Resolute
     Rio_Branco
+    Santa_Isabel
     Santarem
     Santiago
     Santo_Domingo
@@ -1396,10 +1402,13 @@ qw(
     America/Cancun
     America/Merida
     America/Monterrey
+    America/Matamoros
     America/Mazatlan
     America/Chihuahua
+    America/Ojinaga
     America/Hermosillo
     America/Tijuana
+    America/Santa_Isabel
 ) ],
   'my' => [ qw(
     Asia/Kuala_Lumpur
@@ -1872,7 +1881,7 @@ qw(
 
 ;
 
-sub OlsonVersion { '2010a' }
+sub OlsonVersion { '2010b' }
 
 
 1;
@@ -2004,6 +2013,7 @@ so that applications can easily present a list of timezones.
   America/Los_Angeles
   America/Managua
   America/Martinique
+  America/Matamoros
   America/Mazatlan
   America/Menominee
   America/Merida
@@ -2019,6 +2029,7 @@ so that applications can easily present a list of timezones.
   America/Nome
   America/North_Dakota/Center
   America/North_Dakota/New_Salem
+  America/Ojinaga
   America/Panama
   America/Pangnirtung
   America/Phoenix
@@ -2028,6 +2039,7 @@ so that applications can easily present a list of timezones.
   America/Rankin_Inlet
   America/Regina
   America/Resolute
+  America/Santa_Isabel
   America/Santo_Domingo
   America/St_Johns
   America/St_Kitts

@@ -16,7 +16,7 @@ name: DateTime-TimeZone
 provides:
   DateTime::TimeZone:
     file: lib/DateTime/TimeZone.pm
-    version: 1.09
+    version: 1.10
   DateTime::TimeZone::Africa::Abidjan:
     file: lib/DateTime/TimeZone/Africa/Abidjan.pm
   DateTime::TimeZone::Africa::Accra:
@@ -283,6 +283,8 @@ provides:
     file: lib/DateTime/TimeZone/America/Manaus.pm
   DateTime::TimeZone::America::Martinique:
     file: lib/DateTime/TimeZone/America/Martinique.pm
+  DateTime::TimeZone::America::Matamoros:
+    file: lib/DateTime/TimeZone/America/Matamoros.pm
   DateTime::TimeZone::America::Mazatlan:
     file: lib/DateTime/TimeZone/America/Mazatlan.pm
   DateTime::TimeZone::America::Menominee:
@@ -317,6 +319,8 @@ provides:
     file: lib/DateTime/TimeZone/America/North_Dakota/Center.pm
   DateTime::TimeZone::America::North_Dakota::New_Salem:
     file: lib/DateTime/TimeZone/America/North_Dakota/New_Salem.pm
+  DateTime::TimeZone::America::Ojinaga:
+    file: lib/DateTime/TimeZone/America/Ojinaga.pm
   DateTime::TimeZone::America::Panama:
     file: lib/DateTime/TimeZone/America/Panama.pm
   DateTime::TimeZone::America::Pangnirtung:
@@ -345,6 +349,8 @@ provides:
     file: lib/DateTime/TimeZone/America/Resolute.pm
   DateTime::TimeZone::America::Rio_Branco:
     file: lib/DateTime/TimeZone/America/Rio_Branco.pm
+  DateTime::TimeZone::America::Santa_Isabel:
+    file: lib/DateTime/TimeZone/America/Santa_Isabel.pm
   DateTime::TimeZone::America::Santarem:
     file: lib/DateTime/TimeZone/America/Santarem.pm
   DateTime::TimeZone::America::Santiago:
@@ -846,4 +852,4 @@ requires:
   Pod::Man: 1.14
 resources:
   license: http://dev.perl.org/licenses/
-version: 1.09
+version: 1.10

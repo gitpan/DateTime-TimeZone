@@ -346,6 +346,7 @@ lib/DateTime/TimeZone/America/Kentucky/Monticello.pm
 lib/DateTime/TimeZone/America/Los_Angeles.pm
 lib/DateTime/TimeZone/America/Managua.pm
 lib/DateTime/TimeZone/America/Martinique.pm
+lib/DateTime/TimeZone/America/Matamoros.pm
 lib/DateTime/TimeZone/America/Mazatlan.pm
 lib/DateTime/TimeZone/America/Menominee.pm
 lib/DateTime/TimeZone/America/Merida.pm
@@ -361,6 +362,7 @@ lib/DateTime/TimeZone/America/Nipigon.pm
 lib/DateTime/TimeZone/America/Nome.pm
 lib/DateTime/TimeZone/America/North_Dakota/Center.pm
 lib/DateTime/TimeZone/America/North_Dakota/New_Salem.pm
+lib/DateTime/TimeZone/America/Ojinaga.pm
 lib/DateTime/TimeZone/America/Panama.pm
 lib/DateTime/TimeZone/America/Pangnirtung.pm
 lib/DateTime/TimeZone/America/Phoenix.pm
@@ -370,6 +372,7 @@ lib/DateTime/TimeZone/America/Rainy_River.pm
 lib/DateTime/TimeZone/America/Rankin_Inlet.pm
 lib/DateTime/TimeZone/America/Regina.pm
 lib/DateTime/TimeZone/America/Resolute.pm
+lib/DateTime/TimeZone/America/Santa_Isabel.pm
 lib/DateTime/TimeZone/America/Santo_Domingo.pm
 lib/DateTime/TimeZone/America/St_Johns.pm
 lib/DateTime/TimeZone/America/St_Kitts.pm
