@@ -1881,7 +1881,7 @@ qw(
 
 ;
 
-sub OlsonVersion { '2010b' }
+sub OlsonVersion { '2010c' }
 
 
 1;
@@ -1903,7 +1903,7 @@ so that applications can easily present a list of timezones.
 
 =head1 AVAILABLE ZONES
 
-=head2 Zones by Region
+=head2 Zones by Continent/Region
 
 =head3 Africa
 
@@ -2319,5 +2319,1285 @@ so that applications can easily present a list of timezones.
   Pacific/Honolulu
   Pacific/Easter
   Pacific/Galapagos
+
+=head2 Zones by Country
+
+=head3 Afghanistan (AF)
+
+  Asia/Kabul
+
+=head3 Aland Islands (AX)
+
+  Europe/Mariehamn
+
+=head3 Albania (AL)
+
+  Europe/Tirane
+
+=head3 Algeria (DZ)
+
+  Africa/Algiers
+
+=head3 American Samoa (AS)
+
+  Pacific/Pago_Pago
+
+=head3 Andorra (AD)
+
+  Europe/Andorra
+
+=head3 Angola (AO)
+
+  Africa/Luanda
+
+=head3 Anguilla (AI)
+
+  America/Anguilla
+
+=head3 Antarctica (AQ)
+
+  Antarctica/Syowa - Syowa Station, E Ongul I
+  Antarctica/DumontDUrville - Dumont-d'Urville Station, Terre Adelie
+  Antarctica/Vostok - Vostok Station, S Magnetic Pole
+  Antarctica/Casey - Casey Station, Bailey Peninsula
+  Antarctica/Davis - Davis Station, Vestfold Hills
+  Antarctica/Mawson - Mawson Station, Holme Bay
+  Antarctica/Palmer - Palmer Station, Anvers Island
+  Antarctica/Rothera - Rothera Station, Adelaide Island
+  Antarctica/South_Pole - Amundsen-Scott Station, South Pole
+  Antarctica/McMurdo - McMurdo Station, Ross Island
+
+=head3 Antigua and Barbuda (AG)
+
+  America/Antigua
+
+=head3 Argentina (AR)
+
+  America/Argentina/Ushuaia - Tierra del Fuego (TF)
+  America/Argentina/Rio_Gallegos - Santa Cruz (SC)
+  America/Argentina/San_Luis - San Luis (SL)
+  America/Argentina/Mendoza - Mendoza (MZ)
+  America/Argentina/San_Juan - San Juan (SJ)
+  America/Argentina/La_Rioja - La Rioja (LR)
+  America/Argentina/Catamarca - Catamarca (CT), Chubut (CH)
+  America/Argentina/Tucuman - Tucuman (TM)
+  America/Argentina/Jujuy - Jujuy (JY)
+  America/Argentina/Salta - (SA, LP, NQ, RN)
+  America/Argentina/Cordoba - most locations (CB, CC, CN, ER, FM, MN, SE, SF)
+  America/Argentina/Buenos_Aires - Buenos Aires (BA, CF)
+
+=head3 Armenia (AM)
+
+  Asia/Yerevan
+
+=head3 Aruba (AW)
+
+  America/Aruba
+
+=head3 Australia (AU)
+
+  Australia/Eucla - Western Australia - Eucla area
+  Australia/Perth - Western Australia - most locations
+  Australia/Darwin - Northern Territory
+  Australia/Adelaide - South Australia
+  Australia/Lindeman - Queensland - Holiday Islands
+  Australia/Brisbane - Queensland - most locations
+  Australia/Broken_Hill - New South Wales - Yancowinna
+  Australia/Sydney - New South Wales - most locations
+  Australia/Melbourne - Victoria
+  Australia/Currie - Tasmania - King Island
+  Australia/Hobart - Tasmania - most locations
+  Australia/Lord_Howe - Lord Howe Island
+
+=head3 Austria (AT)
+
+  Europe/Vienna
+
+=head3 Azerbaijan (AZ)
+
+  Asia/Baku
+
+=head3 Bahamas (BS)
+
+  America/Nassau
+
+=head3 Bahrain (BH)
+
+  Asia/Bahrain
+
+=head3 Bangladesh (BD)
+
+  Asia/Dhaka
+
+=head3 Barbados (BB)
+
+  America/Barbados
+
+=head3 Belarus (BY)
+
+  Europe/Minsk
+
+=head3 Belgium (BE)
+
+  Europe/Brussels
+
+=head3 Belize (BZ)
+
+  America/Belize
+
+=head3 Benin (BJ)
+
+  Africa/Porto-Novo
+
+=head3 Bermuda (BM)
+
+  Atlantic/Bermuda
+
+=head3 Bhutan (BT)
+
+  Asia/Thimphu
+
+=head3 Bolivia, Plurinational State of (BO)
+
+  America/La_Paz
+
+=head3 Bosnia and Herzegovina (BA)
+
+  Europe/Sarajevo
+
+=head3 Botswana (BW)
+
+  Africa/Gaborone
+
+=head3 Brazil (BR)
+
+  America/Rio_Branco - Acre
+  America/Eirunepe - W Amazonas
+  America/Manaus - E Amazonas
+  America/Boa_Vista - Roraima
+  America/Porto_Velho - Rondonia
+  America/Santarem - W Para
+  America/Cuiaba - Mato Grosso
+  America/Campo_Grande - Mato Grosso do Sul
+  America/Sao_Paulo - S & SE Brazil (GO, DF, MG, ES, RJ, SP, PR, SC, RS)
+  America/Bahia - Bahia
+  America/Maceio - Alagoas, Sergipe
+  America/Araguaina - Tocantins
+  America/Recife - Pernambuco
+  America/Fortaleza - NE Brazil (MA, PI, CE, RN, PB)
+  America/Belem - Amapa, E Para
+  America/Noronha - Atlantic islands
+
+=head3 British Indian Ocean Territory (IO)
+
+  Indian/Chagos
+
+=head3 Brunei Darussalam (BN)
+
+  Asia/Brunei
+
+=head3 Bulgaria (BG)
+
+  Europe/Sofia
+
+=head3 Burkina Faso (BF)
+
+  Africa/Ouagadougou
+
+=head3 Burundi (BI)
+
+  Africa/Bujumbura
+
+=head3 Cambodia (KH)
+
+  Asia/Phnom_Penh
+
+=head3 Cameroon (CM)
+
+  Africa/Douala
+
+=head3 Canada (CA)
+
+  America/Dawson - Pacific Time - north Yukon
+  America/Whitehorse - Pacific Time - south Yukon
+  America/Vancouver - Pacific Time - west British Columbia
+  America/Dawson_Creek - Mountain Standard Time - Dawson Creek & Fort Saint John, British Columbia
+  America/Inuvik - Mountain Time - west Northwest Territories
+  America/Yellowknife - Mountain Time - central Northwest Territories
+  America/Cambridge_Bay - Mountain Time - west Nunavut
+  America/Edmonton - Mountain Time - Alberta, east British Columbia & west Saskatchewan
+  America/Swift_Current - Central Standard Time - Saskatchewan - midwest
+  America/Regina - Central Standard Time - Saskatchewan - most locations
+  America/Rainy_River - Central Time - Rainy River & Fort Frances, Ontario
+  America/Winnipeg - Central Time - Manitoba & west Ontario
+  America/Rankin_Inlet - Central Time - central Nunavut
+  America/Atikokan - Eastern Standard Time - Atikokan, Ontario and Southampton I, Nunavut
+  America/Resolute - Eastern Standard Time - Resolute, Nunavut
+  America/Pangnirtung - Eastern Time - Pangnirtung, Nunavut
+  America/Iqaluit - Eastern Time - east Nunavut - most locations
+  America/Thunder_Bay - Eastern Time - Thunder Bay, Ontario
+  America/Nipigon - Eastern Time - Ontario & Quebec - places that did not observe DST 1967-1973
+  America/Toronto - Eastern Time - Ontario - most locations
+  America/Montreal - Eastern Time - Quebec - most locations
+  America/Blanc-Sablon - Atlantic Standard Time - Quebec - Lower North Shore
+  America/Goose_Bay - Atlantic Time - Labrador - most locations
+  America/Moncton - Atlantic Time - New Brunswick
+  America/Glace_Bay - Atlantic Time - Nova Scotia - places that did not observe DST 1966-1971
+  America/Halifax - Atlantic Time - Nova Scotia (most places), PEI
+  America/St_Johns - Newfoundland Time, including SE Labrador
+
+=head3 Cape Verde (CV)
+
+  Atlantic/Cape_Verde
+
+=head3 Cayman Islands (KY)
+
+  America/Cayman
+
+=head3 Central African Republic (CF)
+
+  Africa/Bangui
+
+=head3 Chad (TD)
+
+  Africa/Ndjamena
+
+=head3 Chile (CL)
+
+  Pacific/Easter - Easter Island & Sala y Gomez
+  America/Santiago - most locations
+
+=head3 China (CN)
+
+  Asia/Kashgar - west Tibet & Xinjiang
+  Asia/Urumqi - most of Tibet & Xinjiang
+  Asia/Chongqing - central China - Sichuan, Yunnan, Guangxi, Shaanxi, Guizhou, etc.
+  Asia/Harbin - Heilongjiang (except Mohe), Jilin
+  Asia/Shanghai - east China - Beijing, Guangdong, Shanghai, etc.
+
+=head3 Christmas Island (CX)
+
+  Indian/Christmas
+
+=head3 Cocos (Keeling) Islands (CC)
+
+  Indian/Cocos
+
+=head3 Colombia (CO)
+
+  America/Bogota
+
+=head3 Comoros (KM)
+
+  Indian/Comoro
+
+=head3 Congo (CG)
+
+  Africa/Brazzaville
+
+=head3 Congo, The Democratic Republic of the (CD)
+
+  Africa/Lubumbashi - east Dem. Rep. of Congo
+  Africa/Kinshasa - west Dem. Rep. of Congo
+
+=head3 Cook Islands (CK)
+
+  Pacific/Rarotonga
+
+=head3 Costa Rica (CR)
+
+  America/Costa_Rica
+
+=head3 Cote d'Ivoire (CI)
+
+  Africa/Abidjan
+
+=head3 Croatia (HR)
+
+  Europe/Zagreb
+
+=head3 Cuba (CU)
+
+  America/Havana
+
+=head3 Cyprus (CY)
+
+  Asia/Nicosia
+
+=head3 Czech Republic (CZ)
+
+  Europe/Prague
+
+=head3 Denmark (DK)
+
+  Europe/Copenhagen
+
+=head3 Djibouti (DJ)
+
+  Africa/Djibouti
+
+=head3 Dominica (DM)
+
+  America/Dominica
+
+=head3 Dominican Republic (DO)
+
+  America/Santo_Domingo
+
+=head3 Ecuador (EC)
+
+  Pacific/Galapagos - Galapagos Islands
+  America/Guayaquil - mainland
+
+=head3 Egypt (EG)
+
+  Africa/Cairo
+
+=head3 El Salvador (SV)
+
+  America/El_Salvador
+
+=head3 Equatorial Guinea (GQ)
+
+  Africa/Malabo
+
+=head3 Eritrea (ER)
+
+  Africa/Asmara
+
+=head3 Estonia (EE)
+
+  Europe/Tallinn
+
+=head3 Ethiopia (ET)
+
+  Africa/Addis_Ababa
+
+=head3 Falkland Islands (Malvinas) (FK)
+
+  Atlantic/Stanley
+
+=head3 Faroe Islands (FO)
+
+  Atlantic/Faroe
+
+=head3 Fiji (FJ)
+
+  Pacific/Fiji
+
+=head3 Finland (FI)
+
+  Europe/Helsinki
+
+=head3 France (FR)
+
+  Europe/Paris
+
+=head3 French Guiana (GF)
+
+  America/Cayenne
+
+=head3 French Polynesia (PF)
+
+  Pacific/Gambier - Gambier Islands
+  Pacific/Marquesas - Marquesas Islands
+  Pacific/Tahiti - Society Islands
+
+=head3 French Southern Territories (TF)
+
+  Indian/Kerguelen
+
+=head3 Gabon (GA)
+
+  Africa/Libreville
+
+=head3 Gambia (GM)
+
+  Africa/Banjul
+
+=head3 Georgia (GE)
+
+  Asia/Tbilisi
+
+=head3 Germany (DE)
+
+  Europe/Berlin
+
+=head3 Ghana (GH)
+
+  Africa/Accra
+
+=head3 Gibraltar (GI)
+
+  Europe/Gibraltar
+
+=head3 Greece (GR)
+
+  Europe/Athens
+
+=head3 Greenland (GL)
+
+  America/Thule - Thule / Pituffik
+  America/Scoresbysund - Scoresbysund / Ittoqqortoormiit
+  America/Danmarkshavn - east coast, north of Scoresbysund
+  America/Godthab - most locations
+
+=head3 Grenada (GD)
+
+  America/Grenada
+
+=head3 Guadeloupe (GP)
+
+  America/Guadeloupe
+
+=head3 Guam (GU)
+
+  Pacific/Guam
+
+=head3 Guatemala (GT)
+
+  America/Guatemala
+
+=head3 Guernsey (GG)
+
+  Europe/Guernsey
+
+=head3 Guinea (GN)
+
+  Africa/Conakry
+
+=head3 Guinea-Bissau (GW)
+
+  Africa/Bissau
+
+=head3 Guyana (GY)
+
+  America/Guyana
+
+=head3 Haiti (HT)
+
+  America/Port-au-Prince
+
+=head3 Holy See (Vatican City State) (VA)
+
+  Europe/Vatican
+
+=head3 Honduras (HN)
+
+  America/Tegucigalpa
+
+=head3 Hong Kong (HK)
+
+  Asia/Hong_Kong
+
+=head3 Hungary (HU)
+
+  Europe/Budapest
+
+=head3 Iceland (IS)
+
+  Atlantic/Reykjavik
+
+=head3 India (IN)
+
+  Asia/Kolkata
+
+=head3 Indonesia (ID)
+
+  Asia/Jayapura - Irian Jaya & the Moluccas
+  Asia/Makassar - east & south Borneo, Celebes, Bali, Nusa Tengarra, west Timor
+  Asia/Pontianak - west & central Borneo
+  Asia/Jakarta - Java & Sumatra
+
+=head3 Iran, Islamic Republic of (IR)
+
+  Asia/Tehran
+
+=head3 Iraq (IQ)
+
+  Asia/Baghdad
+
+=head3 Ireland (IE)
+
+  Europe/Dublin
+
+=head3 Isle of Man (IM)
+
+  Europe/Isle_of_Man
+
+=head3 Israel (IL)
+
+  Asia/Jerusalem
+
+=head3 Italy (IT)
+
+  Europe/Rome
+
+=head3 Jamaica (JM)
+
+  America/Jamaica
+
+=head3 Japan (JP)
+
+  Asia/Tokyo
+
+=head3 Jersey (JE)
+
+  Europe/Jersey
+
+=head3 Jordan (JO)
+
+  Asia/Amman
+
+=head3 Kazakhstan (KZ)
+
+  Asia/Oral - West Kazakhstan
+  Asia/Aqtau - Atyrau (Atirau, Gur'yev), Mangghystau (Mankistau)
+  Asia/Aqtobe - Aqtobe (Aktobe)
+  Asia/Qyzylorda - Qyzylorda (Kyzylorda, Kzyl-Orda)
+  Asia/Almaty - most locations
+
+=head3 Kenya (KE)
+
+  Africa/Nairobi
+
+=head3 Kiribati (KI)
+
+  Pacific/Kiritimati - Line Islands
+  Pacific/Enderbury - Phoenix Islands
+  Pacific/Tarawa - Gilbert Islands
+
+=head3 Korea, Democratic People's Republic of (KP)
+
+  Asia/Pyongyang
+
+=head3 Korea, Republic of (KR)
+
+  Asia/Seoul
+
+=head3 Kuwait (KW)
+
+  Asia/Kuwait
+
+=head3 Kyrgyzstan (KG)
+
+  Asia/Bishkek
+
+=head3 Lao People's Democratic Republic (LA)
+
+  Asia/Vientiane
+
+=head3 Latvia (LV)
+
+  Europe/Riga
+
+=head3 Lebanon (LB)
+
+  Asia/Beirut
+
+=head3 Lesotho (LS)
+
+  Africa/Maseru
+
+=head3 Liberia (LR)
+
+  Africa/Monrovia
+
+=head3 Libyan Arab Jamahiriya (LY)
+
+  Africa/Tripoli
+
+=head3 Liechtenstein (LI)
+
+  Europe/Vaduz
+
+=head3 Lithuania (LT)
+
+  Europe/Vilnius
+
+=head3 Luxembourg (LU)
+
+  Europe/Luxembourg
+
+=head3 Macao (MO)
+
+  Asia/Macau
+
+=head3 Macedonia, The Former Yugoslav Republic of (MK)
+
+  Europe/Skopje
+
+=head3 Madagascar (MG)
+
+  Indian/Antananarivo
+
+=head3 Malawi (MW)
+
+  Africa/Blantyre
+
+=head3 Malaysia (MY)
+
+  Asia/Kuching - Sabah & Sarawak
+  Asia/Kuala_Lumpur - peninsular Malaysia
+
+=head3 Maldives (MV)
+
+  Indian/Maldives
+
+=head3 Mali (ML)
+
+  Africa/Bamako
+
+=head3 Malta (MT)
+
+  Europe/Malta
+
+=head3 Marshall Islands (MH)
+
+  Pacific/Kwajalein - Kwajalein
+  Pacific/Majuro - most locations
+
+=head3 Martinique (MQ)
+
+  America/Martinique
+
+=head3 Mauritania (MR)
+
+  Africa/Nouakchott
+
+=head3 Mauritius (MU)
+
+  Indian/Mauritius
+
+=head3 Mayotte (YT)
+
+  Indian/Mayotte
+
+=head3 Mexico (MX)
+
+  America/Santa_Isabel - Mexican Pacific Time - Baja California away from US border
+  America/Tijuana - US Pacific Time - Baja California near US border
+  America/Hermosillo - Mountain Standard Time - Sonora
+  America/Ojinaga - US Mountain Time - Chihuahua near US border
+  America/Chihuahua - Mexican Mountain Time - Chihuahua away from US border
+  America/Mazatlan - Mountain Time - S Baja, Nayarit, Sinaloa
+  America/Matamoros - US Central Time - Coahuila, Durango, Nuevo Leon, Tamaulipas near US border
+  America/Monterrey - Mexican Central Time - Coahuila, Durango, Nuevo Leon, Tamaulipas away from US border
+  America/Merida - Central Time - Campeche, Yucatan
+  America/Cancun - Central Time - Quintana Roo
+  America/Mexico_City - Central Time - most locations
+
+=head3 Micronesia, Federated States of (FM)
+
+  Pacific/Kosrae - Kosrae
+  Pacific/Ponape - Ponape (Pohnpei)
+  Pacific/Truk - Truk (Chuuk) and Yap
+
+=head3 Moldova, Republic of (MD)
+
+  Europe/Chisinau
+
+=head3 Monaco (MC)
+
+  Europe/Monaco
+
+=head3 Mongolia (MN)
+
+  Asia/Choibalsan - Dornod, Sukhbaatar
+  Asia/Hovd - Bayan-Olgiy, Govi-Altai, Hovd, Uvs, Zavkhan
+  Asia/Ulaanbaatar - most locations
+
+=head3 Montenegro (ME)
+
+  Europe/Podgorica
+
+=head3 Montserrat (MS)
+
+  America/Montserrat
+
+=head3 Morocco (MA)
+
+  Africa/Casablanca
+
+=head3 Mozambique (MZ)
+
+  Africa/Maputo
+
+=head3 Myanmar (MM)
+
+  Asia/Rangoon
+
+=head3 Namibia (NA)
+
+  Africa/Windhoek
+
+=head3 Nauru (NR)
+
+  Pacific/Nauru
+
+=head3 Nepal (NP)
+
+  Asia/Kathmandu
+
+=head3 Netherlands (NL)
+
+  Europe/Amsterdam
+
+=head3 Netherlands Antilles (AN)
+
+  America/Curacao
+
+=head3 New Caledonia (NC)
+
+  Pacific/Noumea
+
+=head3 New Zealand (NZ)
+
+  Pacific/Chatham - Chatham Islands
+  Pacific/Auckland - most locations
+
+=head3 Nicaragua (NI)
+
+  America/Managua
+
+=head3 Niger (NE)
+
+  Africa/Niamey
+
+=head3 Nigeria (NG)
+
+  Africa/Lagos
+
+=head3 Niue (NU)
+
+  Pacific/Niue
+
+=head3 Norfolk Island (NF)
+
+  Pacific/Norfolk
+
+=head3 Northern Mariana Islands (MP)
+
+  Pacific/Saipan
+
+=head3 Norway (NO)
+
+  Europe/Oslo
+
+=head3 Oman (OM)
+
+  Asia/Muscat
+
+=head3 Pakistan (PK)
+
+  Asia/Karachi
+
+=head3 Palau (PW)
+
+  Pacific/Palau
+
+=head3 Palestinian Territory, Occupied (PS)
+
+  Asia/Gaza
+
+=head3 Panama (PA)
+
+  America/Panama
+
+=head3 Papua New Guinea (PG)
+
+  Pacific/Port_Moresby
+
+=head3 Paraguay (PY)
+
+  America/Asuncion
+
+=head3 Peru (PE)
+
+  America/Lima
+
+=head3 Philippines (PH)
+
+  Asia/Manila
+
+=head3 Pitcairn (PN)
+
+  Pacific/Pitcairn
+
+=head3 Poland (PL)
+
+  Europe/Warsaw
+
+=head3 Portugal (PT)
+
+  Atlantic/Azores - Azores
+  Atlantic/Madeira - Madeira Islands
+  Europe/Lisbon - mainland
+
+=head3 Puerto Rico (PR)
+
+  America/Puerto_Rico
+
+=head3 Qatar (QA)
+
+  Asia/Qatar
+
+=head3 Reunion (RE)
+
+  Indian/Reunion
+
+=head3 Romania (RO)
+
+  Europe/Bucharest
+
+=head3 Russian Federation (RU)
+
+  Asia/Anadyr - Moscow+10 - Bering Sea
+  Asia/Kamchatka - Moscow+09 - Kamchatka
+  Asia/Magadan - Moscow+08 - Magadan
+  Asia/Sakhalin - Moscow+07 - Sakhalin Island
+  Asia/Vladivostok - Moscow+07 - Amur River
+  Asia/Yakutsk - Moscow+06 - Lena River
+  Asia/Irkutsk - Moscow+05 - Lake Baikal
+  Asia/Krasnoyarsk - Moscow+04 - Yenisei River
+  Asia/Novokuznetsk - Moscow+03 - Novokuznetsk
+  Asia/Novosibirsk - Moscow+03 - Novosibirsk
+  Asia/Omsk - Moscow+03 - west Siberia
+  Asia/Yekaterinburg - Moscow+02 - Urals
+  Europe/Samara - Moscow+01 - Samara, Udmurtia
+  Europe/Volgograd - Moscow+00 - Caspian Sea
+  Europe/Moscow - Moscow+00 - west Russia
+  Europe/Kaliningrad - Moscow-01 - Kaliningrad
+
+=head3 Rwanda (RW)
+
+  Africa/Kigali
+
+=head3 Saint Barthelemy (BL)
+
+  America/St_Barthelemy
+
+=head3 Saint Helena (SH)
+
+  Atlantic/St_Helena
+
+=head3 Saint Kitts and Nevis (KN)
+
+  America/St_Kitts
+
+=head3 Saint Lucia (LC)
+
+  America/St_Lucia
+
+=head3 Saint Martin (MF)
+
+  America/Marigot
+
+=head3 Saint Pierre and Miquelon (PM)
+
+  America/Miquelon
+
+=head3 Saint Vincent and the Grenadines (VC)
+
+  America/St_Vincent
+
+=head3 Samoa (WS)
+
+  Pacific/Apia
+
+=head3 San Marino (SM)
+
+  Europe/San_Marino
+
+=head3 Sao Tome and Principe (ST)
+
+  Africa/Sao_Tome
+
+=head3 Saudi Arabia (SA)
+
+  Asia/Riyadh
+
+=head3 Senegal (SN)
+
+  Africa/Dakar
+
+=head3 Serbia (RS)
+
+  Europe/Belgrade
+
+=head3 Seychelles (SC)
+
+  Indian/Mahe
+
+=head3 Sierra Leone (SL)
+
+  Africa/Freetown
+
+=head3 Singapore (SG)
+
+  Asia/Singapore
+
+=head3 Slovakia (SK)
+
+  Europe/Bratislava
+
+=head3 Slovenia (SI)
+
+  Europe/Ljubljana
+
+=head3 Solomon Islands (SB)
+
+  Pacific/Guadalcanal
+
+=head3 Somalia (SO)
+
+  Africa/Mogadishu
+
+=head3 South Africa (ZA)
+
+  Africa/Johannesburg
+
+=head3 South Georgia and the South Sandwich Islands (GS)
+
+  Atlantic/South_Georgia
+
+=head3 Spain (ES)
+
+  Atlantic/Canary - Canary Islands
+  Africa/Ceuta - Ceuta & Melilla
+  Europe/Madrid - mainland
+
+=head3 Sri Lanka (LK)
+
+  Asia/Colombo
+
+=head3 Sudan (SD)
+
+  Africa/Khartoum
+
+=head3 Suriname (SR)
+
+  America/Paramaribo
+
+=head3 Svalbard and Jan Mayen (SJ)
+
+  Arctic/Longyearbyen
+
+=head3 Swaziland (SZ)
+
+  Africa/Mbabane
+
+=head3 Sweden (SE)
+
+  Europe/Stockholm
+
+=head3 Switzerland (CH)
+
+  Europe/Zurich
+
+=head3 Syrian Arab Republic (SY)
+
+  Asia/Damascus
+
+=head3 Taiwan, Province of China (TW)
+
+  Asia/Taipei
+
+=head3 Tajikistan (TJ)
+
+  Asia/Dushanbe
+
+=head3 Tanzania, United Republic of (TZ)
+
+  Africa/Dar_es_Salaam
+
+=head3 Thailand (TH)
+
+  Asia/Bangkok
+
+=head3 Timor-Leste (TL)
+
+  Asia/Dili
+
+=head3 Togo (TG)
+
+  Africa/Lome
+
+=head3 Tokelau (TK)
+
+  Pacific/Fakaofo
+
+=head3 Tonga (TO)
+
+  Pacific/Tongatapu
+
+=head3 Trinidad and Tobago (TT)
+
+  America/Port_of_Spain
+
+=head3 Tunisia (TN)
+
+  Africa/Tunis
+
+=head3 Turkey (TR)
+
+  Europe/Istanbul
+
+=head3 Turkmenistan (TM)
+
+  Asia/Ashgabat
+
+=head3 Turks and Caicos Islands (TC)
+
+  America/Grand_Turk
+
+=head3 Tuvalu (TV)
+
+  Pacific/Funafuti
+
+=head3 Uganda (UG)
+
+  Africa/Kampala
+
+=head3 Ukraine (UA)
+
+  Europe/Simferopol - central Crimea
+  Europe/Zaporozhye - Zaporozh'ye, E Lugansk / Zaporizhia, E Luhansk
+  Europe/Uzhgorod - Ruthenia
+  Europe/Kiev - most locations
+
+=head3 United Arab Emirates (AE)
+
+  Asia/Dubai
+
+=head3 United Kingdom (GB)
+
+  Europe/London
+
+=head3 United States (US)
+
+  Pacific/Honolulu - Hawaii
+  America/Adak - Aleutian Islands
+  America/Nome - Alaska Time - west Alaska
+  America/Yakutat - Alaska Time - Alaska panhandle neck
+  America/Juneau - Alaska Time - Alaska panhandle
+  America/Anchorage - Alaska Time
+  America/Los_Angeles - Pacific Time
+  America/Phoenix - Mountain Standard Time - Arizona
+  America/Shiprock - Mountain Time - Navajo
+  America/Boise - Mountain Time - south Idaho & east Oregon
+  America/Denver - Mountain Time
+  America/North_Dakota/New_Salem - Central Time - North Dakota - Morton County (except Mandan area)
+  America/North_Dakota/Center - Central Time - North Dakota - Oliver County
+  America/Menominee - Central Time - Michigan - Dickinson, Gogebic, Iron & Menominee Counties
+  America/Indiana/Knox - Central Time - Indiana - Starke County
+  America/Indiana/Tell_City - Central Time - Indiana - Perry County
+  America/Chicago - Central Time
+  America/Indiana/Vevay - Eastern Time - Indiana - Switzerland County
+  America/Indiana/Petersburg - Eastern Time - Indiana - Pike County
+  America/Indiana/Marengo - Eastern Time - Indiana - Crawford County
+  America/Indiana/Winamac - Eastern Time - Indiana - Pulaski County
+  America/Indiana/Vincennes - Eastern Time - Indiana - Daviess, Dubois, Knox & Martin Counties
+  America/Indiana/Indianapolis - Eastern Time - Indiana - most locations
+  America/Kentucky/Monticello - Eastern Time - Kentucky - Wayne County
+  America/Kentucky/Louisville - Eastern Time - Kentucky - Louisville area
+  America/Detroit - Eastern Time - Michigan - most locations
+  America/New_York - Eastern Time
+
+=head3 United States Minor Outlying Islands (UM)
+
+  Pacific/Wake - Wake Island
+  Pacific/Midway - Midway Islands
+  Pacific/Johnston - Johnston Atoll
+
+=head3 Uruguay (UY)
+
+  America/Montevideo
+
+=head3 Uzbekistan (UZ)
+
+  Asia/Tashkent - east Uzbekistan
+  Asia/Samarkand - west Uzbekistan
+
+=head3 Vanuatu (VU)
+
+  Pacific/Efate
+
+=head3 Venezuela, Bolivarian Republic of (VE)
+
+  America/Caracas
+
+=head3 Viet Nam (VN)
+
+  Asia/Ho_Chi_Minh
+
+=head3 Virgin Islands, British (VG)
+
+  America/Tortola
+
+=head3 Virgin Islands, U.S. (VI)
+
+  America/St_Thomas
+
+=head3 Wallis and Futuna (WF)
+
+  Pacific/Wallis
+
+=head3 Western Sahara (EH)
+
+  Africa/El_Aaiun
+
+=head3 Yemen (YE)
+
+  Asia/Aden
+
+=head3 Zambia (ZM)
+
+  Africa/Lusaka
+
+=head3 Zimbabwe (ZW)
+
+  Africa/Harare
+
+=head2 Linked Zones
+
+A linked zone is an alias from one name to another.
+
+  AKST9AKDT => America/Anchorage
+  Africa/Asmera => Africa/Asmara
+  Africa/Timbuktu => Africa/Bamako
+  America/Argentina/ComodRivadavia => America/Argentina/Catamarca
+  America/Atka => America/Adak
+  America/Buenos_Aires => America/Argentina/Buenos_Aires
+  America/Catamarca => America/Argentina/Catamarca
+  America/Coral_Harbour => America/Atikokan
+  America/Cordoba => America/Argentina/Cordoba
+  America/Ensenada => America/Tijuana
+  America/Fort_Wayne => America/Indiana/Indianapolis
+  America/Indianapolis => America/Indiana/Indianapolis
+  America/Jujuy => America/Argentina/Jujuy
+  America/Knox_IN => America/Indiana/Knox
+  America/Louisville => America/Kentucky/Louisville
+  America/Marigot => America/Guadeloupe
+  America/Mendoza => America/Argentina/Mendoza
+  America/Porto_Acre => America/Rio_Branco
+  America/Rosario => America/Argentina/Cordoba
+  America/Shiprock => America/Denver
+  America/St_Barthelemy => America/Guadeloupe
+  America/Virgin => America/St_Thomas
+  Antarctica/South_Pole => Antarctica/McMurdo
+  Arctic/Longyearbyen => Europe/Oslo
+  Asia/Ashkhabad => Asia/Ashgabat
+  Asia/Calcutta => Asia/Kolkata
+  Asia/Chungking => Asia/Chongqing
+  Asia/Dacca => Asia/Dhaka
+  Asia/Istanbul => Europe/Istanbul
+  Asia/Katmandu => Asia/Kathmandu
+  Asia/Macao => Asia/Macau
+  Asia/Saigon => Asia/Ho_Chi_Minh
+  Asia/Tel_Aviv => Asia/Jerusalem
+  Asia/Thimbu => Asia/Thimphu
+  Asia/Ujung_Pandang => Asia/Makassar
+  Asia/Ulan_Bator => Asia/Ulaanbaatar
+  Atlantic/Faeroe => Atlantic/Faroe
+  Atlantic/Jan_Mayen => Europe/Oslo
+  Australia/ACT => Australia/Sydney
+  Australia/Canberra => Australia/Sydney
+  Australia/LHI => Australia/Lord_Howe
+  Australia/NSW => Australia/Sydney
+  Australia/North => Australia/Darwin
+  Australia/Queensland => Australia/Brisbane
+  Australia/South => Australia/Adelaide
+  Australia/Tasmania => Australia/Hobart
+  Australia/Victoria => Australia/Melbourne
+  Australia/West => Australia/Perth
+  Australia/Yancowinna => Australia/Broken_Hill
+  Brazil/Acre => America/Rio_Branco
+  Brazil/DeNoronha => America/Noronha
+  Brazil/East => America/Sao_Paulo
+  Brazil/West => America/Manaus
+  Canada/Atlantic => America/Halifax
+  Canada/Central => America/Winnipeg
+  Canada/East-Saskatchewan => America/Regina
+  Canada/Eastern => America/Toronto
+  Canada/Mountain => America/Edmonton
+  Canada/Newfoundland => America/St_Johns
+  Canada/Pacific => America/Vancouver
+  Canada/Saskatchewan => America/Regina
+  Canada/Yukon => America/Whitehorse
+  Chile/Continental => America/Santiago
+  Chile/EasterIsland => Pacific/Easter
+  Cuba => America/Havana
+  Egypt => Africa/Cairo
+  Eire => Europe/Dublin
+  Etc/GMT => UTC
+  Etc/GMT+0 => UTC
+  Etc/UCT => UTC
+  Etc/UTC => UTC
+  Etc/Universal => UTC
+  Etc/Zulu => UTC
+  Europe/Belfast => Europe/London
+  Europe/Bratislava => Europe/Prague
+  Europe/Guernsey => Europe/London
+  Europe/Isle_of_Man => Europe/London
+  Europe/Jersey => Europe/London
+  Europe/Ljubljana => Europe/Belgrade
+  Europe/Mariehamn => Europe/Helsinki
+  Europe/Nicosia => Asia/Nicosia
+  Europe/Podgorica => Europe/Belgrade
+  Europe/San_Marino => Europe/Rome
+  Europe/Sarajevo => Europe/Belgrade
+  Europe/Skopje => Europe/Belgrade
+  Europe/Tiraspol => Europe/Chisinau
+  Europe/Vatican => Europe/Rome
+  Europe/Zagreb => Europe/Belgrade
+  GB => Europe/London
+  GB-Eire => Europe/London
+  GMT => UTC
+  GMT+0 => UTC
+  GMT-0 => UTC
+  GMT0 => UTC
+  Greenwich => UTC
+  Hongkong => Asia/Hong_Kong
+  Iceland => Atlantic/Reykjavik
+  Iran => Asia/Tehran
+  Israel => Asia/Jerusalem
+  JST-9 => Asia/Tokyo
+  Jamaica => America/Jamaica
+  Japan => Asia/Tokyo
+  Kwajalein => Pacific/Kwajalein
+  Libya => Africa/Tripoli
+  Mexico/BajaNorte => America/Tijuana
+  Mexico/BajaSur => America/Mazatlan
+  Mexico/General => America/Mexico_City
+  NZ => Pacific/Auckland
+  NZ-CHAT => Pacific/Chatham
+  Navajo => America/Denver
+  PRC => Asia/Shanghai
+  Pacific/Samoa => Pacific/Pago_Pago
+  Pacific/Yap => Pacific/Truk
+  Poland => Europe/Warsaw
+  Portugal => Europe/Lisbon
+  ROC => Asia/Taipei
+  ROK => Asia/Seoul
+  Singapore => Asia/Singapore
+  Turkey => Europe/Istanbul
+  UCT => UTC
+  US/Alaska => America/Anchorage
+  US/Aleutian => America/Adak
+  US/Arizona => America/Phoenix
+  US/Central => America/Chicago
+  US/East-Indiana => America/Indiana/Indianapolis
+  US/Eastern => America/New_York
+  US/Hawaii => Pacific/Honolulu
+  US/Indiana-Starke => America/Indiana/Knox
+  US/Michigan => America/Detroit
+  US/Mountain => America/Denver
+  US/Pacific => America/Los_Angeles
+  US/Pacific-New => America/Los_Angeles
+  US/Samoa => Pacific/Pago_Pago
+  Universal => UTC
+  W-SU => Europe/Moscow
+  Zulu => UTC
 
 =cut
