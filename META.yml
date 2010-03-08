@@ -16,7 +16,7 @@ name: DateTime-TimeZone
 provides:
   DateTime::TimeZone:
     file: lib/DateTime/TimeZone.pm
-    version: 1.12
+    version: 1.13
   DateTime::TimeZone::Africa::Abidjan:
     file: lib/DateTime/TimeZone/Africa/Abidjan.pm
   DateTime::TimeZone::Africa::Accra:
@@ -852,4 +852,4 @@ requires:
   Pod::Man: 1.14
 resources:
   license: http://dev.perl.org/licenses/
-version: 1.12
+version: 1.13
