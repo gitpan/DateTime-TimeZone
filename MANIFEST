@@ -107,6 +107,7 @@ lib/DateTime/TimeZone/Indian/Reunion.pm
 lib/DateTime/TimeZone/Antarctica/Casey.pm
 lib/DateTime/TimeZone/Antarctica/Davis.pm
 lib/DateTime/TimeZone/Antarctica/DumontDUrville.pm
+lib/DateTime/TimeZone/Antarctica/Macquarie.pm
 lib/DateTime/TimeZone/Antarctica/Mawson.pm
 lib/DateTime/TimeZone/Antarctica/McMurdo.pm
 lib/DateTime/TimeZone/Antarctica/Palmer.pm

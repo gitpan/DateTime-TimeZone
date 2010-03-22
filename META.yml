@@ -16,7 +16,7 @@ name: DateTime-TimeZone
 provides:
   DateTime::TimeZone:
     file: lib/DateTime/TimeZone.pm
-    version: 1.13
+    version: 1.14
   DateTime::TimeZone::Africa::Abidjan:
     file: lib/DateTime/TimeZone/Africa/Abidjan.pm
   DateTime::TimeZone::Africa::Accra:
@@ -401,6 +401,8 @@ provides:
     file: lib/DateTime/TimeZone/Antarctica/Davis.pm
   DateTime::TimeZone::Antarctica::DumontDUrville:
     file: lib/DateTime/TimeZone/Antarctica/DumontDUrville.pm
+  DateTime::TimeZone::Antarctica::Macquarie:
+    file: lib/DateTime/TimeZone/Antarctica/Macquarie.pm
   DateTime::TimeZone::Antarctica::Mawson:
     file: lib/DateTime/TimeZone/Antarctica/Mawson.pm
   DateTime::TimeZone::Antarctica::McMurdo:
@@ -851,5 +853,8 @@ requires:
   Params::Validate: 0.72
   Pod::Man: 1.14
 resources:
+  bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=DateTime-TimeZone
+  homepage: http://datetime.perl.org/
   license: http://dev.perl.org/licenses/
-version: 1.13
+  repository: http://hg.urth.org/hg/DateTime-TimeZone
+version: 1.14

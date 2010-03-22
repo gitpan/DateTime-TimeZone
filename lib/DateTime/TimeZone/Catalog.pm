@@ -205,6 +205,7 @@ qw(
   Antarctica/Casey
   Antarctica/Davis
   Antarctica/DumontDUrville
+  Antarctica/Macquarie
   Antarctica/Mawson
   Antarctica/McMurdo
   Antarctica/Palmer
@@ -626,6 +627,7 @@ qw(
     Casey
     Davis
     DumontDUrville
+    Macquarie
     Mawson
     McMurdo
     Palmer
@@ -878,6 +880,7 @@ qw(
     Antarctica/Vostok
     Antarctica/DumontDUrville
     Antarctica/Syowa
+    Antarctica/Macquarie
 ) ],
   'ar' => [ qw(
     America/Argentina/Buenos_Aires
@@ -1881,7 +1884,7 @@ qw(
 
 ;
 
-sub OlsonVersion { '2010e' }
+sub OlsonVersion { '2010f' }
 
 
 1;
@@ -2105,6 +2108,7 @@ so that applications can easily present a list of timezones.
   Antarctica/Casey
   Antarctica/Davis
   Antarctica/DumontDUrville
+  Antarctica/Macquarie
   Antarctica/Mawson
   Antarctica/McMurdo
   Antarctica/Palmer
@@ -2356,6 +2360,7 @@ so that applications can easily present a list of timezones.
 
 =head3 Antarctica (AQ)
 
+  Antarctica/Macquarie - Macquarie Island Station, Macquarie Island
   Antarctica/Syowa - Syowa Station, E Ongul I
   Antarctica/DumontDUrville - Dumont-d'Urville Station, Terre Adelie
   Antarctica/Vostok - Vostok Station, S Magnetic Pole
