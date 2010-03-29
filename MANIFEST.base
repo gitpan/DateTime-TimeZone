@@ -40,7 +40,9 @@ t/18olson-version-check.t
 t/19local-win32.t
 t/20local-subclass.t
 t/check_datetime_version.pl
-t/pod.t
+xt/kwalitee.t
+xt/pod.t
+xt/pod-spell.t
 tools/compile-all-zones
 tools/parse_olson
 tools/tests_from_zdump

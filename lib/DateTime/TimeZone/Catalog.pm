@@ -1884,7 +1884,7 @@ qw(
 
 ;
 
-sub OlsonVersion { '2010f' }
+sub OlsonVersion { '2010g' }
 
 
 1;
@@ -3157,8 +3157,8 @@ so that applications can easily present a list of timezones.
 
 =head3 Russian Federation (RU)
 
-  Asia/Anadyr - Moscow+10 - Bering Sea
-  Asia/Kamchatka - Moscow+09 - Kamchatka
+  Asia/Anadyr - Moscow+08 - Bering Sea
+  Asia/Kamchatka - Moscow+08 - Kamchatka
   Asia/Magadan - Moscow+08 - Magadan
   Asia/Sakhalin - Moscow+07 - Sakhalin Island
   Asia/Vladivostok - Moscow+07 - Amur River
@@ -3169,7 +3169,7 @@ so that applications can easily present a list of timezones.
   Asia/Novosibirsk - Moscow+03 - Novosibirsk
   Asia/Omsk - Moscow+03 - west Siberia
   Asia/Yekaterinburg - Moscow+02 - Urals
-  Europe/Samara - Moscow+01 - Samara, Udmurtia
+  Europe/Samara - Moscow - Samara, Udmurtia
   Europe/Volgograd - Moscow+00 - Caspian Sea
   Europe/Moscow - Moscow+00 - west Russia
   Europe/Kaliningrad - Moscow-01 - Kaliningrad
