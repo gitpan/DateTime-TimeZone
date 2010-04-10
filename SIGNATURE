@@ -15,14 +15,14 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 54ac51a224cc3ec463132b561c69190e6692c2f0 Build.PL
-SHA1 98596525616ef32a072947da64c128a69d2e92d9 Changes
+SHA1 8765f3dc1ae5a9f8c590fa5188302ebd4a572f86 Changes
 SHA1 f235ba4160673bcb7c9d58c2f09dbc7fc0efadea LICENSE
 SHA1 2ade549430ebdcad5dbe9d124c9ac89932fbc800 MANIFEST
 SHA1 c3f55a70946b7618c6f1cddeef9918dded394d2f MANIFEST.base
-SHA1 b345238f444e0ae9e428569821cb3ab5e4646fdf META.yml
+SHA1 dcc5f8729065750835598045c13a155795c91b4f META.yml
 SHA1 c650ca76be9df635d5dc026d4dbc0263118d440f Makefile.PL
 SHA1 3ef8cdc8a8ebc936c91d155157696c20c8082cf8 README
-SHA1 496aa7ce46b6d2d67a6b75eea54c781b7d8c4422 lib/DateTime/TimeZone.pm
+SHA1 3cd50b4f74784e8cc549ed537eff059797b7ef04 lib/DateTime/TimeZone.pm
 SHA1 008b121e01b1f8e645f1aa6e5edf44c83f376f32 lib/DateTime/TimeZone/Africa/Abidjan.pm
 SHA1 84846eede7678003758481dc59f9705ce26bccd3 lib/DateTime/TimeZone/Africa/Accra.pm
 SHA1 bd5cf5284909f28873e118f32de85bf6a93482dc lib/DateTime/TimeZone/Africa/Addis_Ababa.pm
@@ -385,7 +385,7 @@ SHA1 cc9ed8d0b3c46399f8eb1f1ec11807e984dcd2ea lib/DateTime/TimeZone/Indian/Reuni
 SHA1 f5ba50d3f2eb1c1bf38b7ab74728e0327be7763c lib/DateTime/TimeZone/Local.pm
 SHA1 f188661881939144264facc2fb0a43916a1a96dc lib/DateTime/TimeZone/Local/Unix.pm
 SHA1 8d652b5f16c34865006a7a52ea36a0c16c3ad4d5 lib/DateTime/TimeZone/Local/VMS.pm
-SHA1 562e15aee2ee0bb3b2c4faafa395f903da28b540 lib/DateTime/TimeZone/Local/Win32.pm
+SHA1 189d2d1a1a9c3c8c5f9e34c0674ba810912f2e12 lib/DateTime/TimeZone/Local/Win32.pm
 SHA1 020428246c52be5c7c0e95b80a97707657a92b78 lib/DateTime/TimeZone/MET.pm
 SHA1 260448823039396e4766722dcd31a8ca92804ad2 lib/DateTime/TimeZone/MST.pm
 SHA1 22dae297cd1166d540e836d012a781c682900c0e lib/DateTime/TimeZone/MST7MDT.pm
@@ -467,7 +467,7 @@ SHA1 9bb24d755c9e2fbf5d9b7db34df15637ccd8e3f6 xt/pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAku5/PYACgkQIgMCsV8qvRKCrACeMt6ohAusWszmsftFZv5lph4Q
-QeIAn04UdjOFSDtWgYdiAtesKgfk4bV0
-=LcRe
+iEYEARECAAYFAkvA70kACgkQIgMCsV8qvRL+iwCfdK+74DUWBafmxyNy3R+AE/HS
+pTQAn1dNq1SWvOEGtcWpoAnnpYpa57n8
+=0mPL
 -----END PGP SIGNATURE-----
