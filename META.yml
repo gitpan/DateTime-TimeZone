@@ -16,7 +16,7 @@ name: DateTime-TimeZone
 provides:
   DateTime::TimeZone:
     file: lib/DateTime/TimeZone.pm
-    version: 1.17
+    version: 1.18
   DateTime::TimeZone::Africa::Abidjan:
     file: lib/DateTime/TimeZone/Africa/Abidjan.pm
   DateTime::TimeZone::Africa::Accra:
@@ -857,4 +857,4 @@ resources:
   homepage: http://datetime.perl.org/
   license: http://dev.perl.org/licenses/
   repository: http://hg.urth.org/hg/DateTime-TimeZone
-version: 1.17
+version: 1.18
