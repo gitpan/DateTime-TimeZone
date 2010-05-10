@@ -85,6 +85,7 @@ qw(
   America/Asuncion
   America/Atikokan
   America/Bahia
+  America/Bahia_Banderas
   America/Barbados
   America/Belem
   America/Belize
@@ -505,6 +506,7 @@ qw(
     Asuncion
     Atikokan
     Bahia
+    Bahia_Banderas
     Barbados
     Belem
     Belize
@@ -1412,6 +1414,7 @@ qw(
     America/Hermosillo
     America/Tijuana
     America/Santa_Isabel
+    America/Bahia_Banderas
 ) ],
   'my' => [ qw(
     Asia/Kuala_Lumpur
@@ -1884,7 +1887,7 @@ qw(
 
 ;
 
-sub OlsonVersion { '2010i' }
+sub OlsonVersion { '2010j' }
 
 
 1;
@@ -1973,6 +1976,7 @@ so that applications can easily present a list of timezones.
   America/Anguilla
   America/Antigua
   America/Atikokan
+  America/Bahia_Banderas
   America/Barbados
   America/Belize
   America/Blanc-Sablon
@@ -2980,6 +2984,7 @@ so that applications can easily present a list of timezones.
 
 =head3 Mexico (MX)
 
+  America/Bahia_Banderas - Mexican Central Time - Bahia de Banderas
   America/Santa_Isabel - Mexican Pacific Time - Baja California away from US border
   America/Tijuana - US Pacific Time - Baja California near US border
   America/Hermosillo - Mountain Standard Time - Sonora
@@ -3182,7 +3187,7 @@ so that applications can easily present a list of timezones.
 
   America/St_Barthelemy
 
-=head3 Saint Helena (SH)
+=head3 Saint Helena, Ascension and Tristan da Cunha (SH)
 
   Atlantic/St_Helena
 

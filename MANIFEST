@@ -19,6 +19,7 @@ Makefile.PL
 MANIFEST			This list of files
 MANIFEST.base
 META.yml
+perltidyrc
 README
 t/01load.t
 t/02basic.t
@@ -306,6 +307,7 @@ lib/DateTime/TimeZone/America/Anchorage.pm
 lib/DateTime/TimeZone/America/Anguilla.pm
 lib/DateTime/TimeZone/America/Antigua.pm
 lib/DateTime/TimeZone/America/Atikokan.pm
+lib/DateTime/TimeZone/America/Bahia_Banderas.pm
 lib/DateTime/TimeZone/America/Barbados.pm
 lib/DateTime/TimeZone/America/Belize.pm
 lib/DateTime/TimeZone/America/Blanc_Sablon.pm

@@ -4,10 +4,11 @@ author:
   - 'Dave Rolsky <autarch@urth.org>'
 build_requires:
   Module::Build: 0
+  Test::More: 0.88
 configure_requires:
   Module::Build: 0.36
 dynamic_config: 1
-generated_by: 'Module::Build version 0.3603'
+generated_by: 'Module::Build version 0.3607'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -16,7 +17,7 @@ name: DateTime-TimeZone
 provides:
   DateTime::TimeZone:
     file: lib/DateTime/TimeZone.pm
-    version: 1.18
+    version: 1.19
   DateTime::TimeZone::Africa::Abidjan:
     file: lib/DateTime/TimeZone/Africa/Abidjan.pm
   DateTime::TimeZone::Africa::Accra:
@@ -161,6 +162,8 @@ provides:
     file: lib/DateTime/TimeZone/America/Atikokan.pm
   DateTime::TimeZone::America::Bahia:
     file: lib/DateTime/TimeZone/America/Bahia.pm
+  DateTime::TimeZone::America::Bahia_Banderas:
+    file: lib/DateTime/TimeZone/America/Bahia_Banderas.pm
   DateTime::TimeZone::America::Barbados:
     file: lib/DateTime/TimeZone/America/Barbados.pm
   DateTime::TimeZone::America::Belem:
@@ -857,4 +860,4 @@ resources:
   homepage: http://datetime.perl.org/
   license: http://dev.perl.org/licenses/
   repository: http://hg.urth.org/hg/DateTime-TimeZone
-version: 1.18
+version: 1.19
