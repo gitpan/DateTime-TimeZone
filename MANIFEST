@@ -201,6 +201,7 @@ lib/DateTime/TimeZone/Indian/Cocos.pm
 lib/DateTime/TimeZone/Pacific/Apia.pm
 lib/DateTime/TimeZone/Pacific/Auckland.pm
 lib/DateTime/TimeZone/Pacific/Chatham.pm
+lib/DateTime/TimeZone/Pacific/Chuuk.pm
 lib/DateTime/TimeZone/Pacific/Efate.pm
 lib/DateTime/TimeZone/Pacific/Enderbury.pm
 lib/DateTime/TimeZone/Pacific/Fakaofo.pm
@@ -223,14 +224,13 @@ lib/DateTime/TimeZone/Pacific/Noumea.pm
 lib/DateTime/TimeZone/Pacific/Pago_Pago.pm
 lib/DateTime/TimeZone/Pacific/Palau.pm
 lib/DateTime/TimeZone/Pacific/Pitcairn.pm
-lib/DateTime/TimeZone/Pacific/Ponape.pm
+lib/DateTime/TimeZone/Pacific/Pohnpei.pm
 lib/DateTime/TimeZone/Pacific/Port_Moresby.pm
 lib/DateTime/TimeZone/Pacific/Rarotonga.pm
 lib/DateTime/TimeZone/Pacific/Saipan.pm
 lib/DateTime/TimeZone/Pacific/Tahiti.pm
 lib/DateTime/TimeZone/Pacific/Tarawa.pm
 lib/DateTime/TimeZone/Pacific/Tongatapu.pm
-lib/DateTime/TimeZone/Pacific/Truk.pm
 lib/DateTime/TimeZone/Pacific/Wake.pm
 lib/DateTime/TimeZone/Pacific/Wallis.pm
 lib/DateTime/TimeZone/Africa/Ceuta.pm

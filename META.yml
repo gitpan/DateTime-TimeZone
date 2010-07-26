@@ -17,7 +17,7 @@ name: DateTime-TimeZone
 provides:
   DateTime::TimeZone:
     file: lib/DateTime/TimeZone.pm
-    version: 1.19
+    version: 1.20
   DateTime::TimeZone::Africa::Abidjan:
     file: lib/DateTime/TimeZone/Africa/Abidjan.pm
   DateTime::TimeZone::Africa::Accra:
@@ -775,6 +775,8 @@ provides:
     file: lib/DateTime/TimeZone/Pacific/Auckland.pm
   DateTime::TimeZone::Pacific::Chatham:
     file: lib/DateTime/TimeZone/Pacific/Chatham.pm
+  DateTime::TimeZone::Pacific::Chuuk:
+    file: lib/DateTime/TimeZone/Pacific/Chuuk.pm
   DateTime::TimeZone::Pacific::Easter:
     file: lib/DateTime/TimeZone/Pacific/Easter.pm
   DateTime::TimeZone::Pacific::Efate:
@@ -825,8 +827,8 @@ provides:
     file: lib/DateTime/TimeZone/Pacific/Palau.pm
   DateTime::TimeZone::Pacific::Pitcairn:
     file: lib/DateTime/TimeZone/Pacific/Pitcairn.pm
-  DateTime::TimeZone::Pacific::Ponape:
-    file: lib/DateTime/TimeZone/Pacific/Ponape.pm
+  DateTime::TimeZone::Pacific::Pohnpei:
+    file: lib/DateTime/TimeZone/Pacific/Pohnpei.pm
   DateTime::TimeZone::Pacific::Port_Moresby:
     file: lib/DateTime/TimeZone/Pacific/Port_Moresby.pm
   DateTime::TimeZone::Pacific::Rarotonga:
@@ -839,8 +841,6 @@ provides:
     file: lib/DateTime/TimeZone/Pacific/Tarawa.pm
   DateTime::TimeZone::Pacific::Tongatapu:
     file: lib/DateTime/TimeZone/Pacific/Tongatapu.pm
-  DateTime::TimeZone::Pacific::Truk:
-    file: lib/DateTime/TimeZone/Pacific/Truk.pm
   DateTime::TimeZone::Pacific::Wake:
     file: lib/DateTime/TimeZone/Pacific/Wake.pm
   DateTime::TimeZone::Pacific::Wallis:
@@ -860,4 +860,4 @@ resources:
   homepage: http://datetime.perl.org/
   license: http://dev.perl.org/licenses/
   repository: http://hg.urth.org/hg/DateTime-TimeZone
-version: 1.19
+version: 1.20
