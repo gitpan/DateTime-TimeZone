@@ -1889,7 +1889,7 @@ qw(
 
 ;
 
-sub OlsonVersion { '2010l' }
+sub OlsonVersion { '2010m' }
 
 
 1;
@@ -2369,7 +2369,7 @@ so that applications can easily present a list of timezones.
   Antarctica/Macquarie - Macquarie Island Station, Macquarie Island
   Antarctica/Syowa - Syowa Station, E Ongul I
   Antarctica/DumontDUrville - Dumont-d'Urville Station, Terre Adelie
-  Antarctica/Vostok - Vostok Station, S Magnetic Pole
+  Antarctica/Vostok - Vostok Station, Lake Vostok
   Antarctica/Casey - Casey Station, Bailey Peninsula
   Antarctica/Davis - Davis Station, Vestfold Hills
   Antarctica/Mawson - Mawson Station, Holme Bay
