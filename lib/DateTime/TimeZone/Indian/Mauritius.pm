@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Indian::Mauritius;
 BEGIN {
-  $DateTime::TimeZone::Indian::Mauritius::VERSION = '1.25';
+  $DateTime::TimeZone::Indian::Mauritius::VERSION = '1.26';
 }
 
 use strict;

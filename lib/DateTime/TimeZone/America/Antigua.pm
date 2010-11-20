@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Antigua;
 BEGIN {
-  $DateTime::TimeZone::America::Antigua::VERSION = '1.25';
+  $DateTime::TimeZone::America::Antigua::VERSION = '1.26';
 }
 
 use strict;

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Novokuznetsk;
 BEGIN {
-  $DateTime::TimeZone::Asia::Novokuznetsk::VERSION = '1.25';
+  $DateTime::TimeZone::Asia::Novokuznetsk::VERSION = '1.26';
 }
 
 use strict;

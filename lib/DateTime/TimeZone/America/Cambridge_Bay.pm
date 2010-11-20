@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Cambridge_Bay;
 BEGIN {
-  $DateTime::TimeZone::America::Cambridge_Bay::VERSION = '1.25';
+  $DateTime::TimeZone::America::Cambridge_Bay::VERSION = '1.26';
 }
 
 use strict;

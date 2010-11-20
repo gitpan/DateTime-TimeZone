@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Apia;
 BEGIN {
-  $DateTime::TimeZone::Pacific::Apia::VERSION = '1.25';
+  $DateTime::TimeZone::Pacific::Apia::VERSION = '1.26';
 }
 
 use strict;

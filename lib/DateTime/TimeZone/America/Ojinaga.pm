@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Ojinaga;
 BEGIN {
-  $DateTime::TimeZone::America::Ojinaga::VERSION = '1.25';
+  $DateTime::TimeZone::America::Ojinaga::VERSION = '1.26';
 }
 
 use strict;

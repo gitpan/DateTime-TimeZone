@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Urumqi;
 BEGIN {
-  $DateTime::TimeZone::Asia::Urumqi::VERSION = '1.25';
+  $DateTime::TimeZone::Asia::Urumqi::VERSION = '1.26';
 }
 
 use strict;

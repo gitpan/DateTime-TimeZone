@@ -7,7 +7,7 @@
 
 package DateTime::TimeZone::Catalog;
 BEGIN {
-  $DateTime::TimeZone::Catalog::VERSION = '1.25';
+  $DateTime::TimeZone::Catalog::VERSION = '1.26';
 }
 
 use strict;

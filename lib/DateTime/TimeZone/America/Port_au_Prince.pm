@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Port_au_Prince;
 BEGIN {
-  $DateTime::TimeZone::America::Port_au_Prince::VERSION = '1.25';
+  $DateTime::TimeZone::America::Port_au_Prince::VERSION = '1.26';
 }
 
 use strict;

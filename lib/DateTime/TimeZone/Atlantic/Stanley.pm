@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Atlantic::Stanley;
 BEGIN {
-  $DateTime::TimeZone::Atlantic::Stanley::VERSION = '1.25';
+  $DateTime::TimeZone::Atlantic::Stanley::VERSION = '1.26';
 }
 
 use strict;

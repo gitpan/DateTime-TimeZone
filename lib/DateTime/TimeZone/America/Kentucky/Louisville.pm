@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Kentucky::Louisville;
 BEGIN {
-  $DateTime::TimeZone::America::Kentucky::Louisville::VERSION = '1.25';
+  $DateTime::TimeZone::America::Kentucky::Louisville::VERSION = '1.26';
 }
 
 use strict;

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Rio_Branco;
 BEGIN {
-  $DateTime::TimeZone::America::Rio_Branco::VERSION = '1.25';
+  $DateTime::TimeZone::America::Rio_Branco::VERSION = '1.26';
 }
 
 use strict;

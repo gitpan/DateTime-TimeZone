@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Indian::Maldives;
 BEGIN {
-  $DateTime::TimeZone::Indian::Maldives::VERSION = '1.25';
+  $DateTime::TimeZone::Indian::Maldives::VERSION = '1.26';
 }
 
 use strict;

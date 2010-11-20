@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Atlantic::Bermuda;
 BEGIN {
-  $DateTime::TimeZone::Atlantic::Bermuda::VERSION = '1.25';
+  $DateTime::TimeZone::Atlantic::Bermuda::VERSION = '1.26';
 }
 
 use strict;

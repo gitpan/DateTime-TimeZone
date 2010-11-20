@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Kuwait;
 BEGIN {
-  $DateTime::TimeZone::Asia::Kuwait::VERSION = '1.25';
+  $DateTime::TimeZone::Asia::Kuwait::VERSION = '1.26';
 }
 
 use strict;

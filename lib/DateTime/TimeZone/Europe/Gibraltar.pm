@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Europe::Gibraltar;
 BEGIN {
-  $DateTime::TimeZone::Europe::Gibraltar::VERSION = '1.25';
+  $DateTime::TimeZone::Europe::Gibraltar::VERSION = '1.26';
 }
 
 use strict;

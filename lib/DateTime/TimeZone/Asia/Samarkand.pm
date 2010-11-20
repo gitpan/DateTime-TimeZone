@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Samarkand;
 BEGIN {
-  $DateTime::TimeZone::Asia::Samarkand::VERSION = '1.25';
+  $DateTime::TimeZone::Asia::Samarkand::VERSION = '1.26';
 }
 
 use strict;

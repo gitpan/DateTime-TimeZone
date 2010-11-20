@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Inuvik;
 BEGIN {
-  $DateTime::TimeZone::America::Inuvik::VERSION = '1.25';
+  $DateTime::TimeZone::America::Inuvik::VERSION = '1.26';
 }
 
 use strict;

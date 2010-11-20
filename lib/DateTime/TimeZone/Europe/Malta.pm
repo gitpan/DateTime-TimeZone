@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Europe::Malta;
 BEGIN {
-  $DateTime::TimeZone::Europe::Malta::VERSION = '1.25';
+  $DateTime::TimeZone::Europe::Malta::VERSION = '1.26';
 }
 
 use strict;

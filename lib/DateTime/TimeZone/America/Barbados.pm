@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Barbados;
 BEGIN {
-  $DateTime::TimeZone::America::Barbados::VERSION = '1.25';
+  $DateTime::TimeZone::America::Barbados::VERSION = '1.26';
 }
 
 use strict;

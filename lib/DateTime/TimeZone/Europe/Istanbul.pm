@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Europe::Istanbul;
 BEGIN {
-  $DateTime::TimeZone::Europe::Istanbul::VERSION = '1.25';
+  $DateTime::TimeZone::Europe::Istanbul::VERSION = '1.26';
 }
 
 use strict;

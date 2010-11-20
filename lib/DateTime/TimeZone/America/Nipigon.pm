@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Nipigon;
 BEGIN {
-  $DateTime::TimeZone::America::Nipigon::VERSION = '1.25';
+  $DateTime::TimeZone::America::Nipigon::VERSION = '1.26';
 }
 
 use strict;

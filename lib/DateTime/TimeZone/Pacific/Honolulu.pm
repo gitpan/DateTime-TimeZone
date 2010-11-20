@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Honolulu;
 BEGIN {
-  $DateTime::TimeZone::Pacific::Honolulu::VERSION = '1.25';
+  $DateTime::TimeZone::Pacific::Honolulu::VERSION = '1.26';
 }
 
 use strict;

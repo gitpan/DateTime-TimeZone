@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Indian::Christmas;
 BEGIN {
-  $DateTime::TimeZone::Indian::Christmas::VERSION = '1.25';
+  $DateTime::TimeZone::Indian::Christmas::VERSION = '1.26';
 }
 
 use strict;

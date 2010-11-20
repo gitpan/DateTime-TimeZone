@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Easter;
 BEGIN {
-  $DateTime::TimeZone::Pacific::Easter::VERSION = '1.25';
+  $DateTime::TimeZone::Pacific::Easter::VERSION = '1.26';
 }
 
 use strict;

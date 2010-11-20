@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Halifax;
 BEGIN {
-  $DateTime::TimeZone::America::Halifax::VERSION = '1.25';
+  $DateTime::TimeZone::America::Halifax::VERSION = '1.26';
 }
 
 use strict;

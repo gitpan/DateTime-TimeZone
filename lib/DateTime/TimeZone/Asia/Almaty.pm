@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Almaty;
 BEGIN {
-  $DateTime::TimeZone::Asia::Almaty::VERSION = '1.25';
+  $DateTime::TimeZone::Asia::Almaty::VERSION = '1.26';
 }
 
 use strict;

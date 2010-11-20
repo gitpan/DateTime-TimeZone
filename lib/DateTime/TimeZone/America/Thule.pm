@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Thule;
 BEGIN {
-  $DateTime::TimeZone::America::Thule::VERSION = '1.25';
+  $DateTime::TimeZone::America::Thule::VERSION = '1.26';
 }
 
 use strict;

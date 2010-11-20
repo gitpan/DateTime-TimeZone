@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Europe::Lisbon;
 BEGIN {
-  $DateTime::TimeZone::Europe::Lisbon::VERSION = '1.25';
+  $DateTime::TimeZone::Europe::Lisbon::VERSION = '1.26';
 }
 
 use strict;

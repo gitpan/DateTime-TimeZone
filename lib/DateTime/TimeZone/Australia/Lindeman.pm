@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Australia::Lindeman;
 BEGIN {
-  $DateTime::TimeZone::Australia::Lindeman::VERSION = '1.25';
+  $DateTime::TimeZone::Australia::Lindeman::VERSION = '1.26';
 }
 
 use strict;

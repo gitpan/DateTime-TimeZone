@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Harbin;
 BEGIN {
-  $DateTime::TimeZone::Asia::Harbin::VERSION = '1.25';
+  $DateTime::TimeZone::Asia::Harbin::VERSION = '1.26';
 }
 
 use strict;

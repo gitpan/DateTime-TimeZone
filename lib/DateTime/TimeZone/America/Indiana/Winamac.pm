@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Indiana::Winamac;
 BEGIN {
-  $DateTime::TimeZone::America::Indiana::Winamac::VERSION = '1.25';
+  $DateTime::TimeZone::America::Indiana::Winamac::VERSION = '1.26';
 }
 
 use strict;

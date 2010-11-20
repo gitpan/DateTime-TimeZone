@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Argentina::Tucuman;
 BEGIN {
-  $DateTime::TimeZone::America::Argentina::Tucuman::VERSION = '1.25';
+  $DateTime::TimeZone::America::Argentina::Tucuman::VERSION = '1.26';
 }
 
 use strict;

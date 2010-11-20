@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Africa::Dar_es_Salaam;
 BEGIN {
-  $DateTime::TimeZone::Africa::Dar_es_Salaam::VERSION = '1.25';
+  $DateTime::TimeZone::Africa::Dar_es_Salaam::VERSION = '1.26';
 }
 
 use strict;

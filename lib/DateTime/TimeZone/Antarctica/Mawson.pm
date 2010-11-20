@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Antarctica::Mawson;
 BEGIN {
-  $DateTime::TimeZone::Antarctica::Mawson::VERSION = '1.25';
+  $DateTime::TimeZone::Antarctica::Mawson::VERSION = '1.26';
 }
 
 use strict;

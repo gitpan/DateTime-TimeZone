@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Swift_Current;
 BEGIN {
-  $DateTime::TimeZone::America::Swift_Current::VERSION = '1.25';
+  $DateTime::TimeZone::America::Swift_Current::VERSION = '1.26';
 }
 
 use strict;

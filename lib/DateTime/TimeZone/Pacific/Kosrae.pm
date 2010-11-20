@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Kosrae;
 BEGIN {
-  $DateTime::TimeZone::Pacific::Kosrae::VERSION = '1.25';
+  $DateTime::TimeZone::Pacific::Kosrae::VERSION = '1.26';
 }
 
 use strict;

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Martinique;
 BEGIN {
-  $DateTime::TimeZone::America::Martinique::VERSION = '1.25';
+  $DateTime::TimeZone::America::Martinique::VERSION = '1.26';
 }
 
 use strict;

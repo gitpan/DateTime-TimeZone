@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Tarawa;
 BEGIN {
-  $DateTime::TimeZone::Pacific::Tarawa::VERSION = '1.25';
+  $DateTime::TimeZone::Pacific::Tarawa::VERSION = '1.26';
 }
 
 use strict;

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Muscat;
 BEGIN {
-  $DateTime::TimeZone::Asia::Muscat::VERSION = '1.25';
+  $DateTime::TimeZone::Asia::Muscat::VERSION = '1.26';
 }
 
 use strict;

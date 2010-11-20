@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Africa::Maputo;
 BEGIN {
-  $DateTime::TimeZone::Africa::Maputo::VERSION = '1.25';
+  $DateTime::TimeZone::Africa::Maputo::VERSION = '1.26';
 }
 
 use strict;

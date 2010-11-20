@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Argentina::La_Rioja;
 BEGIN {
-  $DateTime::TimeZone::America::Argentina::La_Rioja::VERSION = '1.25';
+  $DateTime::TimeZone::America::Argentina::La_Rioja::VERSION = '1.26';
 }
 
 use strict;

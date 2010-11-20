@@ -1,62 +1,40 @@
-use 5.006;
 
 use strict;
 use warnings;
 
-use Module::Build;
-use File::Spec;
+use Module::Build 0.3601;
+use lib 'inc'; use MyModuleBuild;
 
-unless (
-    -e File::Spec->catfile(qw( lib DateTime TimeZone America Chicago.pm )) ) {
-    warn <<'EOF';
-
-It looks like you haven't run tools/parse_olson to generate the time
-zone modules yet.
-
-This script needs the Olson database files to run, which can be found
-at ftp://elsie.nci.nih.gov/pub/ in a file called tzdata*.tar.gz.
-
-Once you've run this script you will be able to test and install this
-distribution.
-
-EOF
-
-    exit;
-}
-
-my %requires = (
+my %module_build_args = (
+  'build_requires' => {
+    'Module::Build' => '0.3601',
+    'Test::More' => '0.88'
+  },
+  'configure_requires' => {
+    'Module::Build' => '0.3601'
+  },
+  'dist_abstract' => 'Time zone object base class and factory',
+  'dist_author' => [
+    'Dave Rolsky <autarch@urth.org>'
+  ],
+  'dist_name' => 'DateTime-TimeZone',
+  'dist_version' => '1.26',
+  'license' => 'perl',
+  'module_name' => 'DateTime::TimeZone',
+  'recommends' => {},
+  'recursive_test_files' => 1,
+  'requires' => {
+    'Class::Load' => '0',
     'Class::Singleton' => '1.03',
-    'Cwd'              => '3',
+    'Cwd' => '3',
     'Params::Validate' => '0.72',
-    'Pod::Man'         => '1.14',
+    'Pod::Man' => '1.14',
+    'parent' => '0'
+  },
+  'script_files' => []
 );
 
-my %IsWin32 = map { $_ => 1 } qw( MSWin32 NetWare symbian );
-$requires{'Win32::TieRegistry'} = '0'
-    if $IsWin32{$^O};
 
-$requires{'DateTime::TimeZone::HPUX'} = '0'
-    if $^O eq 'hpux';
+my $build = MyModuleBuild->new(%module_build_args);
 
-Module::Build->new(
-    module_name    => 'DateTime::TimeZone',
-    dist_author    => 'Dave Rolsky <autarch@urth.org>',
-    license        => 'perl',
-    requires       => \%requires,
-    build_requires => {
-        'Module::Build' => '0',
-        'Test::More'    => '0.88',
-    },
-    sign               => 1,
-    create_makefile_pl => 'traditional',
-    create_readme      => 1,
-    dynamic_config     => 1,
-    meta_merge         => {
-        resources => {
-            homepage => 'http://datetime.perl.org/',
-            bugtracker =>
-                'http://rt.cpan.org/NoAuth/Bugs.html?Dist=DateTime-TimeZone',
-            repository => 'http://hg.urth.org/hg/DateTime-TimeZone',
-        },
-    },
-)->create_build_script;
+$build->create_build_script;

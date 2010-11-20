@@ -5,10 +5,11 @@ LICENSE
 MANIFEST
 META.json
 META.yml
-Makefile.PL
 README
 SIGNATURE
 dist.ini
+inc/MetaDynamicConfig.pm
+inc/MyModuleBuild.pm
 lib/DateTime/TimeZone.pm
 lib/DateTime/TimeZone/Africa/Abidjan.pm
 lib/DateTime/TimeZone/Africa/Accra.pm

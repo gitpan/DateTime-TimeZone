@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Midway;
 BEGIN {
-  $DateTime::TimeZone::Pacific::Midway::VERSION = '1.25';
+  $DateTime::TimeZone::Pacific::Midway::VERSION = '1.26';
 }
 
 use strict;

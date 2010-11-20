@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Bogota;
 BEGIN {
-  $DateTime::TimeZone::America::Bogota::VERSION = '1.25';
+  $DateTime::TimeZone::America::Bogota::VERSION = '1.26';
 }
 
 use strict;

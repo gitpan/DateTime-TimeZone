@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Europe::Simferopol;
 BEGIN {
-  $DateTime::TimeZone::Europe::Simferopol::VERSION = '1.25';
+  $DateTime::TimeZone::Europe::Simferopol::VERSION = '1.26';
 }
 
 use strict;

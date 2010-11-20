@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Juneau;
 BEGIN {
-  $DateTime::TimeZone::America::Juneau::VERSION = '1.25';
+  $DateTime::TimeZone::America::Juneau::VERSION = '1.26';
 }
 
 use strict;

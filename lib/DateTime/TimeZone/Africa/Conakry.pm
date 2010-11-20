@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Africa::Conakry;
 BEGIN {
-  $DateTime::TimeZone::Africa::Conakry::VERSION = '1.25';
+  $DateTime::TimeZone::Africa::Conakry::VERSION = '1.26';
 }
 
 use strict;

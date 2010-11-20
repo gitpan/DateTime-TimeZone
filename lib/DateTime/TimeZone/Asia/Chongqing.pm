@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Chongqing;
 BEGIN {
-  $DateTime::TimeZone::Asia::Chongqing::VERSION = '1.25';
+  $DateTime::TimeZone::Asia::Chongqing::VERSION = '1.26';
 }
 
 use strict;

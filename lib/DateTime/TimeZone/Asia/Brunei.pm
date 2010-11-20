@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Brunei;
 BEGIN {
-  $DateTime::TimeZone::Asia::Brunei::VERSION = '1.25';
+  $DateTime::TimeZone::Asia::Brunei::VERSION = '1.26';
 }
 
 use strict;

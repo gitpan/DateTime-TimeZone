@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Chicago;
 BEGIN {
-  $DateTime::TimeZone::America::Chicago::VERSION = '1.25';
+  $DateTime::TimeZone::America::Chicago::VERSION = '1.26';
 }
 
 use strict;

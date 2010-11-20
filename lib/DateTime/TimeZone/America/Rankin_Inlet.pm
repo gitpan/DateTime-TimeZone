@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Rankin_Inlet;
 BEGIN {
-  $DateTime::TimeZone::America::Rankin_Inlet::VERSION = '1.25';
+  $DateTime::TimeZone::America::Rankin_Inlet::VERSION = '1.26';
 }
 
 use strict;

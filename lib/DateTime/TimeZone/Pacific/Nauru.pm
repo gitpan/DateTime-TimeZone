@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Nauru;
 BEGIN {
-  $DateTime::TimeZone::Pacific::Nauru::VERSION = '1.25';
+  $DateTime::TimeZone::Pacific::Nauru::VERSION = '1.26';
 }
 
 use strict;

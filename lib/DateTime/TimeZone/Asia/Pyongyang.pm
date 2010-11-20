@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Pyongyang;
 BEGIN {
-  $DateTime::TimeZone::Asia::Pyongyang::VERSION = '1.25';
+  $DateTime::TimeZone::Asia::Pyongyang::VERSION = '1.26';
 }
 
 use strict;

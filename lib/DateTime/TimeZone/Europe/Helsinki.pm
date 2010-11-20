@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Europe::Helsinki;
 BEGIN {
-  $DateTime::TimeZone::Europe::Helsinki::VERSION = '1.25';
+  $DateTime::TimeZone::Europe::Helsinki::VERSION = '1.26';
 }
 
 use strict;

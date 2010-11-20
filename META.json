@@ -3,7 +3,7 @@
    "author" : [
       "Dave Rolsky <autarch@urth.org>"
    ],
-   "dynamic_config" : 0,
+   "dynamic_config" : 1,
    "generated_by" : "Dist::Zilla version 4.102342, CPAN::Meta::Converter version 2.101670",
    "license" : [
       "perl_5"
@@ -16,12 +16,13 @@
    "prereqs" : {
       "build" : {
          "requires" : {
+            "Module::Build" : "0.3601",
             "Test::More" : "0.88"
          }
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.31"
+            "Module::Build" : "0.3601"
          }
       },
       "runtime" : {
@@ -47,6 +48,6 @@
          "web" : "http://hg.urth.org/hg/DateTime-TimeZone"
       }
    },
-   "version" : "1.25"
+   "version" : "1.26"
 }
 

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Africa::Nairobi;
 BEGIN {
-  $DateTime::TimeZone::Africa::Nairobi::VERSION = '1.25';
+  $DateTime::TimeZone::Africa::Nairobi::VERSION = '1.26';
 }
 
 use strict;

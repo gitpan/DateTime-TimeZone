@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Cuiaba;
 BEGIN {
-  $DateTime::TimeZone::America::Cuiaba::VERSION = '1.25';
+  $DateTime::TimeZone::America::Cuiaba::VERSION = '1.26';
 }
 
 use strict;

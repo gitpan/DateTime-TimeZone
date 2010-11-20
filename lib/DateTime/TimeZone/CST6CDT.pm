@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::CST6CDT;
 BEGIN {
-  $DateTime::TimeZone::CST6CDT::VERSION = '1.25';
+  $DateTime::TimeZone::CST6CDT::VERSION = '1.26';
 }
 
 use strict;

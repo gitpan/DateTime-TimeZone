@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Taipei;
 BEGIN {
-  $DateTime::TimeZone::Asia::Taipei::VERSION = '1.25';
+  $DateTime::TimeZone::Asia::Taipei::VERSION = '1.26';
 }
 
 use strict;

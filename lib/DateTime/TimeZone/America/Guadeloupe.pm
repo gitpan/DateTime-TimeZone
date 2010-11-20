@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Guadeloupe;
 BEGIN {
-  $DateTime::TimeZone::America::Guadeloupe::VERSION = '1.25';
+  $DateTime::TimeZone::America::Guadeloupe::VERSION = '1.26';
 }
 
 use strict;

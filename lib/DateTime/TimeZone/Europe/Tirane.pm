@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Europe::Tirane;
 BEGIN {
-  $DateTime::TimeZone::Europe::Tirane::VERSION = '1.25';
+  $DateTime::TimeZone::Europe::Tirane::VERSION = '1.26';
 }
 
 use strict;

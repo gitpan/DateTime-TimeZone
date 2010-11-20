@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Anchorage;
 BEGIN {
-  $DateTime::TimeZone::America::Anchorage::VERSION = '1.25';
+  $DateTime::TimeZone::America::Anchorage::VERSION = '1.26';
 }
 
 use strict;

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Europe::Samara;
 BEGIN {
-  $DateTime::TimeZone::Europe::Samara::VERSION = '1.25';
+  $DateTime::TimeZone::Europe::Samara::VERSION = '1.26';
 }
 
 use strict;

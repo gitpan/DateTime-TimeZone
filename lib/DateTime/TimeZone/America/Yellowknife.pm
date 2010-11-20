@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Yellowknife;
 BEGIN {
-  $DateTime::TimeZone::America::Yellowknife::VERSION = '1.25';
+  $DateTime::TimeZone::America::Yellowknife::VERSION = '1.26';
 }
 
 use strict;

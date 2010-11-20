@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Funafuti;
 BEGIN {
-  $DateTime::TimeZone::Pacific::Funafuti::VERSION = '1.25';
+  $DateTime::TimeZone::Pacific::Funafuti::VERSION = '1.26';
 }
 
 use strict;

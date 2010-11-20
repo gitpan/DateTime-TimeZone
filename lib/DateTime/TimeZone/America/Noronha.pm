@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Noronha;
 BEGIN {
-  $DateTime::TimeZone::America::Noronha::VERSION = '1.25';
+  $DateTime::TimeZone::America::Noronha::VERSION = '1.26';
 }
 
 use strict;

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Antarctica::DumontDUrville;
 BEGIN {
-  $DateTime::TimeZone::Antarctica::DumontDUrville::VERSION = '1.25';
+  $DateTime::TimeZone::Antarctica::DumontDUrville::VERSION = '1.26';
 }
 
 use strict;

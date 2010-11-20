@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Danmarkshavn;
 BEGIN {
-  $DateTime::TimeZone::America::Danmarkshavn::VERSION = '1.25';
+  $DateTime::TimeZone::America::Danmarkshavn::VERSION = '1.26';
 }
 
 use strict;

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Indian::Mahe;
 BEGIN {
-  $DateTime::TimeZone::Indian::Mahe::VERSION = '1.25';
+  $DateTime::TimeZone::Indian::Mahe::VERSION = '1.26';
 }
 
 use strict;

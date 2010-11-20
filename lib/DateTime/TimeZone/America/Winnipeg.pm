@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Winnipeg;
 BEGIN {
-  $DateTime::TimeZone::America::Winnipeg::VERSION = '1.25';
+  $DateTime::TimeZone::America::Winnipeg::VERSION = '1.26';
 }
 
 use strict;

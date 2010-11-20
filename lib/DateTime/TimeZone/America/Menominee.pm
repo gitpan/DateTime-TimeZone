@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Menominee;
 BEGIN {
-  $DateTime::TimeZone::America::Menominee::VERSION = '1.25';
+  $DateTime::TimeZone::America::Menominee::VERSION = '1.26';
 }
 
 use strict;

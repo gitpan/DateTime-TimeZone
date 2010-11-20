@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Bahia;
 BEGIN {
-  $DateTime::TimeZone::America::Bahia::VERSION = '1.25';
+  $DateTime::TimeZone::America::Bahia::VERSION = '1.26';
 }
 
 use strict;

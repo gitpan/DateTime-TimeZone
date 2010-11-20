@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Indian::Cocos;
 BEGIN {
-  $DateTime::TimeZone::Indian::Cocos::VERSION = '1.25';
+  $DateTime::TimeZone::Indian::Cocos::VERSION = '1.26';
 }
 
 use strict;

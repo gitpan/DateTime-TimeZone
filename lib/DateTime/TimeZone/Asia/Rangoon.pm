@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Rangoon;
 BEGIN {
-  $DateTime::TimeZone::Asia::Rangoon::VERSION = '1.25';
+  $DateTime::TimeZone::Asia::Rangoon::VERSION = '1.26';
 }
 
 use strict;

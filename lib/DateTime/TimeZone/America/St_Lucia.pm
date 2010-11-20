@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::St_Lucia;
 BEGIN {
-  $DateTime::TimeZone::America::St_Lucia::VERSION = '1.25';
+  $DateTime::TimeZone::America::St_Lucia::VERSION = '1.26';
 }
 
 use strict;
