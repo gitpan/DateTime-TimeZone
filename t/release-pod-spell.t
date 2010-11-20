@@ -1,3 +1,11 @@
+
+BEGIN {
+  unless ($ENV{RELEASE_TESTING}) {
+    require Test::More;
+    Test::More::plan(skip_all => 'these tests are for release candidate testing');
+  }
+}
+
 use strict;
 use warnings;
 
@@ -23,16 +31,6 @@ local $ENV{LC_ALL} = 'C';
 all_pod_files_spelling_ok();
 
 __DATA__
-PayPal
-Rata
-Storable
-UIs
-UTC
-datetime
-pre
-versa
-FromEnv
-env
 AE
 AO
 AQ
@@ -50,6 +48,7 @@ Burkina
 CN
 CX
 Caicos
+Cunha
 DK
 DM
 Darussalam
@@ -61,6 +60,7 @@ FK
 FO
 Faroe
 Faso
+FromEnv
 Futuna
 GF
 GG
@@ -95,6 +95,7 @@ Malvinas
 Marino
 Mayen
 Mayotte
+Millenium
 Miquelon
 NG
 NL
@@ -103,11 +104,13 @@ PN
 PY
 Palau
 Papua
+PayPal
 Plurinational
 Puerto
 QA
 RO
 RW
+Rata
 SG
 SL
 SV
@@ -115,6 +118,7 @@ SY
 SZ
 Sao
 Sri
+Storable
 TF
 TG
 TJ
@@ -122,25 +126,31 @@ TK
 TT
 TW
 TZ
+TZ
 Timor
 Tokelau
 UA
 UG
+UIs
+UTC
 UY
 UZ
 VC
 VE
+VMS
 VN
 VU
 Viet
 WF
 WS
+XP
 ZA
 ZM
 ZW
 Zealand
 d'Ivoire
-TZ
-VMS
-Millenium
-XP
+da
+datetime
+env
+pre
+versa

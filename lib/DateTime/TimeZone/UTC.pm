@@ -1,12 +1,13 @@
 package DateTime::TimeZone::UTC;
+BEGIN {
+  $DateTime::TimeZone::UTC::VERSION = '1.25';
+}
 
 use strict;
-
-use vars qw ($VERSION);
-$VERSION = 0.01;
+use warnings;
 
 use DateTime::TimeZone;
-use base 'DateTime::TimeZone';
+use parent 'DateTime::TimeZone';
 
 sub new {
     my $class = shift;
@@ -27,11 +28,19 @@ sub is_utc {1}
 
 1;
 
-__END__
+# ABSTRACT: The UTC time zone
+
+
+
+=pod
 
 =head1 NAME
 
 DateTime::TimeZone::UTC - The UTC time zone
+
+=head1 VERSION
+
+version 1.25
 
 =head1 SYNOPSIS
 
@@ -52,15 +61,17 @@ C<category()> method returns undef and C<is_utc()> returns true.
 
 =head1 AUTHOR
 
-Dave Rolsky, <autarch@urth.org>
+Dave Rolsky <autarch@urth.org>
 
-=head1 COPYRIGHT & LICENSE
+=head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2003-2008 David Rolsky.  All rights reserved.  This
-program is free software; you can redistribute it and/or modify it
-under the same terms as Perl itself.
+This software is copyright (c) 2010 by Dave Rolsky.
 
-The full text of the license can be found in the LICENSE file included
-with this module.
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut
+
+
+__END__
+

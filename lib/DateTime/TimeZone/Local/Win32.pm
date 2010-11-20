@@ -1,9 +1,12 @@
 package DateTime::TimeZone::Local::Win32;
+BEGIN {
+  $DateTime::TimeZone::Local::Win32::VERSION = '1.25';
+}
 
 use strict;
 use warnings;
 
-use base 'DateTime::TimeZone::Local';
+use parent 'DateTime::TimeZone::Local';
 
 use Win32::TieRegistry ( 'KEY_READ', Delimiter => q{/} );
 
@@ -252,11 +255,19 @@ sub _FindWindowsTZName {
 
 1;
 
-__END__
+# ABSTRACT: Determine the local system's time zone on Windows
+
+
+
+=pod
 
 =head1 NAME
 
 DateTime::TimeZone::Local::Win32 - Determine the local system's time zone on Windows
+
+=head1 VERSION
+
+version 1.25
 
 =head1 SYNOPSIS
 
@@ -315,15 +326,17 @@ of "SOFTWARE/Microsoft/Windows/CurrentVersion/Time Zones/"
 
 =head1 AUTHOR
 
-Dave Rolsky, <autarch@urth.org>
+Dave Rolsky <autarch@urth.org>
 
-=head1 COPYRIGHT & LICENSE
+=head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2003-2008 David Rolsky.  All rights reserved.  This
-program is free software; you can redistribute it and/or modify it
-under the same terms as Perl itself.
+This software is copyright (c) 2010 by Dave Rolsky.
 
-The full text of the license can be found in the LICENSE file included
-with this module.
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut
+
+
+__END__
+

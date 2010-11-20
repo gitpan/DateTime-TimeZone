@@ -1,12 +1,16 @@
 package DateTime::TimeZone::Local::Unix;
+BEGIN {
+  $DateTime::TimeZone::Local::Unix::VERSION = '1.25';
+}
 
 use strict;
 use warnings;
 
-use base 'DateTime::TimeZone::Local';
+use parent 'DateTime::TimeZone::Local';
 
 sub Methods {
-    return qw( FromEnv
+    return qw(
+        FromEnv
         FromEtcLocaltime
         FromEtcTimezone
         FromEtcTIMEZONE
@@ -231,11 +235,19 @@ sub _ReadEtcDefaultInit {
 
 1;
 
-__END__
+# ABSTRACT: Determine the local system's time zone on Unix
+
+
+
+=pod
 
 =head1 NAME
 
 DateTime::TimeZone::Local::Unix - Determine the local system's time zone on Unix
+
+=head1 VERSION
+
+version 1.25
 
 =head1 SYNOPSIS
 
@@ -297,15 +309,17 @@ If this file exists, it is opened and we look for a line starting like
 
 =head1 AUTHOR
 
-Dave Rolsky, <autarch@urth.org>
+Dave Rolsky <autarch@urth.org>
 
-=head1 COPYRIGHT & LICENSE
+=head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2003-2008 David Rolsky.  All rights reserved.  This
-program is free software; you can redistribute it and/or modify it
-under the same terms as Perl itself.
+This software is copyright (c) 2010 by Dave Rolsky.
 
-The full text of the license can be found in the LICENSE file included
-with this module.
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut
+
+
+__END__
+
