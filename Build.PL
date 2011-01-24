@@ -18,7 +18,7 @@ my %module_build_args = (
     'Dave Rolsky <autarch@urth.org>'
   ],
   'dist_name' => 'DateTime-TimeZone',
-  'dist_version' => '1.26',
+  'dist_version' => '1.27',
   'license' => 'perl',
   'module_name' => 'DateTime::TimeZone',
   'recommends' => {},

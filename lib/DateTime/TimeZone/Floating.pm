@@ -1,6 +1,6 @@
 package DateTime::TimeZone::Floating;
 BEGIN {
-  $DateTime::TimeZone::Floating::VERSION = '1.26';
+  $DateTime::TimeZone::Floating::VERSION = '1.27';
 }
 
 use strict;
@@ -54,7 +54,7 @@ DateTime::TimeZone::Floating - A time zone that is always local
 
 =head1 VERSION
 
-version 1.26
+version 1.27
 
 =head1 SYNOPSIS
 
@@ -78,7 +78,7 @@ Dave Rolsky <autarch@urth.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Dave Rolsky.
+This software is copyright (c) 2011 by Dave Rolsky.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
