@@ -7,7 +7,7 @@
 
 package DateTime::TimeZone::Catalog;
 BEGIN {
-  $DateTime::TimeZone::Catalog::VERSION = '1.27';
+  $DateTime::TimeZone::Catalog::VERSION = '1.28';
 }
 
 use strict;
@@ -166,6 +166,7 @@ qw(
   America/Nipigon
   America/Nome
   America/Noronha
+  America/North_Dakota/Beulah
   America/North_Dakota/Center
   America/North_Dakota/New_Salem
   America/Ojinaga
@@ -587,6 +588,7 @@ qw(
     Nipigon
     Nome
     Noronha
+    North_Dakota/Beulah
     North_Dakota/Center
     North_Dakota/New_Salem
     Ojinaga
@@ -1684,6 +1686,7 @@ qw(
     America/Menominee
     America/North_Dakota/Center
     America/North_Dakota/New_Salem
+    America/North_Dakota/Beulah
     America/Denver
     America/Boise
     America/Shiprock
@@ -1892,7 +1895,7 @@ qw(
 
 ;
 
-sub OlsonVersion { '2011a' }
+sub OlsonVersion { '2011b' }
 
 
 1;
@@ -2039,6 +2042,7 @@ so that applications can easily present a list of timezones.
   America/New_York
   America/Nipigon
   America/Nome
+  America/North_Dakota/Beulah
   America/North_Dakota/Center
   America/North_Dakota/New_Salem
   America/Ojinaga
@@ -2818,8 +2822,8 @@ so that applications can easily present a list of timezones.
 
 =head3 Indonesia (ID)
 
-  Asia/Jayapura - Irian Jaya & the Moluccas
-  Asia/Makassar - east & south Borneo, Celebes, Bali, Nusa Tengarra, west Timor
+  Asia/Jayapura - west New Guinea (Irian Jaya) & Malukus (Moluccas)
+  Asia/Makassar - east & south Borneo, Sulawesi (Celebes), Bali, Nusa Tengarra, west Timor
   Asia/Pontianak - west & central Borneo
   Asia/Jakarta - Java & Sumatra
 
@@ -3402,6 +3406,7 @@ so that applications can easily present a list of timezones.
   America/Shiprock - Mountain Time - Navajo
   America/Boise - Mountain Time - south Idaho & east Oregon
   America/Denver - Mountain Time
+  America/North_Dakota/Beulah - Central Time - North Dakota - Mercer County
   America/North_Dakota/New_Salem - Central Time - North Dakota - Morton County (except Mandan area)
   America/North_Dakota/Center - Central Time - North Dakota - Oliver County
   America/Menominee - Central Time - Michigan - Dickinson, Gogebic, Iron & Menominee Counties

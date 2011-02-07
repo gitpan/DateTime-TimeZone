@@ -1,6 +1,6 @@
 package DateTime::TimeZone::Floating;
 BEGIN {
-  $DateTime::TimeZone::Floating::VERSION = '1.27';
+  $DateTime::TimeZone::Floating::VERSION = '1.28';
 }
 
 use strict;
@@ -54,7 +54,7 @@ DateTime::TimeZone::Floating - A time zone that is always local
 
 =head1 VERSION
 
-version 1.27
+version 1.28
 
 =head1 SYNOPSIS
 

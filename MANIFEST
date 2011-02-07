@@ -1,15 +1,13 @@
-Build.PL
 Changes
 INSTALL
 LICENSE
 MANIFEST
 META.json
 META.yml
+Makefile.PL
 README
 SIGNATURE
 dist.ini
-inc/MetaDynamicConfig.pm
-inc/MyModuleBuild.pm
 lib/DateTime/TimeZone.pm
 lib/DateTime/TimeZone/Africa/Abidjan.pm
 lib/DateTime/TimeZone/Africa/Accra.pm
@@ -161,6 +159,7 @@ lib/DateTime/TimeZone/America/New_York.pm
 lib/DateTime/TimeZone/America/Nipigon.pm
 lib/DateTime/TimeZone/America/Nome.pm
 lib/DateTime/TimeZone/America/Noronha.pm
+lib/DateTime/TimeZone/America/North_Dakota/Beulah.pm
 lib/DateTime/TimeZone/America/North_Dakota/Center.pm
 lib/DateTime/TimeZone/America/North_Dakota/New_Salem.pm
 lib/DateTime/TimeZone/America/Ojinaga.pm
@@ -448,11 +447,10 @@ t/20local-subclass.t
 t/21stack-corruption.t
 t/check_datetime_version.pl
 t/release-eol.t
-t/release-kwalitee.t
 t/release-no-tabs.t
 t/release-pod-coverage.t
 t/release-pod-spell.t
-t/release-pod.t
+t/release-pod-syntax.t
 tools/compile-all-zones
 tools/parse_olson
 tools/tests_from_zdump
