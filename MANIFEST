@@ -147,6 +147,7 @@ lib/DateTime/TimeZone/America/Matamoros.pm
 lib/DateTime/TimeZone/America/Mazatlan.pm
 lib/DateTime/TimeZone/America/Menominee.pm
 lib/DateTime/TimeZone/America/Merida.pm
+lib/DateTime/TimeZone/America/Metlakatla.pm
 lib/DateTime/TimeZone/America/Mexico_City.pm
 lib/DateTime/TimeZone/America/Miquelon.pm
 lib/DateTime/TimeZone/America/Moncton.pm
@@ -183,6 +184,7 @@ lib/DateTime/TimeZone/America/Santiago.pm
 lib/DateTime/TimeZone/America/Santo_Domingo.pm
 lib/DateTime/TimeZone/America/Sao_Paulo.pm
 lib/DateTime/TimeZone/America/Scoresbysund.pm
+lib/DateTime/TimeZone/America/Sitka.pm
 lib/DateTime/TimeZone/America/St_Johns.pm
 lib/DateTime/TimeZone/America/St_Kitts.pm
 lib/DateTime/TimeZone/America/St_Lucia.pm

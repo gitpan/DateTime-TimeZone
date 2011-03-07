@@ -7,7 +7,7 @@
 
 package DateTime::TimeZone::Catalog;
 BEGIN {
-  $DateTime::TimeZone::Catalog::VERSION = '1.28';
+  $DateTime::TimeZone::Catalog::VERSION = '1.29';
 }
 
 use strict;
@@ -154,6 +154,7 @@ qw(
   America/Mazatlan
   America/Menominee
   America/Merida
+  America/Metlakatla
   America/Mexico_City
   America/Miquelon
   America/Moncton
@@ -190,6 +191,7 @@ qw(
   America/Santo_Domingo
   America/Sao_Paulo
   America/Scoresbysund
+  America/Sitka
   America/St_Johns
   America/St_Kitts
   America/St_Lucia
@@ -576,6 +578,7 @@ qw(
     Mazatlan
     Menominee
     Merida
+    Metlakatla
     Mexico_City
     Miquelon
     Moncton
@@ -612,6 +615,7 @@ qw(
     Santo_Domingo
     Sao_Paulo
     Scoresbysund
+    Sitka
     St_Johns
     St_Kitts
     St_Lucia
@@ -1694,9 +1698,11 @@ qw(
     America/Los_Angeles
     America/Anchorage
     America/Juneau
+    America/Sitka
     America/Yakutat
     America/Nome
     America/Adak
+    America/Metlakatla
     Pacific/Honolulu
 ) ],
   'uy' => [ qw(
@@ -1895,7 +1901,7 @@ qw(
 
 ;
 
-sub OlsonVersion { '2011b' }
+sub OlsonVersion { '2011c' }
 
 
 1;
@@ -2032,6 +2038,7 @@ so that applications can easily present a list of timezones.
   America/Mazatlan
   America/Menominee
   America/Merida
+  America/Metlakatla
   America/Mexico_City
   America/Miquelon
   America/Moncton
@@ -2057,6 +2064,7 @@ so that applications can easily present a list of timezones.
   America/Resolute
   America/Santa_Isabel
   America/Santo_Domingo
+  America/Sitka
   America/St_Johns
   America/St_Kitts
   America/St_Lucia
@@ -3396,9 +3404,11 @@ so that applications can easily present a list of timezones.
 =head3 United States (US)
 
   Pacific/Honolulu - Hawaii
+  America/Metlakatla - Metlakatla Time - Annette Island
   America/Adak - Aleutian Islands
   America/Nome - Alaska Time - west Alaska
   America/Yakutat - Alaska Time - Alaska panhandle neck
+  America/Sitka - Alaska Time - southeast Alaska panhandle
   America/Juneau - Alaska Time - Alaska panhandle
   America/Anchorage - Alaska Time
   America/Los_Angeles - Pacific Time

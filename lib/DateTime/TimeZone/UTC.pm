@@ -1,6 +1,6 @@
 package DateTime::TimeZone::UTC;
 BEGIN {
-  $DateTime::TimeZone::UTC::VERSION = '1.28';
+  $DateTime::TimeZone::UTC::VERSION = '1.29';
 }
 
 use strict;
@@ -40,7 +40,7 @@ DateTime::TimeZone::UTC - The UTC time zone
 
 =head1 VERSION
 
-version 1.28
+version 1.29
 
 =head1 SYNOPSIS
 
