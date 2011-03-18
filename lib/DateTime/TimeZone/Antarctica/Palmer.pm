@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Antarctica::Palmer;
 BEGIN {
-  $DateTime::TimeZone::Antarctica::Palmer::VERSION = '1.30';
+  $DateTime::TimeZone::Antarctica::Palmer::VERSION = '1.31';
 }
 
 use strict;

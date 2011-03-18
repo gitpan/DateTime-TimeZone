@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Yakutat;
 BEGIN {
-  $DateTime::TimeZone::America::Yakutat::VERSION = '1.30';
+  $DateTime::TimeZone::America::Yakutat::VERSION = '1.31';
 }
 
 use strict;

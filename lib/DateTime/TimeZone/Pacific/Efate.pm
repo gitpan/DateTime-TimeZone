@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Efate;
 BEGIN {
-  $DateTime::TimeZone::Pacific::Efate::VERSION = '1.30';
+  $DateTime::TimeZone::Pacific::Efate::VERSION = '1.31';
 }
 
 use strict;

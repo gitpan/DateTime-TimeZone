@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Indian::Kerguelen;
 BEGIN {
-  $DateTime::TimeZone::Indian::Kerguelen::VERSION = '1.30';
+  $DateTime::TimeZone::Indian::Kerguelen::VERSION = '1.31';
 }
 
 use strict;

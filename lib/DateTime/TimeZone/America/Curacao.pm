@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Curacao;
 BEGIN {
-  $DateTime::TimeZone::America::Curacao::VERSION = '1.30';
+  $DateTime::TimeZone::America::Curacao::VERSION = '1.31';
 }
 
 use strict;

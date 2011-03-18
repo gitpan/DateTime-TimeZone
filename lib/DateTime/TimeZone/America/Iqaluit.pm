@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Iqaluit;
 BEGIN {
-  $DateTime::TimeZone::America::Iqaluit::VERSION = '1.30';
+  $DateTime::TimeZone::America::Iqaluit::VERSION = '1.31';
 }
 
 use strict;

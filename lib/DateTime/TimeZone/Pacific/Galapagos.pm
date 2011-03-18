@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Galapagos;
 BEGIN {
-  $DateTime::TimeZone::Pacific::Galapagos::VERSION = '1.30';
+  $DateTime::TimeZone::Pacific::Galapagos::VERSION = '1.31';
 }
 
 use strict;

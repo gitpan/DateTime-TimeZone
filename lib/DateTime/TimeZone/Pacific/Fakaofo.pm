@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Fakaofo;
 BEGIN {
-  $DateTime::TimeZone::Pacific::Fakaofo::VERSION = '1.30';
+  $DateTime::TimeZone::Pacific::Fakaofo::VERSION = '1.31';
 }
 
 use strict;

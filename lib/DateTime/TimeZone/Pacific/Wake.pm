@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Wake;
 BEGIN {
-  $DateTime::TimeZone::Pacific::Wake::VERSION = '1.30';
+  $DateTime::TimeZone::Pacific::Wake::VERSION = '1.31';
 }
 
 use strict;

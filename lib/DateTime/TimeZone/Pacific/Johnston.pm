@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Johnston;
 BEGIN {
-  $DateTime::TimeZone::Pacific::Johnston::VERSION = '1.30';
+  $DateTime::TimeZone::Pacific::Johnston::VERSION = '1.31';
 }
 
 use strict;

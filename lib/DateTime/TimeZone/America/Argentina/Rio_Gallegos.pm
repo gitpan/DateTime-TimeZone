@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Argentina::Rio_Gallegos;
 BEGIN {
-  $DateTime::TimeZone::America::Argentina::Rio_Gallegos::VERSION = '1.30';
+  $DateTime::TimeZone::America::Argentina::Rio_Gallegos::VERSION = '1.31';
 }
 
 use strict;

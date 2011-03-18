@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Qatar;
 BEGIN {
-  $DateTime::TimeZone::Asia::Qatar::VERSION = '1.30';
+  $DateTime::TimeZone::Asia::Qatar::VERSION = '1.31';
 }
 
 use strict;

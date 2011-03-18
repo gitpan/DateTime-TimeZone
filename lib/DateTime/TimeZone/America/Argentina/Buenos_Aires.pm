@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Argentina::Buenos_Aires;
 BEGIN {
-  $DateTime::TimeZone::America::Argentina::Buenos_Aires::VERSION = '1.30';
+  $DateTime::TimeZone::America::Argentina::Buenos_Aires::VERSION = '1.31';
 }
 
 use strict;

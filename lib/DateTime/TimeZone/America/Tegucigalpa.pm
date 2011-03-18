@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Tegucigalpa;
 BEGIN {
-  $DateTime::TimeZone::America::Tegucigalpa::VERSION = '1.30';
+  $DateTime::TimeZone::America::Tegucigalpa::VERSION = '1.31';
 }
 
 use strict;

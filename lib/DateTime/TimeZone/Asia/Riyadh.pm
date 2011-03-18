@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Riyadh;
 BEGIN {
-  $DateTime::TimeZone::Asia::Riyadh::VERSION = '1.30';
+  $DateTime::TimeZone::Asia::Riyadh::VERSION = '1.31';
 }
 
 use strict;

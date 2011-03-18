@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Anadyr;
 BEGIN {
-  $DateTime::TimeZone::Asia::Anadyr::VERSION = '1.30';
+  $DateTime::TimeZone::Asia::Anadyr::VERSION = '1.31';
 }
 
 use strict;

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Africa::Ouagadougou;
 BEGIN {
-  $DateTime::TimeZone::Africa::Ouagadougou::VERSION = '1.30';
+  $DateTime::TimeZone::Africa::Ouagadougou::VERSION = '1.31';
 }
 
 use strict;

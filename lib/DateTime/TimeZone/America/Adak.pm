@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Adak;
 BEGIN {
-  $DateTime::TimeZone::America::Adak::VERSION = '1.30';
+  $DateTime::TimeZone::America::Adak::VERSION = '1.31';
 }
 
 use strict;

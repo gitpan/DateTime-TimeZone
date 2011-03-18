@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Port_Moresby;
 BEGIN {
-  $DateTime::TimeZone::Pacific::Port_Moresby::VERSION = '1.30';
+  $DateTime::TimeZone::Pacific::Port_Moresby::VERSION = '1.31';
 }
 
 use strict;

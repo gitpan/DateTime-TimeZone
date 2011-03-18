@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Europe::Athens;
 BEGIN {
-  $DateTime::TimeZone::Europe::Athens::VERSION = '1.30';
+  $DateTime::TimeZone::Europe::Athens::VERSION = '1.31';
 }
 
 use strict;

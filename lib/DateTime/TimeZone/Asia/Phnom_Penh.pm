@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Phnom_Penh;
 BEGIN {
-  $DateTime::TimeZone::Asia::Phnom_Penh::VERSION = '1.30';
+  $DateTime::TimeZone::Asia::Phnom_Penh::VERSION = '1.31';
 }
 
 use strict;

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Australia::Broken_Hill;
 BEGIN {
-  $DateTime::TimeZone::Australia::Broken_Hill::VERSION = '1.30';
+  $DateTime::TimeZone::Australia::Broken_Hill::VERSION = '1.31';
 }
 
 use strict;

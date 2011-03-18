@@ -1,6 +1,6 @@
 package DateTime::TimeZone::Local::Win32;
 BEGIN {
-  $DateTime::TimeZone::Local::Win32::VERSION = '1.30';
+  $DateTime::TimeZone::Local::Win32::VERSION = '1.31';
 }
 
 use strict;
@@ -106,6 +106,7 @@ sub EnvVars { return 'TZ' }
         'Kamchatka Standard Time'         => 'Asia/Kamchatka',
         'Korea'                           => 'Asia/Seoul',
         'Korea Standard Time'             => 'Asia/Seoul',
+        'Magadan Standard Time'           => 'Asia/Magadan',
         'Mauritius Standard Time'         => 'Indian/Mauritius',
         'Mexico'                          => 'America/Mexico_City',
         'Mexico Standard Time'            => 'America/Mexico_City',
@@ -158,6 +159,7 @@ sub EnvVars { return 'TZ' }
         'South Africa Standard Time'      => 'Africa/Harare',
         'Sri Lanka'                       => 'Asia/Colombo',
         'Sri Lanka Standard Time'         => 'Asia/Colombo',
+        'Syria Standard Time'             => 'Asia/Damascus',
         'Sydney Standard Time'            => 'Australia/Sydney',
         'Taipei'                          => 'Asia/Taipei',
         'Taipei Standard Time'            => 'Asia/Taipei',
@@ -267,7 +269,7 @@ DateTime::TimeZone::Local::Win32 - Determine the local system's time zone on Win
 
 =head1 VERSION
 
-version 1.30
+version 1.31
 
 =head1 SYNOPSIS
 

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Chatham;
 BEGIN {
-  $DateTime::TimeZone::Pacific::Chatham::VERSION = '1.30';
+  $DateTime::TimeZone::Pacific::Chatham::VERSION = '1.31';
 }
 
 use strict;

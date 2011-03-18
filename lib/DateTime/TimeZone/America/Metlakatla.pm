@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Metlakatla;
 BEGIN {
-  $DateTime::TimeZone::America::Metlakatla::VERSION = '1.30';
+  $DateTime::TimeZone::America::Metlakatla::VERSION = '1.31';
 }
 
 use strict;

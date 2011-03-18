@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Gambier;
 BEGIN {
-  $DateTime::TimeZone::Pacific::Gambier::VERSION = '1.30';
+  $DateTime::TimeZone::Pacific::Gambier::VERSION = '1.31';
 }
 
 use strict;

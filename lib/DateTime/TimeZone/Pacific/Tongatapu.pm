@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Tongatapu;
 BEGIN {
-  $DateTime::TimeZone::Pacific::Tongatapu::VERSION = '1.30';
+  $DateTime::TimeZone::Pacific::Tongatapu::VERSION = '1.31';
 }
 
 use strict;

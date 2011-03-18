@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::North_Dakota::Center;
 BEGIN {
-  $DateTime::TimeZone::America::North_Dakota::Center::VERSION = '1.30';
+  $DateTime::TimeZone::America::North_Dakota::Center::VERSION = '1.31';
 }
 
 use strict;

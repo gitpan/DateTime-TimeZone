@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Africa::Kampala;
 BEGIN {
-  $DateTime::TimeZone::Africa::Kampala::VERSION = '1.30';
+  $DateTime::TimeZone::Africa::Kampala::VERSION = '1.31';
 }
 
 use strict;

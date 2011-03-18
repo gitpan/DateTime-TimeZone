@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Europe::Vaduz;
 BEGIN {
-  $DateTime::TimeZone::Europe::Vaduz::VERSION = '1.30';
+  $DateTime::TimeZone::Europe::Vaduz::VERSION = '1.31';
 }
 
 use strict;

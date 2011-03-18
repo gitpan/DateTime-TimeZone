@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Pago_Pago;
 BEGIN {
-  $DateTime::TimeZone::Pacific::Pago_Pago::VERSION = '1.30';
+  $DateTime::TimeZone::Pacific::Pago_Pago::VERSION = '1.31';
 }
 
 use strict;

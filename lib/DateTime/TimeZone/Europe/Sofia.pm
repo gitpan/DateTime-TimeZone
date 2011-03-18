@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Europe::Sofia;
 BEGIN {
-  $DateTime::TimeZone::Europe::Sofia::VERSION = '1.30';
+  $DateTime::TimeZone::Europe::Sofia::VERSION = '1.31';
 }
 
 use strict;

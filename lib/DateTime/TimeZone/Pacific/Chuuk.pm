@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Chuuk;
 BEGIN {
-  $DateTime::TimeZone::Pacific::Chuuk::VERSION = '1.30';
+  $DateTime::TimeZone::Pacific::Chuuk::VERSION = '1.31';
 }
 
 use strict;

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Kashgar;
 BEGIN {
-  $DateTime::TimeZone::Asia::Kashgar::VERSION = '1.30';
+  $DateTime::TimeZone::Asia::Kashgar::VERSION = '1.31';
 }
 
 use strict;

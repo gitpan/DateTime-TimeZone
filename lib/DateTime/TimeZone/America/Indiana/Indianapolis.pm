@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Indiana::Indianapolis;
 BEGIN {
-  $DateTime::TimeZone::America::Indiana::Indianapolis::VERSION = '1.30';
+  $DateTime::TimeZone::America::Indiana::Indianapolis::VERSION = '1.31';
 }
 
 use strict;

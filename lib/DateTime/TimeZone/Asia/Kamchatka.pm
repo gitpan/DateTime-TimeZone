@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Kamchatka;
 BEGIN {
-  $DateTime::TimeZone::Asia::Kamchatka::VERSION = '1.30';
+  $DateTime::TimeZone::Asia::Kamchatka::VERSION = '1.31';
 }
 
 use strict;

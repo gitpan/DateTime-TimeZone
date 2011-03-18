@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Santarem;
 BEGIN {
-  $DateTime::TimeZone::America::Santarem::VERSION = '1.30';
+  $DateTime::TimeZone::America::Santarem::VERSION = '1.31';
 }
 
 use strict;

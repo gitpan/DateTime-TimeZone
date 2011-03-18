@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Maceio;
 BEGIN {
-  $DateTime::TimeZone::America::Maceio::VERSION = '1.30';
+  $DateTime::TimeZone::America::Maceio::VERSION = '1.31';
 }
 
 use strict;

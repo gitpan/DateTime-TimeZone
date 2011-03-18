@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Nassau;
 BEGIN {
-  $DateTime::TimeZone::America::Nassau::VERSION = '1.30';
+  $DateTime::TimeZone::America::Nassau::VERSION = '1.31';
 }
 
 use strict;

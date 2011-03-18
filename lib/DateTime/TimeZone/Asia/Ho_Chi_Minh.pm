@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Ho_Chi_Minh;
 BEGIN {
-  $DateTime::TimeZone::Asia::Ho_Chi_Minh::VERSION = '1.30';
+  $DateTime::TimeZone::Asia::Ho_Chi_Minh::VERSION = '1.31';
 }
 
 use strict;

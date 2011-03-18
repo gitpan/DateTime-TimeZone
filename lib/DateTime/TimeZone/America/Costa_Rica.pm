@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Costa_Rica;
 BEGIN {
-  $DateTime::TimeZone::America::Costa_Rica::VERSION = '1.30';
+  $DateTime::TimeZone::America::Costa_Rica::VERSION = '1.31';
 }
 
 use strict;

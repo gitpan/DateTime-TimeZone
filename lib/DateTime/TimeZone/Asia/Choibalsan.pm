@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Choibalsan;
 BEGIN {
-  $DateTime::TimeZone::Asia::Choibalsan::VERSION = '1.30';
+  $DateTime::TimeZone::Asia::Choibalsan::VERSION = '1.31';
 }
 
 use strict;

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::St_Kitts;
 BEGIN {
-  $DateTime::TimeZone::America::St_Kitts::VERSION = '1.30';
+  $DateTime::TimeZone::America::St_Kitts::VERSION = '1.31';
 }
 
 use strict;

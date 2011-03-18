@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Ulaanbaatar;
 BEGIN {
-  $DateTime::TimeZone::Asia::Ulaanbaatar::VERSION = '1.30';
+  $DateTime::TimeZone::Asia::Ulaanbaatar::VERSION = '1.31';
 }
 
 use strict;

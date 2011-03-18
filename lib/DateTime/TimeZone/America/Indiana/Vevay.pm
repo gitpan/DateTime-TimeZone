@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Indiana::Vevay;
 BEGIN {
-  $DateTime::TimeZone::America::Indiana::Vevay::VERSION = '1.30';
+  $DateTime::TimeZone::America::Indiana::Vevay::VERSION = '1.31';
 }
 
 use strict;

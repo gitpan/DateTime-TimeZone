@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Australia::Darwin;
 BEGIN {
-  $DateTime::TimeZone::Australia::Darwin::VERSION = '1.30';
+  $DateTime::TimeZone::Australia::Darwin::VERSION = '1.31';
 }
 
 use strict;

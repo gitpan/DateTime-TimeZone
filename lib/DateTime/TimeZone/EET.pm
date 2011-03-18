@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::EET;
 BEGIN {
-  $DateTime::TimeZone::EET::VERSION = '1.30';
+  $DateTime::TimeZone::EET::VERSION = '1.31';
 }
 
 use strict;

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Scoresbysund;
 BEGIN {
-  $DateTime::TimeZone::America::Scoresbysund::VERSION = '1.30';
+  $DateTime::TimeZone::America::Scoresbysund::VERSION = '1.31';
 }
 
 use strict;

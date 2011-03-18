@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Dawson;
 BEGIN {
-  $DateTime::TimeZone::America::Dawson::VERSION = '1.30';
+  $DateTime::TimeZone::America::Dawson::VERSION = '1.31';
 }
 
 use strict;

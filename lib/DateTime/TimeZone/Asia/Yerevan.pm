@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Yerevan;
 BEGIN {
-  $DateTime::TimeZone::Asia::Yerevan::VERSION = '1.30';
+  $DateTime::TimeZone::Asia::Yerevan::VERSION = '1.31';
 }
 
 use strict;

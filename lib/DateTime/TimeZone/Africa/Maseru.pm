@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Africa::Maseru;
 BEGIN {
-  $DateTime::TimeZone::Africa::Maseru::VERSION = '1.30';
+  $DateTime::TimeZone::Africa::Maseru::VERSION = '1.31';
 }
 
 use strict;

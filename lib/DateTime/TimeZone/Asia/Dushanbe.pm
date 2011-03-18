@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Dushanbe;
 BEGIN {
-  $DateTime::TimeZone::Asia::Dushanbe::VERSION = '1.30';
+  $DateTime::TimeZone::Asia::Dushanbe::VERSION = '1.31';
 }
 
 use strict;

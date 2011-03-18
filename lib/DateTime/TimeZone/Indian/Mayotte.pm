@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Indian::Mayotte;
 BEGIN {
-  $DateTime::TimeZone::Indian::Mayotte::VERSION = '1.30';
+  $DateTime::TimeZone::Indian::Mayotte::VERSION = '1.31';
 }
 
 use strict;

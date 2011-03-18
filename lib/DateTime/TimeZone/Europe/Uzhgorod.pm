@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Europe::Uzhgorod;
 BEGIN {
-  $DateTime::TimeZone::Europe::Uzhgorod::VERSION = '1.30';
+  $DateTime::TimeZone::Europe::Uzhgorod::VERSION = '1.31';
 }
 
 use strict;

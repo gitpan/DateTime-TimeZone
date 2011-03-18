@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Kiritimati;
 BEGIN {
-  $DateTime::TimeZone::Pacific::Kiritimati::VERSION = '1.30';
+  $DateTime::TimeZone::Pacific::Kiritimati::VERSION = '1.31';
 }
 
 use strict;

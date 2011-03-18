@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Saipan;
 BEGIN {
-  $DateTime::TimeZone::Pacific::Saipan::VERSION = '1.30';
+  $DateTime::TimeZone::Pacific::Saipan::VERSION = '1.31';
 }
 
 use strict;

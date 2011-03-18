@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Europe::Minsk;
 BEGIN {
-  $DateTime::TimeZone::Europe::Minsk::VERSION = '1.30';
+  $DateTime::TimeZone::Europe::Minsk::VERSION = '1.31';
 }
 
 use strict;

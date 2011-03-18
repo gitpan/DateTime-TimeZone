@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Antarctica::Davis;
 BEGIN {
-  $DateTime::TimeZone::Antarctica::Davis::VERSION = '1.30';
+  $DateTime::TimeZone::Antarctica::Davis::VERSION = '1.31';
 }
 
 use strict;

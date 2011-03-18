@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Antarctica::Rothera;
 BEGIN {
-  $DateTime::TimeZone::Antarctica::Rothera::VERSION = '1.30';
+  $DateTime::TimeZone::Antarctica::Rothera::VERSION = '1.31';
 }
 
 use strict;

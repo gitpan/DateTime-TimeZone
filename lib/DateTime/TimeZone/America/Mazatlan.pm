@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Mazatlan;
 BEGIN {
-  $DateTime::TimeZone::America::Mazatlan::VERSION = '1.30';
+  $DateTime::TimeZone::America::Mazatlan::VERSION = '1.31';
 }
 
 use strict;

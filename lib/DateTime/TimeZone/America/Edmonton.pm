@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Edmonton;
 BEGIN {
-  $DateTime::TimeZone::America::Edmonton::VERSION = '1.30';
+  $DateTime::TimeZone::America::Edmonton::VERSION = '1.31';
 }
 
 use strict;

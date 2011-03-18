@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Manaus;
 BEGIN {
-  $DateTime::TimeZone::America::Manaus::VERSION = '1.30';
+  $DateTime::TimeZone::America::Manaus::VERSION = '1.31';
 }
 
 use strict;

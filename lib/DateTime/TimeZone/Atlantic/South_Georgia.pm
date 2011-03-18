@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Atlantic::South_Georgia;
 BEGIN {
-  $DateTime::TimeZone::Atlantic::South_Georgia::VERSION = '1.30';
+  $DateTime::TimeZone::Atlantic::South_Georgia::VERSION = '1.31';
 }
 
 use strict;

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Rarotonga;
 BEGIN {
-  $DateTime::TimeZone::Pacific::Rarotonga::VERSION = '1.30';
+  $DateTime::TimeZone::Pacific::Rarotonga::VERSION = '1.31';
 }
 
 use strict;

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Atlantic::Reykjavik;
 BEGIN {
-  $DateTime::TimeZone::Atlantic::Reykjavik::VERSION = '1.30';
+  $DateTime::TimeZone::Atlantic::Reykjavik::VERSION = '1.31';
 }
 
 use strict;

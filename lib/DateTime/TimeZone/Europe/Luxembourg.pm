@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Europe::Luxembourg;
 BEGIN {
-  $DateTime::TimeZone::Europe::Luxembourg::VERSION = '1.30';
+  $DateTime::TimeZone::Europe::Luxembourg::VERSION = '1.31';
 }
 
 use strict;

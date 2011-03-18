@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Fiji;
 BEGIN {
-  $DateTime::TimeZone::Pacific::Fiji::VERSION = '1.30';
+  $DateTime::TimeZone::Pacific::Fiji::VERSION = '1.31';
 }
 
 use strict;

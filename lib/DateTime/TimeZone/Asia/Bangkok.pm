@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Bangkok;
 BEGIN {
-  $DateTime::TimeZone::Asia::Bangkok::VERSION = '1.30';
+  $DateTime::TimeZone::Asia::Bangkok::VERSION = '1.31';
 }
 
 use strict;

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Antarctica::Syowa;
 BEGIN {
-  $DateTime::TimeZone::Antarctica::Syowa::VERSION = '1.30';
+  $DateTime::TimeZone::Antarctica::Syowa::VERSION = '1.31';
 }
 
 use strict;

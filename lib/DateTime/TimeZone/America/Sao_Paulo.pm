@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Sao_Paulo;
 BEGIN {
-  $DateTime::TimeZone::America::Sao_Paulo::VERSION = '1.30';
+  $DateTime::TimeZone::America::Sao_Paulo::VERSION = '1.31';
 }
 
 use strict;

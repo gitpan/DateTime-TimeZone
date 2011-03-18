@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Campo_Grande;
 BEGIN {
-  $DateTime::TimeZone::America::Campo_Grande::VERSION = '1.30';
+  $DateTime::TimeZone::America::Campo_Grande::VERSION = '1.31';
 }
 
 use strict;

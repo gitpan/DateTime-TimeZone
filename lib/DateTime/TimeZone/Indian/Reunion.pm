@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Indian::Reunion;
 BEGIN {
-  $DateTime::TimeZone::Indian::Reunion::VERSION = '1.30';
+  $DateTime::TimeZone::Indian::Reunion::VERSION = '1.31';
 }
 
 use strict;

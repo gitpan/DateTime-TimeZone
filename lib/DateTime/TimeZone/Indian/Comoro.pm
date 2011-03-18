@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Indian::Comoro;
 BEGIN {
-  $DateTime::TimeZone::Indian::Comoro::VERSION = '1.30';
+  $DateTime::TimeZone::Indian::Comoro::VERSION = '1.31';
 }
 
 use strict;

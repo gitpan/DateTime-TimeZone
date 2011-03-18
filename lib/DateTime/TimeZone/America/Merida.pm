@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Merida;
 BEGIN {
-  $DateTime::TimeZone::America::Merida::VERSION = '1.30';
+  $DateTime::TimeZone::America::Merida::VERSION = '1.31';
 }
 
 use strict;

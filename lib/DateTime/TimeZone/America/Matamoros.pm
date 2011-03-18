@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Matamoros;
 BEGIN {
-  $DateTime::TimeZone::America::Matamoros::VERSION = '1.30';
+  $DateTime::TimeZone::America::Matamoros::VERSION = '1.31';
 }
 
 use strict;
