@@ -4,7 +4,7 @@
       "Dave Rolsky <autarch@urth.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.110240",
+   "generated_by" : "Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.110580",
    "license" : [
       "perl_5"
    ],
@@ -47,6 +47,6 @@
          "web" : "http://hg.urth.org/hg/DateTime-TimeZone"
       }
    },
-   "version" : "1.31"
+   "version" : "1.32"
 }
 
