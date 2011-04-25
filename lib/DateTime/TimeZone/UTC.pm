@@ -1,15 +1,18 @@
 package DateTime::TimeZone::UTC;
 BEGIN {
-  $DateTime::TimeZone::UTC::VERSION = '1.33';
+  $DateTime::TimeZone::UTC::VERSION = '1.34';
 }
 
 use strict;
 use warnings;
 
-use DateTime::TimeZone;
-use parent 'DateTime::TimeZone';
+use parent 'Class::Singleton', 'DateTime::TimeZone';
 
 sub new {
+    return shift->instance;
+}
+
+sub _new_instance {
     my $class = shift;
 
     return bless { name => 'UTC' }, $class;
@@ -40,7 +43,7 @@ DateTime::TimeZone::UTC - The UTC time zone
 
 =head1 VERSION
 
-version 1.33
+version 1.34
 
 =head1 SYNOPSIS
 

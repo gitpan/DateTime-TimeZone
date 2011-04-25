@@ -7,7 +7,7 @@
 
 package DateTime::TimeZone::Catalog;
 BEGIN {
-  $DateTime::TimeZone::Catalog::VERSION = '1.33';
+  $DateTime::TimeZone::Catalog::VERSION = '1.34';
 }
 
 use strict;
@@ -1901,7 +1901,7 @@ qw(
 
 ;
 
-sub OlsonVersion { '2011f' }
+sub OlsonVersion { '2011g' }
 
 
 1;

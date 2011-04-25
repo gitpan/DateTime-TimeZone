@@ -1,6 +1,6 @@
 package DateTime::TimeZone;
 BEGIN {
-  $DateTime::TimeZone::VERSION = '1.33';
+  $DateTime::TimeZone::VERSION = '1.34';
 }
 
 use 5.006;
@@ -47,7 +47,7 @@ sub new {
     unless ( $p{name} =~ m,/,
         || $SpecialName{ $p{name} } ) {
         if ( $p{name} eq 'floating' ) {
-            return DateTime::TimeZone::Floating->new;
+            return DateTime::TimeZone::Floating->instance;
         }
 
         if ( $p{name} eq 'local' ) {
@@ -55,7 +55,7 @@ sub new {
         }
 
         if ( $p{name} eq 'UTC' || $p{name} eq 'Z' ) {
-            return DateTime::TimeZone::UTC->new;
+            return DateTime::TimeZone::UTC->instance;
         }
 
         return DateTime::TimeZone::OffsetOnly->new( offset => $p{name} );
@@ -561,7 +561,7 @@ DateTime::TimeZone - Time zone object base class and factory
 
 =head1 VERSION
 
-version 1.33
+version 1.34
 
 =head1 SYNOPSIS
 
