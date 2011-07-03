@@ -7,7 +7,7 @@
 
 package DateTime::TimeZone::Catalog;
 BEGIN {
-  $DateTime::TimeZone::Catalog::VERSION = '1.34';
+  $DateTime::TimeZone::Catalog::VERSION = '1.35';
 }
 
 use strict;
@@ -419,6 +419,7 @@ qw(
   Pacific/Tongatapu
   Pacific/Wake
   Pacific/Wallis
+  UTC
   WET
 );
 
@@ -874,9 +875,6 @@ qw(
   'am' => [ qw(
     Asia/Yerevan
 ) ],
-  'an' => [ qw(
-    America/Curacao
-) ],
   'ao' => [ qw(
     Africa/Luanda
 ) ],
@@ -974,6 +972,9 @@ qw(
 ) ],
   'bo' => [ qw(
     America/La_Paz
+) ],
+  'bq' => [ qw(
+    America/Kralendijk
 ) ],
   'br' => [ qw(
     America/Noronha
@@ -1084,6 +1085,9 @@ qw(
 ) ],
   'cv' => [ qw(
     Atlantic/Cape_Verde
+) ],
+  'cw' => [ qw(
+    America/Curacao
 ) ],
   'cx' => [ qw(
     Indian/Christmas
@@ -1602,6 +1606,9 @@ qw(
   'sv' => [ qw(
     America/El_Salvador
 ) ],
+  'sx' => [ qw(
+    America/Lower_Princes
+) ],
   'sy' => [ qw(
     Asia/Damascus
 ) ],
@@ -1773,7 +1780,9 @@ qw(
   'America/Indianapolis' => 'America/Indiana/Indianapolis',
   'America/Jujuy' => 'America/Argentina/Jujuy',
   'America/Knox_IN' => 'America/Indiana/Knox',
+  'America/Kralendijk' => 'America/Curacao',
   'America/Louisville' => 'America/Kentucky/Louisville',
+  'America/Lower_Princes' => 'America/Curacao',
   'America/Marigot' => 'America/Guadeloupe',
   'America/Mendoza' => 'America/Argentina/Mendoza',
   'America/Porto_Acre' => 'America/Rio_Branco',
@@ -1901,7 +1910,7 @@ qw(
 
 ;
 
-sub OlsonVersion { '2011g' }
+sub OlsonVersion { '2011h' }
 
 
 1;
@@ -2487,6 +2496,10 @@ so that applications can easily present a list of timezones.
 
   America/La_Paz
 
+=head3 Bonaire, Saint Eustatius and Saba (BQ)
+
+  America/Kralendijk
+
 =head3 Bosnia and Herzegovina (BA)
 
   Europe/Sarajevo
@@ -2645,6 +2658,10 @@ so that applications can easily present a list of timezones.
 =head3 Cuba (CU)
 
   America/Havana
+
+=head3 Curacao (CW)
+
+  America/Curacao
 
 =head3 Cyprus (CY)
 
@@ -3070,10 +3087,6 @@ so that applications can easily present a list of timezones.
 
   Europe/Amsterdam
 
-=head3 Netherlands Antilles (AN)
-
-  America/Curacao
-
 =head3 New Caledonia (NC)
 
   Pacific/Noumea
@@ -3216,7 +3229,7 @@ so that applications can easily present a list of timezones.
 
   America/St_Lucia
 
-=head3 Saint Martin (MF)
+=head3 Saint Martin (French part) (MF)
 
   America/Marigot
 
@@ -3263,6 +3276,10 @@ so that applications can easily present a list of timezones.
 =head3 Singapore (SG)
 
   Asia/Singapore
+
+=head3 Sint Maarten (Dutch part) (SX)
+
+  America/Lower_Princes
 
 =head3 Slovakia (SK)
 
@@ -3507,7 +3524,9 @@ A linked zone is an alias from one name to another.
   America/Indianapolis => America/Indiana/Indianapolis
   America/Jujuy => America/Argentina/Jujuy
   America/Knox_IN => America/Indiana/Knox
+  America/Kralendijk => America/Curacao
   America/Louisville => America/Kentucky/Louisville
+  America/Lower_Princes => America/Curacao
   America/Marigot => America/Guadeloupe
   America/Mendoza => America/Argentina/Mendoza
   America/Porto_Acre => America/Rio_Branco
