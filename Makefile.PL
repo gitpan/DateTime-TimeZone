@@ -9,29 +9,29 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'Time zone object base class and factory',
-  'AUTHOR' => 'Dave Rolsky <autarch@urth.org>',
-  'BUILD_REQUIRES' => {
-    'Test::More' => '0.88'
+  "ABSTRACT" => "Time zone object base class and factory",
+  "AUTHOR" => "Dave Rolsky <autarch\@urth.org>",
+  "BUILD_REQUIRES" => {
+    "Test::More" => "0.88"
   },
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.30'
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.58"
   },
-  'DISTNAME' => 'DateTime-TimeZone',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'DateTime::TimeZone',
-  'PREREQ_PM' => {
-    'Class::Load' => '0',
-    'Class::Singleton' => '1.03',
-    'Cwd' => '3',
-    'Params::Validate' => '0.72',
-    'Pod::Man' => '1.14',
-    'parent' => '0'
+  "DISTNAME" => "DateTime-TimeZone",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "DateTime::TimeZone",
+  "PREREQ_PM" => {
+    "Class::Load" => 0,
+    "Class::Singleton" => "1.03",
+    "Cwd" => 3,
+    "Params::Validate" => "0.72",
+    "Pod::Man" => "1.14",
+    "parent" => 0
   },
-  'VERSION' => '1.35',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "1.36",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 
