@@ -1,6 +1,6 @@
 package DateTime::TimeZone::OlsonDB::Change;
 {
-  $DateTime::TimeZone::OlsonDB::Change::VERSION = '1.36';
+  $DateTime::TimeZone::OlsonDB::Change::VERSION = '1.37';
 }
 
 use strict;

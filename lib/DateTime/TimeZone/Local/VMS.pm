@@ -1,6 +1,6 @@
 package DateTime::TimeZone::Local::VMS;
 {
-  $DateTime::TimeZone::Local::VMS::VERSION = '1.36';
+  $DateTime::TimeZone::Local::VMS::VERSION = '1.37';
 }
 
 use strict;
@@ -28,7 +28,7 @@ DateTime::TimeZone::Local::VMS - Determine the local system's time zone on VMS
 
 =head1 VERSION
 
-version 1.36
+version 1.37
 
 =head1 SYNOPSIS
 

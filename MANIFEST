@@ -451,6 +451,7 @@ t/check_datetime_version.pl
 t/release-eol.t
 t/release-no-tabs.t
 t/release-pod-coverage.t
+t/release-pod-linkcheck.t
 t/release-pod-spell.t
 t/release-pod-syntax.t
 tools/compile-all-zones

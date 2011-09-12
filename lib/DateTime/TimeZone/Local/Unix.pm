@@ -1,6 +1,6 @@
 package DateTime::TimeZone::Local::Unix;
 {
-  $DateTime::TimeZone::Local::Unix::VERSION = '1.36';
+  $DateTime::TimeZone::Local::Unix::VERSION = '1.37';
 }
 
 use strict;
@@ -247,7 +247,7 @@ DateTime::TimeZone::Local::Unix - Determine the local system's time zone on Unix
 
 =head1 VERSION
 
-version 1.36
+version 1.37
 
 =head1 SYNOPSIS
 
