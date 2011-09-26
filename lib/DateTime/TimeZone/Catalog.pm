@@ -7,7 +7,7 @@
 
 package DateTime::TimeZone::Catalog;
 {
-  $DateTime::TimeZone::Catalog::VERSION = '1.38';
+  $DateTime::TimeZone::Catalog::VERSION = '1.39';
 }
 
 use strict;
@@ -244,6 +244,7 @@ qw(
   Asia/Dushanbe
   Asia/Gaza
   Asia/Harbin
+  Asia/Hebron
   Asia/Ho_Chi_Minh
   Asia/Hong_Kong
   Asia/Hovd
@@ -674,6 +675,7 @@ qw(
     Dushanbe
     Gaza
     Harbin
+    Hebron
     Ho_Chi_Minh
     Hong_Kong
     Hovd
@@ -1512,6 +1514,7 @@ qw(
 ) ],
   'ps' => [ qw(
     Asia/Gaza
+    Asia/Hebron
 ) ],
   'pt' => [ qw(
     Europe/Lisbon
@@ -1915,7 +1918,7 @@ qw(
 
 ;
 
-sub OlsonVersion { '2011j' }
+sub OlsonVersion { '2011k' }
 
 
 1;
@@ -2177,6 +2180,7 @@ so that applications can easily present a list of timezones.
   Asia/Dushanbe
   Asia/Gaza
   Asia/Harbin
+  Asia/Hebron
   Asia/Ho_Chi_Minh
   Asia/Hong_Kong
   Asia/Hovd
@@ -3144,7 +3148,8 @@ so that applications can easily present a list of timezones.
 
 =head3 Palestinian Territory, Occupied (PS)
 
-  Asia/Gaza
+  Asia/Hebron - West Bank
+  Asia/Gaza - Gaza Strip
 
 =head3 Panama (PA)
 

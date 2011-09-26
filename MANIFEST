@@ -236,6 +236,7 @@ lib/DateTime/TimeZone/Asia/Dubai.pm
 lib/DateTime/TimeZone/Asia/Dushanbe.pm
 lib/DateTime/TimeZone/Asia/Gaza.pm
 lib/DateTime/TimeZone/Asia/Harbin.pm
+lib/DateTime/TimeZone/Asia/Hebron.pm
 lib/DateTime/TimeZone/Asia/Ho_Chi_Minh.pm
 lib/DateTime/TimeZone/Asia/Hong_Kong.pm
 lib/DateTime/TimeZone/Asia/Hovd.pm
