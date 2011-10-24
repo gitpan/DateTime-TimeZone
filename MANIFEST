@@ -352,6 +352,7 @@ lib/DateTime/TimeZone/Europe/Sofia.pm
 lib/DateTime/TimeZone/Europe/Stockholm.pm
 lib/DateTime/TimeZone/Europe/Tallinn.pm
 lib/DateTime/TimeZone/Europe/Tirane.pm
+lib/DateTime/TimeZone/Europe/Tiraspol.pm
 lib/DateTime/TimeZone/Europe/Uzhgorod.pm
 lib/DateTime/TimeZone/Europe/Vaduz.pm
 lib/DateTime/TimeZone/Europe/Vienna.pm
