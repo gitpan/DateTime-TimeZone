@@ -7,7 +7,7 @@
 
 package DateTime::TimeZone::Catalog;
 {
-  $DateTime::TimeZone::Catalog::VERSION = '1.41';
+  $DateTime::TimeZone::Catalog::VERSION = '1.42';
 }
 
 use strict;
@@ -359,7 +359,6 @@ qw(
   Europe/Stockholm
   Europe/Tallinn
   Europe/Tirane
-  Europe/Tiraspol
   Europe/Uzhgorod
   Europe/Vaduz
   Europe/Vienna
@@ -792,7 +791,6 @@ qw(
     Stockholm
     Tallinn
     Tirane
-    Tiraspol
     Uzhgorod
     Vaduz
     Vienna
@@ -1366,7 +1364,6 @@ qw(
 ) ],
   'md' => [ qw(
     Europe/Chisinau
-    Europe/Tiraspol
 ) ],
   'me' => [ qw(
     Europe/Podgorica
@@ -1864,6 +1861,7 @@ qw(
   'Europe/San_Marino' => 'Europe/Rome',
   'Europe/Sarajevo' => 'Europe/Belgrade',
   'Europe/Skopje' => 'Europe/Belgrade',
+  'Europe/Tiraspol' => 'Europe/Chisinau',
   'Europe/Vatican' => 'Europe/Rome',
   'Europe/Zagreb' => 'Europe/Belgrade',
   'GB' => 'Europe/London',
@@ -1920,7 +1918,7 @@ qw(
 
 ;
 
-sub OlsonVersion { '2011i' }
+sub OlsonVersion { '2011n' }
 
 
 1;
@@ -2302,7 +2300,6 @@ so that applications can easily present a list of timezones.
   Europe/Stockholm
   Europe/Tallinn
   Europe/Tirane
-  Europe/Tiraspol
   Europe/Uzhgorod
   Europe/Vaduz
   Europe/Vienna
@@ -3052,7 +3049,6 @@ so that applications can easily present a list of timezones.
 
 =head3 Moldova, Republic of (MD)
 
-  Europe/Tiraspol - Pridnestrovie
   Europe/Chisinau
 
 =head3 Monaco (MC)
@@ -3616,6 +3612,7 @@ A linked zone is an alias from one name to another.
   Europe/San_Marino => Europe/Rome
   Europe/Sarajevo => Europe/Belgrade
   Europe/Skopje => Europe/Belgrade
+  Europe/Tiraspol => Europe/Chisinau
   Europe/Vatican => Europe/Rome
   Europe/Zagreb => Europe/Belgrade
   GB => Europe/London
