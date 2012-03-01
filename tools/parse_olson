@@ -204,7 +204,7 @@ $pkg_keyword DateTime::TimeZone::$mod_name;
 
 use strict;
 
-use Class::Singleton;
+use Class::Singleton 1.03;
 use DateTime::TimeZone;
 use DateTime::TimeZone::OlsonDB;
 
@@ -527,7 +527,7 @@ EOF
 
         $zonecatalog .= "=head3 $country->[0] ($country->[1])\n\n";
 
-        for my $zone ( sort { lc $a->[0] cmp $b->[0] }
+        for my $zone ( sort { lc $a->[0] cmp lc $b->[0] }
             @{ $countries{ $country->[1] } } ) {
             my $line = join ' - ', grep { defined } @{$zone};
             $zonecatalog .= "  $line\n";
@@ -566,7 +566,7 @@ sub parse_zone_tab {
         next if /^\#/;
         chomp;
 
-        my ( $cc, undef, $tz, $desc ) = split /\t/, $_;
+        my ( $cc, undef, $tz, $desc ) = split /\t+/, $_;
 
         push @{ $countries{$cc} }, [ $tz, $desc ];
     }

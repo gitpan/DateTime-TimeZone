@@ -1,11 +1,12 @@
 package DateTime::TimeZone::Local::Unix;
 {
-  $DateTime::TimeZone::Local::Unix::VERSION = '1.42';
+  $DateTime::TimeZone::Local::Unix::VERSION = '1.43';
 }
 
 use strict;
 use warnings;
 
+use Cwd 3;
 use parent 'DateTime::TimeZone::Local';
 
 sub Methods {
@@ -64,8 +65,6 @@ sub FromEtcLocaltime {
 
 sub _Readlink {
     my $link = $_[1];
-
-    require Cwd;
 
     # Using abs_path will resolve multiple levels of link indirection,
     # whereas readlink just follows the link to the next target.
@@ -247,7 +246,7 @@ DateTime::TimeZone::Local::Unix - Determine the local system's time zone on Unix
 
 =head1 VERSION
 
-version 1.42
+version 1.43
 
 =head1 SYNOPSIS
 
@@ -313,7 +312,7 @@ Dave Rolsky <autarch@urth.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Dave Rolsky.
+This software is copyright (c) 2012 by Dave Rolsky.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

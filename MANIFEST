@@ -98,6 +98,7 @@ lib/DateTime/TimeZone/America/Cayman.pm
 lib/DateTime/TimeZone/America/Chicago.pm
 lib/DateTime/TimeZone/America/Chihuahua.pm
 lib/DateTime/TimeZone/America/Costa_Rica.pm
+lib/DateTime/TimeZone/America/Creston.pm
 lib/DateTime/TimeZone/America/Cuiaba.pm
 lib/DateTime/TimeZone/America/Curacao.pm
 lib/DateTime/TimeZone/America/Danmarkshavn.pm

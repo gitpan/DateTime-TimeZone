@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-
+use 5.006;
 
 use ExtUtils::MakeMaker 6.30;
 
@@ -12,10 +12,16 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "Time zone object base class and factory",
   "AUTHOR" => "Dave Rolsky <autarch\@urth.org>",
   "BUILD_REQUIRES" => {
-    "Test::More" => "0.88"
+    "File::Copy" => 0,
+    "Storable" => 0,
+    "Sys::Hostname" => 0,
+    "Test::More" => "0.88",
+    "Test::Output" => 0,
+    "base" => 0,
+    "overload" => 0
   },
   "CONFIGURE_REQUIRES" => {
-    "ExtUtils::MakeMaker" => "6.58"
+    "ExtUtils::MakeMaker" => "6.30"
   },
   "DISTNAME" => "DateTime-TimeZone",
   "EXE_FILES" => [],
@@ -25,11 +31,21 @@ my %WriteMakefileArgs = (
     "Class::Load" => 0,
     "Class::Singleton" => "1.03",
     "Cwd" => 3,
+    "DateTime" => 0,
+    "DateTime::Duration" => 0,
+    "File::Basename" => 0,
+    "File::Compare" => 0,
+    "File::Find" => 0,
+    "File::Spec" => 0,
+    "List::Util" => 0,
     "Params::Validate" => "0.72",
-    "Pod::Man" => "1.14",
-    "parent" => 0
+    "constant" => 0,
+    "parent" => 0,
+    "strict" => 0,
+    "vars" => 0,
+    "warnings" => 0
   },
-  "VERSION" => "1.42",
+  "VERSION" => "1.43",
   "test" => {
     "TESTS" => "t/*.t"
   }
