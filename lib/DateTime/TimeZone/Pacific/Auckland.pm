@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Auckland;
 {
-  $DateTime::TimeZone::Pacific::Auckland::VERSION = '1.44';
+  $DateTime::TimeZone::Pacific::Auckland::VERSION = '1.45';
 }
 
 use strict;

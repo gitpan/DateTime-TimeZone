@@ -31,8 +31,6 @@ my %WriteMakefileArgs = (
     "Class::Load" => 0,
     "Class::Singleton" => "1.03",
     "Cwd" => 3,
-    "DateTime" => 0,
-    "DateTime::Duration" => 0,
     "File::Basename" => 0,
     "File::Compare" => 0,
     "File::Find" => 0,
@@ -45,7 +43,7 @@ my %WriteMakefileArgs = (
     "vars" => 0,
     "warnings" => 0
   },
-  "VERSION" => "1.44",
+  "VERSION" => "1.45",
   "test" => {
     "TESTS" => "t/*.t"
   }

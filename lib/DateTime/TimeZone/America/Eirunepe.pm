@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Eirunepe;
 {
-  $DateTime::TimeZone::America::Eirunepe::VERSION = '1.44';
+  $DateTime::TimeZone::America::Eirunepe::VERSION = '1.45';
 }
 
 use strict;

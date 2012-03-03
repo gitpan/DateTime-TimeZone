@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Atlantic::Cape_Verde;
 {
-  $DateTime::TimeZone::Atlantic::Cape_Verde::VERSION = '1.44';
+  $DateTime::TimeZone::Atlantic::Cape_Verde::VERSION = '1.45';
 }
 
 use strict;

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Amman;
 {
-  $DateTime::TimeZone::Asia::Amman::VERSION = '1.44';
+  $DateTime::TimeZone::Asia::Amman::VERSION = '1.45';
 }
 
 use strict;

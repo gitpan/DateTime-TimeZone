@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Kuching;
 {
-  $DateTime::TimeZone::Asia::Kuching::VERSION = '1.44';
+  $DateTime::TimeZone::Asia::Kuching::VERSION = '1.45';
 }
 
 use strict;

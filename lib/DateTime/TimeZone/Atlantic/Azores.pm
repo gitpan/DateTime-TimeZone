@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Atlantic::Azores;
 {
-  $DateTime::TimeZone::Atlantic::Azores::VERSION = '1.44';
+  $DateTime::TimeZone::Atlantic::Azores::VERSION = '1.45';
 }
 
 use strict;

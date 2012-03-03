@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Manila;
 {
-  $DateTime::TimeZone::Asia::Manila::VERSION = '1.44';
+  $DateTime::TimeZone::Asia::Manila::VERSION = '1.45';
 }
 
 use strict;

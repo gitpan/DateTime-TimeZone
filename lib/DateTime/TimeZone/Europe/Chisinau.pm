@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Europe::Chisinau;
 {
-  $DateTime::TimeZone::Europe::Chisinau::VERSION = '1.44';
+  $DateTime::TimeZone::Europe::Chisinau::VERSION = '1.45';
 }
 
 use strict;

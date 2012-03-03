@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Kwajalein;
 {
-  $DateTime::TimeZone::Pacific::Kwajalein::VERSION = '1.44';
+  $DateTime::TimeZone::Pacific::Kwajalein::VERSION = '1.45';
 }
 
 use strict;

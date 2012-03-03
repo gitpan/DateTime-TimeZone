@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Atlantic::Faroe;
 {
-  $DateTime::TimeZone::Atlantic::Faroe::VERSION = '1.44';
+  $DateTime::TimeZone::Atlantic::Faroe::VERSION = '1.45';
 }
 
 use strict;

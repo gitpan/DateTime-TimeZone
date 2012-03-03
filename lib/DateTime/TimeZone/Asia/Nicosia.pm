@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Nicosia;
 {
-  $DateTime::TimeZone::Asia::Nicosia::VERSION = '1.44';
+  $DateTime::TimeZone::Asia::Nicosia::VERSION = '1.45';
 }
 
 use strict;

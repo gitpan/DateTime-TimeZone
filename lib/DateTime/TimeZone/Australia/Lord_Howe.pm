@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Australia::Lord_Howe;
 {
-  $DateTime::TimeZone::Australia::Lord_Howe::VERSION = '1.44';
+  $DateTime::TimeZone::Australia::Lord_Howe::VERSION = '1.45';
 }
 
 use strict;

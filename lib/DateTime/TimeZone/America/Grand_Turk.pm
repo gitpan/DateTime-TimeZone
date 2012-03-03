@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Grand_Turk;
 {
-  $DateTime::TimeZone::America::Grand_Turk::VERSION = '1.44';
+  $DateTime::TimeZone::America::Grand_Turk::VERSION = '1.45';
 }
 
 use strict;

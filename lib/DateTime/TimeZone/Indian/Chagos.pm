@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Indian::Chagos;
 {
-  $DateTime::TimeZone::Indian::Chagos::VERSION = '1.44';
+  $DateTime::TimeZone::Indian::Chagos::VERSION = '1.45';
 }
 
 use strict;

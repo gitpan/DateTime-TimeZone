@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Tortola;
 {
-  $DateTime::TimeZone::America::Tortola::VERSION = '1.44';
+  $DateTime::TimeZone::America::Tortola::VERSION = '1.45';
 }
 
 use strict;

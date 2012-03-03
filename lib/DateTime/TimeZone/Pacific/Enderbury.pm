@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Enderbury;
 {
-  $DateTime::TimeZone::Pacific::Enderbury::VERSION = '1.44';
+  $DateTime::TimeZone::Pacific::Enderbury::VERSION = '1.45';
 }
 
 use strict;

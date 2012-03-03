@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Qyzylorda;
 {
-  $DateTime::TimeZone::Asia::Qyzylorda::VERSION = '1.44';
+  $DateTime::TimeZone::Asia::Qyzylorda::VERSION = '1.45';
 }
 
 use strict;

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Thimphu;
 {
-  $DateTime::TimeZone::Asia::Thimphu::VERSION = '1.44';
+  $DateTime::TimeZone::Asia::Thimphu::VERSION = '1.45';
 }
 
 use strict;

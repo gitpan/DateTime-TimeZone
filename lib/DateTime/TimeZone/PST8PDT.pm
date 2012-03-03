@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::PST8PDT;
 {
-  $DateTime::TimeZone::PST8PDT::VERSION = '1.44';
+  $DateTime::TimeZone::PST8PDT::VERSION = '1.45';
 }
 
 use strict;

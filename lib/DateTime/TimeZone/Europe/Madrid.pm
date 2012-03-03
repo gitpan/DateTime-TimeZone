@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Europe::Madrid;
 {
-  $DateTime::TimeZone::Europe::Madrid::VERSION = '1.44';
+  $DateTime::TimeZone::Europe::Madrid::VERSION = '1.45';
 }
 
 use strict;

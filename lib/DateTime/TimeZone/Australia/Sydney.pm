@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Australia::Sydney;
 {
-  $DateTime::TimeZone::Australia::Sydney::VERSION = '1.44';
+  $DateTime::TimeZone::Australia::Sydney::VERSION = '1.45';
 }
 
 use strict;

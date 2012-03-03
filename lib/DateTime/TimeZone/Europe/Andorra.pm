@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Europe::Andorra;
 {
-  $DateTime::TimeZone::Europe::Andorra::VERSION = '1.44';
+  $DateTime::TimeZone::Europe::Andorra::VERSION = '1.45';
 }
 
 use strict;

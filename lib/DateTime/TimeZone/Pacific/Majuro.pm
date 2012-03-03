@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Majuro;
 {
-  $DateTime::TimeZone::Pacific::Majuro::VERSION = '1.44';
+  $DateTime::TimeZone::Pacific::Majuro::VERSION = '1.45';
 }
 
 use strict;

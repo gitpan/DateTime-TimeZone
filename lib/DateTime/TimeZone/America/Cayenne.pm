@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Cayenne;
 {
-  $DateTime::TimeZone::America::Cayenne::VERSION = '1.44';
+  $DateTime::TimeZone::America::Cayenne::VERSION = '1.45';
 }
 
 use strict;

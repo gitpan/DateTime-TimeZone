@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Norfolk;
 {
-  $DateTime::TimeZone::Pacific::Norfolk::VERSION = '1.44';
+  $DateTime::TimeZone::Pacific::Norfolk::VERSION = '1.45';
 }
 
 use strict;

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Europe::Riga;
 {
-  $DateTime::TimeZone::Europe::Riga::VERSION = '1.44';
+  $DateTime::TimeZone::Europe::Riga::VERSION = '1.45';
 }
 
 use strict;

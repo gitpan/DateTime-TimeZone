@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Godthab;
 {
-  $DateTime::TimeZone::America::Godthab::VERSION = '1.44';
+  $DateTime::TimeZone::America::Godthab::VERSION = '1.45';
 }
 
 use strict;

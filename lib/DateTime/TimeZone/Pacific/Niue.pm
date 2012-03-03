@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Niue;
 {
-  $DateTime::TimeZone::Pacific::Niue::VERSION = '1.44';
+  $DateTime::TimeZone::Pacific::Niue::VERSION = '1.45';
 }
 
 use strict;

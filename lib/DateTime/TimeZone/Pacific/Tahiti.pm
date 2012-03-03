@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Tahiti;
 {
-  $DateTime::TimeZone::Pacific::Tahiti::VERSION = '1.44';
+  $DateTime::TimeZone::Pacific::Tahiti::VERSION = '1.45';
 }
 
 use strict;

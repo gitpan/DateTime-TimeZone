@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Marquesas;
 {
-  $DateTime::TimeZone::Pacific::Marquesas::VERSION = '1.44';
+  $DateTime::TimeZone::Pacific::Marquesas::VERSION = '1.45';
 }
 
 use strict;

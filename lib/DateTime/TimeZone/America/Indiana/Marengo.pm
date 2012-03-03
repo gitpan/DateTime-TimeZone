@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Indiana::Marengo;
 {
-  $DateTime::TimeZone::America::Indiana::Marengo::VERSION = '1.44';
+  $DateTime::TimeZone::America::Indiana::Marengo::VERSION = '1.45';
 }
 
 use strict;

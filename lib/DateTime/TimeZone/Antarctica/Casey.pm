@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Antarctica::Casey;
 {
-  $DateTime::TimeZone::Antarctica::Casey::VERSION = '1.44';
+  $DateTime::TimeZone::Antarctica::Casey::VERSION = '1.45';
 }
 
 use strict;

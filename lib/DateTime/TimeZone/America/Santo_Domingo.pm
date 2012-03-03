@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Santo_Domingo;
 {
-  $DateTime::TimeZone::America::Santo_Domingo::VERSION = '1.44';
+  $DateTime::TimeZone::America::Santo_Domingo::VERSION = '1.45';
 }
 
 use strict;

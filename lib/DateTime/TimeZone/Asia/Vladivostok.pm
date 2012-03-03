@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Vladivostok;
 {
-  $DateTime::TimeZone::Asia::Vladivostok::VERSION = '1.44';
+  $DateTime::TimeZone::Asia::Vladivostok::VERSION = '1.45';
 }
 
 use strict;

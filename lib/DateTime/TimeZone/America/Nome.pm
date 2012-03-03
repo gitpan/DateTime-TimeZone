@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Nome;
 {
-  $DateTime::TimeZone::America::Nome::VERSION = '1.44';
+  $DateTime::TimeZone::America::Nome::VERSION = '1.45';
 }
 
 use strict;

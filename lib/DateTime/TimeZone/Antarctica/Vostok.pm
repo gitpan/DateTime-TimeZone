@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Antarctica::Vostok;
 {
-  $DateTime::TimeZone::Antarctica::Vostok::VERSION = '1.44';
+  $DateTime::TimeZone::Antarctica::Vostok::VERSION = '1.45';
 }
 
 use strict;

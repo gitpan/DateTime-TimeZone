@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Indian::Antananarivo;
 {
-  $DateTime::TimeZone::Indian::Antananarivo::VERSION = '1.44';
+  $DateTime::TimeZone::Indian::Antananarivo::VERSION = '1.45';
 }
 
 use strict;

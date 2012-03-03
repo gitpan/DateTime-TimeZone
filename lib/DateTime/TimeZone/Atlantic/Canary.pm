@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Atlantic::Canary;
 {
-  $DateTime::TimeZone::Atlantic::Canary::VERSION = '1.44';
+  $DateTime::TimeZone::Atlantic::Canary::VERSION = '1.45';
 }
 
 use strict;

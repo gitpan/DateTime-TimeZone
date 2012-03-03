@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Guam;
 {
-  $DateTime::TimeZone::Pacific::Guam::VERSION = '1.44';
+  $DateTime::TimeZone::Pacific::Guam::VERSION = '1.45';
 }
 
 use strict;

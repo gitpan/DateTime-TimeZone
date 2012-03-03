@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Noumea;
 {
-  $DateTime::TimeZone::Pacific::Noumea::VERSION = '1.44';
+  $DateTime::TimeZone::Pacific::Noumea::VERSION = '1.45';
 }
 
 use strict;

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Atlantic::St_Helena;
 {
-  $DateTime::TimeZone::Atlantic::St_Helena::VERSION = '1.44';
+  $DateTime::TimeZone::Atlantic::St_Helena::VERSION = '1.45';
 }
 
 use strict;

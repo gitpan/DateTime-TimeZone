@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Antarctica::Macquarie;
 {
-  $DateTime::TimeZone::Antarctica::Macquarie::VERSION = '1.44';
+  $DateTime::TimeZone::Antarctica::Macquarie::VERSION = '1.45';
 }
 
 use strict;

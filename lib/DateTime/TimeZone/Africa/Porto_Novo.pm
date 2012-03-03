@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Africa::Porto_Novo;
 {
-  $DateTime::TimeZone::Africa::Porto_Novo::VERSION = '1.44';
+  $DateTime::TimeZone::Africa::Porto_Novo::VERSION = '1.45';
 }
 
 use strict;

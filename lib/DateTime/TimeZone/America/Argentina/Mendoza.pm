@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Argentina::Mendoza;
 {
-  $DateTime::TimeZone::America::Argentina::Mendoza::VERSION = '1.44';
+  $DateTime::TimeZone::America::Argentina::Mendoza::VERSION = '1.45';
 }
 
 use strict;

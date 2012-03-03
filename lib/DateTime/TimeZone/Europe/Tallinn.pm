@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Europe::Tallinn;
 {
-  $DateTime::TimeZone::Europe::Tallinn::VERSION = '1.44';
+  $DateTime::TimeZone::Europe::Tallinn::VERSION = '1.45';
 }
 
 use strict;

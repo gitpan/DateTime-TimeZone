@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Antarctica::McMurdo;
 {
-  $DateTime::TimeZone::Antarctica::McMurdo::VERSION = '1.44';
+  $DateTime::TimeZone::Antarctica::McMurdo::VERSION = '1.45';
 }
 
 use strict;

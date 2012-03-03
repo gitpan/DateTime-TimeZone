@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Kuala_Lumpur;
 {
-  $DateTime::TimeZone::Asia::Kuala_Lumpur::VERSION = '1.44';
+  $DateTime::TimeZone::Asia::Kuala_Lumpur::VERSION = '1.45';
 }
 
 use strict;

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Belem;
 {
-  $DateTime::TimeZone::America::Belem::VERSION = '1.44';
+  $DateTime::TimeZone::America::Belem::VERSION = '1.45';
 }
 
 use strict;

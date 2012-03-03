@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Africa::Nouakchott;
 {
-  $DateTime::TimeZone::Africa::Nouakchott::VERSION = '1.44';
+  $DateTime::TimeZone::Africa::Nouakchott::VERSION = '1.45';
 }
 
 use strict;

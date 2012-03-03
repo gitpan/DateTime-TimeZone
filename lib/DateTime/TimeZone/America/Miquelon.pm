@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Miquelon;
 {
-  $DateTime::TimeZone::America::Miquelon::VERSION = '1.44';
+  $DateTime::TimeZone::America::Miquelon::VERSION = '1.45';
 }
 
 use strict;

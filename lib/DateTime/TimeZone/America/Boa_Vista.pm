@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Boa_Vista;
 {
-  $DateTime::TimeZone::America::Boa_Vista::VERSION = '1.44';
+  $DateTime::TimeZone::America::Boa_Vista::VERSION = '1.45';
 }
 
 use strict;

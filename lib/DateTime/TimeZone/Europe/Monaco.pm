@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Europe::Monaco;
 {
-  $DateTime::TimeZone::Europe::Monaco::VERSION = '1.44';
+  $DateTime::TimeZone::Europe::Monaco::VERSION = '1.45';
 }
 
 use strict;

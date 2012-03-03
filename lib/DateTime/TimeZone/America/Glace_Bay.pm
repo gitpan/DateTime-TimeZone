@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Glace_Bay;
 {
-  $DateTime::TimeZone::America::Glace_Bay::VERSION = '1.44';
+  $DateTime::TimeZone::America::Glace_Bay::VERSION = '1.45';
 }
 
 use strict;

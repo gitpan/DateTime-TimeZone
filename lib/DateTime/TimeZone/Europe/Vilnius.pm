@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Europe::Vilnius;
 {
-  $DateTime::TimeZone::Europe::Vilnius::VERSION = '1.44';
+  $DateTime::TimeZone::Europe::Vilnius::VERSION = '1.45';
 }
 
 use strict;

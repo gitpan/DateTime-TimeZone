@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Bishkek;
 {
-  $DateTime::TimeZone::Asia::Bishkek::VERSION = '1.44';
+  $DateTime::TimeZone::Asia::Bishkek::VERSION = '1.45';
 }
 
 use strict;

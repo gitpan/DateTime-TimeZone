@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Paramaribo;
 {
-  $DateTime::TimeZone::America::Paramaribo::VERSION = '1.44';
+  $DateTime::TimeZone::America::Paramaribo::VERSION = '1.45';
 }
 
 use strict;

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Creston;
 {
-  $DateTime::TimeZone::America::Creston::VERSION = '1.44';
+  $DateTime::TimeZone::America::Creston::VERSION = '1.45';
 }
 
 use strict;

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Kentucky::Monticello;
 {
-  $DateTime::TimeZone::America::Kentucky::Monticello::VERSION = '1.44';
+  $DateTime::TimeZone::America::Kentucky::Monticello::VERSION = '1.45';
 }
 
 use strict;

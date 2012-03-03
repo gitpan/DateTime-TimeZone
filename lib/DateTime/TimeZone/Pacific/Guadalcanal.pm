@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Guadalcanal;
 {
-  $DateTime::TimeZone::Pacific::Guadalcanal::VERSION = '1.44';
+  $DateTime::TimeZone::Pacific::Guadalcanal::VERSION = '1.45';
 }
 
 use strict;

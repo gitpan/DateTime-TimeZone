@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Argentina::Salta;
 {
-  $DateTime::TimeZone::America::Argentina::Salta::VERSION = '1.44';
+  $DateTime::TimeZone::America::Argentina::Salta::VERSION = '1.45';
 }
 
 use strict;

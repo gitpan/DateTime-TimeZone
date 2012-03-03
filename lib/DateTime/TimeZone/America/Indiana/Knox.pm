@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Indiana::Knox;
 {
-  $DateTime::TimeZone::America::Indiana::Knox::VERSION = '1.44';
+  $DateTime::TimeZone::America::Indiana::Knox::VERSION = '1.45';
 }
 
 use strict;

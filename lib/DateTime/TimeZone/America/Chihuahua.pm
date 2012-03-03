@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Chihuahua;
 {
-  $DateTime::TimeZone::America::Chihuahua::VERSION = '1.44';
+  $DateTime::TimeZone::America::Chihuahua::VERSION = '1.45';
 }
 
 use strict;

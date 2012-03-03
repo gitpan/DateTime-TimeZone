@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Atikokan;
 {
-  $DateTime::TimeZone::America::Atikokan::VERSION = '1.44';
+  $DateTime::TimeZone::America::Atikokan::VERSION = '1.45';
 }
 
 use strict;

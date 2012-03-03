@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::CET;
 {
-  $DateTime::TimeZone::CET::VERSION = '1.44';
+  $DateTime::TimeZone::CET::VERSION = '1.45';
 }
 
 use strict;

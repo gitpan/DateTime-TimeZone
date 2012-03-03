@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Pitcairn;
 {
-  $DateTime::TimeZone::Pacific::Pitcairn::VERSION = '1.44';
+  $DateTime::TimeZone::Pacific::Pitcairn::VERSION = '1.45';
 }
 
 use strict;

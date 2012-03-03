@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Pacific::Wallis;
 {
-  $DateTime::TimeZone::Pacific::Wallis::VERSION = '1.44';
+  $DateTime::TimeZone::Pacific::Wallis::VERSION = '1.45';
 }
 
 use strict;

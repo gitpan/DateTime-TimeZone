@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Oral;
 {
-  $DateTime::TimeZone::Asia::Oral::VERSION = '1.44';
+  $DateTime::TimeZone::Asia::Oral::VERSION = '1.45';
 }
 
 use strict;

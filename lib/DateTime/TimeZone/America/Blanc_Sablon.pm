@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Blanc_Sablon;
 {
-  $DateTime::TimeZone::America::Blanc_Sablon::VERSION = '1.44';
+  $DateTime::TimeZone::America::Blanc_Sablon::VERSION = '1.45';
 }
 
 use strict;

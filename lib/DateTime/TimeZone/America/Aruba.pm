@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Aruba;
 {
-  $DateTime::TimeZone::America::Aruba::VERSION = '1.44';
+  $DateTime::TimeZone::America::Aruba::VERSION = '1.45';
 }
 
 use strict;

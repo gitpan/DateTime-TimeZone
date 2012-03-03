@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::MST;
 {
-  $DateTime::TimeZone::MST::VERSION = '1.44';
+  $DateTime::TimeZone::MST::VERSION = '1.45';
 }
 
 use strict;

@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Pangnirtung;
 {
-  $DateTime::TimeZone::America::Pangnirtung::VERSION = '1.44';
+  $DateTime::TimeZone::America::Pangnirtung::VERSION = '1.45';
 }
 
 use strict;

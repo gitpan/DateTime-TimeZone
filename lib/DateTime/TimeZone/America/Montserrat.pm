@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::Montserrat;
 {
-  $DateTime::TimeZone::America::Montserrat::VERSION = '1.44';
+  $DateTime::TimeZone::America::Montserrat::VERSION = '1.45';
 }
 
 use strict;

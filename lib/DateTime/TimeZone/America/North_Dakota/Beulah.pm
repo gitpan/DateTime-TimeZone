@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::America::North_Dakota::Beulah;
 {
-  $DateTime::TimeZone::America::North_Dakota::Beulah::VERSION = '1.44';
+  $DateTime::TimeZone::America::North_Dakota::Beulah::VERSION = '1.45';
 }
 
 use strict;

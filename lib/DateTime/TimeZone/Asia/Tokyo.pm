@@ -9,7 +9,7 @@
 #
 package DateTime::TimeZone::Asia::Tokyo;
 {
-  $DateTime::TimeZone::Asia::Tokyo::VERSION = '1.44';
+  $DateTime::TimeZone::Asia::Tokyo::VERSION = '1.45';
 }
 
 use strict;
