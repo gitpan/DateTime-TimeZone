@@ -7,7 +7,7 @@
 
 package DateTime::TimeZone::Catalog;
 {
-  $DateTime::TimeZone::Catalog::VERSION = '1.49';
+  $DateTime::TimeZone::Catalog::VERSION = '1.50';
 }
 
 use strict;
@@ -2404,17 +2404,17 @@ so that applications can easily present a list of timezones.
 
 =head3 Antarctica (AQ)
 
-  Antarctica/Casey - Casey Station, Bailey Peninsula
-  Antarctica/Davis - Davis Station, Vestfold Hills
-  Antarctica/DumontDUrville - Dumont-d'Urville Station, Terre Adelie
-  Antarctica/Macquarie - Macquarie Island Station, Macquarie Island
-  Antarctica/Mawson - Mawson Station, Holme Bay
   Antarctica/McMurdo - McMurdo Station, Ross Island
-  Antarctica/Palmer - Palmer Station, Anvers Island
-  Antarctica/Rothera - Rothera Station, Adelaide Island
   Antarctica/South_Pole - Amundsen-Scott Station, South Pole
-  Antarctica/Syowa - Syowa Station, E Ongul I
+  Antarctica/Rothera - Rothera Station, Adelaide Island
+  Antarctica/Palmer - Palmer Station, Anvers Island
+  Antarctica/Mawson - Mawson Station, Holme Bay
+  Antarctica/Davis - Davis Station, Vestfold Hills
+  Antarctica/Casey - Casey Station, Bailey Peninsula
   Antarctica/Vostok - Vostok Station, Lake Vostok
+  Antarctica/DumontDUrville - Dumont-d'Urville Station, Terre Adelie
+  Antarctica/Syowa - Syowa Station, E Ongul I
+  Antarctica/Macquarie - Macquarie Island Station, Macquarie Island
 
 =head3 Antigua and Barbuda (AG)
 
@@ -2423,16 +2423,16 @@ so that applications can easily present a list of timezones.
 =head3 Argentina (AR)
 
   America/Argentina/Buenos_Aires - Buenos Aires (BA, CF)
-  America/Argentina/Catamarca - Catamarca (CT), Chubut (CH)
   America/Argentina/Cordoba - most locations (CB, CC, CN, ER, FM, MN, SE, SF)
-  America/Argentina/Jujuy - Jujuy (JY)
-  America/Argentina/La_Rioja - La Rioja (LR)
-  America/Argentina/Mendoza - Mendoza (MZ)
-  America/Argentina/Rio_Gallegos - Santa Cruz (SC)
   America/Argentina/Salta - (SA, LP, NQ, RN)
-  America/Argentina/San_Juan - San Juan (SJ)
-  America/Argentina/San_Luis - San Luis (SL)
+  America/Argentina/Jujuy - Jujuy (JY)
   America/Argentina/Tucuman - Tucuman (TM)
+  America/Argentina/Catamarca - Catamarca (CT), Chubut (CH)
+  America/Argentina/La_Rioja - La Rioja (LR)
+  America/Argentina/San_Juan - San Juan (SJ)
+  America/Argentina/Mendoza - Mendoza (MZ)
+  America/Argentina/San_Luis - San Luis (SL)
+  America/Argentina/Rio_Gallegos - Santa Cruz (SC)
   America/Argentina/Ushuaia - Tierra del Fuego (TF)
 
 =head3 Armenia (AM)
@@ -2445,18 +2445,18 @@ so that applications can easily present a list of timezones.
 
 =head3 Australia (AU)
 
-  Australia/Adelaide - South Australia
-  Australia/Brisbane - Queensland - most locations
-  Australia/Broken_Hill - New South Wales - Yancowinna
-  Australia/Currie - Tasmania - King Island
-  Australia/Darwin - Northern Territory
-  Australia/Eucla - Western Australia - Eucla area
-  Australia/Hobart - Tasmania - most locations
-  Australia/Lindeman - Queensland - Holiday Islands
   Australia/Lord_Howe - Lord Howe Island
+  Australia/Hobart - Tasmania - most locations
+  Australia/Currie - Tasmania - King Island
   Australia/Melbourne - Victoria
-  Australia/Perth - Western Australia - most locations
   Australia/Sydney - New South Wales - most locations
+  Australia/Broken_Hill - New South Wales - Yancowinna
+  Australia/Brisbane - Queensland - most locations
+  Australia/Lindeman - Queensland - Holiday Islands
+  Australia/Adelaide - South Australia
+  Australia/Darwin - Northern Territory
+  Australia/Perth - Western Australia - most locations
+  Australia/Eucla - Western Australia - Eucla area
 
 =head3 Austria (AT)
 
@@ -2524,22 +2524,22 @@ so that applications can easily present a list of timezones.
 
 =head3 Brazil (BR)
 
-  America/Araguaina - Tocantins
-  America/Bahia - Bahia
+  America/Noronha - Atlantic islands
   America/Belem - Amapa, E Para
-  America/Boa_Vista - Roraima
+  America/Fortaleza - NE Brazil (MA, PI, CE, RN, PB)
+  America/Recife - Pernambuco
+  America/Araguaina - Tocantins
+  America/Maceio - Alagoas, Sergipe
+  America/Bahia - Bahia
+  America/Sao_Paulo - S & SE Brazil (GO, DF, MG, ES, RJ, SP, PR, SC, RS)
   America/Campo_Grande - Mato Grosso do Sul
   America/Cuiaba - Mato Grosso
-  America/Eirunepe - W Amazonas
-  America/Fortaleza - NE Brazil (MA, PI, CE, RN, PB)
-  America/Maceio - Alagoas, Sergipe
-  America/Manaus - E Amazonas
-  America/Noronha - Atlantic islands
-  America/Porto_Velho - Rondonia
-  America/Recife - Pernambuco
-  America/Rio_Branco - Acre
   America/Santarem - W Para
-  America/Sao_Paulo - S & SE Brazil (GO, DF, MG, ES, RJ, SP, PR, SC, RS)
+  America/Porto_Velho - Rondonia
+  America/Boa_Vista - Roraima
+  America/Manaus - E Amazonas
+  America/Eirunepe - W Amazonas
+  America/Rio_Branco - Acre
 
 =head3 British Indian Ocean Territory (IO)
 
@@ -2571,34 +2571,34 @@ so that applications can easily present a list of timezones.
 
 =head3 Canada (CA)
 
-  America/Atikokan - Eastern Standard Time - Atikokan, Ontario and Southampton I, Nunavut
-  America/Blanc-Sablon - Atlantic Standard Time - Quebec - Lower North Shore
-  America/Cambridge_Bay - Mountain Time - west Nunavut
-  America/Creston - Mountain Standard Time - Creston, British Columbia
-  America/Dawson - Pacific Time - north Yukon
-  America/Dawson_Creek - Mountain Standard Time - Dawson Creek & Fort Saint John, British Columbia
-  America/Edmonton - Mountain Time - Alberta, east British Columbia & west Saskatchewan
-  America/Glace_Bay - Atlantic Time - Nova Scotia - places that did not observe DST 1966-1971
-  America/Goose_Bay - Atlantic Time - Labrador - most locations
-  America/Halifax - Atlantic Time - Nova Scotia (most places), PEI
-  America/Inuvik - Mountain Time - west Northwest Territories
-  America/Iqaluit - Eastern Time - east Nunavut - most locations
-  America/Moncton - Atlantic Time - New Brunswick
-  America/Montreal - Eastern Time - Quebec - most locations
-  America/Nipigon - Eastern Time - Ontario & Quebec - places that did not observe DST 1967-1973
-  America/Pangnirtung - Eastern Time - Pangnirtung, Nunavut
-  America/Rainy_River - Central Time - Rainy River & Fort Frances, Ontario
-  America/Rankin_Inlet - Central Time - central Nunavut
-  America/Regina - Central Standard Time - Saskatchewan - most locations
-  America/Resolute - Central Standard Time - Resolute, Nunavut
   America/St_Johns - Newfoundland Time, including SE Labrador
-  America/Swift_Current - Central Standard Time - Saskatchewan - midwest
-  America/Thunder_Bay - Eastern Time - Thunder Bay, Ontario
+  America/Halifax - Atlantic Time - Nova Scotia (most places), PEI
+  America/Glace_Bay - Atlantic Time - Nova Scotia - places that did not observe DST 1966-1971
+  America/Moncton - Atlantic Time - New Brunswick
+  America/Goose_Bay - Atlantic Time - Labrador - most locations
+  America/Blanc-Sablon - Atlantic Standard Time - Quebec - Lower North Shore
+  America/Montreal - Eastern Time - Quebec - most locations
   America/Toronto - Eastern Time - Ontario - most locations
+  America/Nipigon - Eastern Time - Ontario & Quebec - places that did not observe DST 1967-1973
+  America/Thunder_Bay - Eastern Time - Thunder Bay, Ontario
+  America/Iqaluit - Eastern Time - east Nunavut - most locations
+  America/Pangnirtung - Eastern Time - Pangnirtung, Nunavut
+  America/Resolute - Central Standard Time - Resolute, Nunavut
+  America/Atikokan - Eastern Standard Time - Atikokan, Ontario and Southampton I, Nunavut
+  America/Rankin_Inlet - Central Time - central Nunavut
+  America/Winnipeg - Central Time - Manitoba & west Ontario
+  America/Rainy_River - Central Time - Rainy River & Fort Frances, Ontario
+  America/Regina - Central Standard Time - Saskatchewan - most locations
+  America/Swift_Current - Central Standard Time - Saskatchewan - midwest
+  America/Edmonton - Mountain Time - Alberta, east British Columbia & west Saskatchewan
+  America/Cambridge_Bay - Mountain Time - west Nunavut
+  America/Yellowknife - Mountain Time - central Northwest Territories
+  America/Inuvik - Mountain Time - west Northwest Territories
+  America/Creston - Mountain Standard Time - Creston, British Columbia
+  America/Dawson_Creek - Mountain Standard Time - Dawson Creek & Fort Saint John, British Columbia
   America/Vancouver - Pacific Time - west British Columbia
   America/Whitehorse - Pacific Time - south Yukon
-  America/Winnipeg - Central Time - Manitoba & west Ontario
-  America/Yellowknife - Mountain Time - central Northwest Territories
+  America/Dawson - Pacific Time - north Yukon
 
 =head3 Cape Verde (CV)
 
@@ -2623,11 +2623,11 @@ so that applications can easily present a list of timezones.
 
 =head3 China (CN)
 
-  Asia/Chongqing - central China - Sichuan, Yunnan, Guangxi, Shaanxi, Guizhou, etc.
-  Asia/Harbin - Heilongjiang (except Mohe), Jilin
-  Asia/Kashgar - west Tibet & Xinjiang
   Asia/Shanghai - east China - Beijing, Guangdong, Shanghai, etc.
+  Asia/Harbin - Heilongjiang (except Mohe), Jilin
+  Asia/Chongqing - central China - Sichuan, Yunnan, Guangxi, Shaanxi, Guizhou, etc.
   Asia/Urumqi - most of Tibet & Xinjiang
+  Asia/Kashgar - west Tibet & Xinjiang
 
 =head3 Christmas Island (CX)
 
@@ -2757,9 +2757,9 @@ so that applications can easily present a list of timezones.
 
 =head3 French Polynesia (PF)
 
-  Pacific/Gambier - Gambier Islands
-  Pacific/Marquesas - Marquesas Islands
   Pacific/Tahiti - Society Islands
+  Pacific/Marquesas - Marquesas Islands
+  Pacific/Gambier - Gambier Islands
 
 =head3 French Southern Territories (TF)
 
@@ -2795,8 +2795,8 @@ so that applications can easily present a list of timezones.
 
 =head3 Greenland (GL)
 
-  America/Danmarkshavn - east coast, north of Scoresbysund
   America/Godthab - most locations
+  America/Danmarkshavn - east coast, north of Scoresbysund
   America/Scoresbysund - Scoresbysund / Ittoqqortoormiit
   America/Thule - Thule / Pituffik
 
@@ -2863,9 +2863,9 @@ so that applications can easily present a list of timezones.
 =head3 Indonesia (ID)
 
   Asia/Jakarta - Java & Sumatra
-  Asia/Jayapura - west New Guinea (Irian Jaya) & Malukus (Moluccas)
-  Asia/Makassar - east & south Borneo, Sulawesi (Celebes), Bali, Nusa Tengarra, west Timor
   Asia/Pontianak - west & central Borneo
+  Asia/Makassar - east & south Borneo, Sulawesi (Celebes), Bali, Nusa Tengarra, west Timor
+  Asia/Jayapura - west New Guinea (Irian Jaya) & Malukus (Moluccas)
 
 =head3 Iran, Islamic Republic of (IR)
 
@@ -2910,10 +2910,10 @@ so that applications can easily present a list of timezones.
 =head3 Kazakhstan (KZ)
 
   Asia/Almaty - most locations
-  Asia/Aqtau - Atyrau (Atirau, Gur'yev), Mangghystau (Mankistau)
-  Asia/Aqtobe - Aqtobe (Aktobe)
-  Asia/Oral - West Kazakhstan
   Asia/Qyzylorda - Qyzylorda (Kyzylorda, Kzyl-Orda)
+  Asia/Aqtobe - Aqtobe (Aktobe)
+  Asia/Aqtau - Atyrau (Atirau, Gur'yev), Mangghystau (Mankistau)
+  Asia/Oral - West Kazakhstan
 
 =head3 Kenya (KE)
 
@@ -2921,9 +2921,9 @@ so that applications can easily present a list of timezones.
 
 =head3 Kiribati (KI)
 
+  Pacific/Tarawa - Gilbert Islands
   Pacific/Enderbury - Phoenix Islands
   Pacific/Kiritimati - Line Islands
-  Pacific/Tarawa - Gilbert Islands
 
 =head3 Korea, Democratic People's Republic of (KP)
 
@@ -3012,8 +3012,8 @@ so that applications can easily present a list of timezones.
 
 =head3 Marshall Islands (MH)
 
-  Pacific/Kwajalein - Kwajalein
   Pacific/Majuro - most locations
+  Pacific/Kwajalein - Kwajalein
 
 =head3 Martinique (MQ)
 
@@ -3033,24 +3033,24 @@ so that applications can easily present a list of timezones.
 
 =head3 Mexico (MX)
 
-  America/Bahia_Banderas - Mexican Central Time - Bahia de Banderas
+  America/Mexico_City - Central Time - most locations
   America/Cancun - Central Time - Quintana Roo
-  America/Chihuahua - Mexican Mountain Time - Chihuahua away from US border
-  America/Hermosillo - Mountain Standard Time - Sonora
+  America/Merida - Central Time - Campeche, Yucatan
+  America/Monterrey - Mexican Central Time - Coahuila, Durango, Nuevo Leon, Tamaulipas away from US border
   America/Matamoros - US Central Time - Coahuila, Durango, Nuevo Leon, Tamaulipas near US border
   America/Mazatlan - Mountain Time - S Baja, Nayarit, Sinaloa
-  America/Merida - Central Time - Campeche, Yucatan
-  America/Mexico_City - Central Time - most locations
-  America/Monterrey - Mexican Central Time - Coahuila, Durango, Nuevo Leon, Tamaulipas away from US border
+  America/Chihuahua - Mexican Mountain Time - Chihuahua away from US border
   America/Ojinaga - US Mountain Time - Chihuahua near US border
-  America/Santa_Isabel - Mexican Pacific Time - Baja California away from US border
+  America/Hermosillo - Mountain Standard Time - Sonora
   America/Tijuana - US Pacific Time - Baja California near US border
+  America/Santa_Isabel - Mexican Pacific Time - Baja California away from US border
+  America/Bahia_Banderas - Mexican Central Time - Bahia de Banderas
 
 =head3 Micronesia, Federated States of (FM)
 
   Pacific/Chuuk - Chuuk (Truk) and Yap
-  Pacific/Kosrae - Kosrae
   Pacific/Pohnpei - Pohnpei (Ponape)
+  Pacific/Kosrae - Kosrae
 
 =head3 Moldova, Republic of (MD)
 
@@ -3062,9 +3062,9 @@ so that applications can easily present a list of timezones.
 
 =head3 Mongolia (MN)
 
-  Asia/Choibalsan - Dornod, Sukhbaatar
-  Asia/Hovd - Bayan-Olgiy, Govi-Altai, Hovd, Uvs, Zavkhan
   Asia/Ulaanbaatar - most locations
+  Asia/Hovd - Bayan-Olgiy, Govi-Altai, Hovd, Uvs, Zavkhan
+  Asia/Choibalsan - Dornod, Sukhbaatar
 
 =head3 Montenegro (ME)
 
@@ -3186,9 +3186,9 @@ so that applications can easily present a list of timezones.
 
 =head3 Portugal (PT)
 
-  Atlantic/Azores - Azores
-  Atlantic/Madeira - Madeira Islands
   Europe/Lisbon - mainland
+  Atlantic/Madeira - Madeira Islands
+  Atlantic/Azores - Azores
 
 =head3 Puerto Rico (PR)
 
@@ -3208,22 +3208,22 @@ so that applications can easily present a list of timezones.
 
 =head3 Russian Federation (RU)
 
-  Asia/Anadyr - Moscow+08 - Bering Sea
-  Asia/Irkutsk - Moscow+05 - Lake Baikal
-  Asia/Kamchatka - Moscow+08 - Kamchatka
-  Asia/Krasnoyarsk - Moscow+04 - Yenisei River
-  Asia/Magadan - Moscow+08 - Magadan
-  Asia/Novokuznetsk - Moscow+03 - Novokuznetsk
-  Asia/Novosibirsk - Moscow+03 - Novosibirsk
-  Asia/Omsk - Moscow+03 - west Siberia
-  Asia/Sakhalin - Moscow+07 - Sakhalin Island
-  Asia/Vladivostok - Moscow+07 - Amur River
-  Asia/Yakutsk - Moscow+06 - Lena River
-  Asia/Yekaterinburg - Moscow+02 - Urals
   Europe/Kaliningrad - Moscow-01 - Kaliningrad
   Europe/Moscow - Moscow+00 - west Russia
-  Europe/Samara - Moscow+00 - Samara, Udmurtia
   Europe/Volgograd - Moscow+00 - Caspian Sea
+  Europe/Samara - Moscow+00 - Samara, Udmurtia
+  Asia/Yekaterinburg - Moscow+02 - Urals
+  Asia/Omsk - Moscow+03 - west Siberia
+  Asia/Novosibirsk - Moscow+03 - Novosibirsk
+  Asia/Novokuznetsk - Moscow+03 - Novokuznetsk
+  Asia/Krasnoyarsk - Moscow+04 - Yenisei River
+  Asia/Irkutsk - Moscow+05 - Lake Baikal
+  Asia/Yakutsk - Moscow+06 - Lena River
+  Asia/Vladivostok - Moscow+07 - Amur River
+  Asia/Sakhalin - Moscow+07 - Sakhalin Island
+  Asia/Magadan - Moscow+08 - Magadan
+  Asia/Kamchatka - Moscow+08 - Kamchatka
+  Asia/Anadyr - Moscow+08 - Bering Sea
 
 =head3 Rwanda (RW)
 
@@ -3327,9 +3327,9 @@ so that applications can easily present a list of timezones.
 
 =head3 Spain (ES)
 
+  Europe/Madrid - mainland
   Africa/Ceuta - Ceuta & Melilla
   Atlantic/Canary - Canary Islands
-  Europe/Madrid - mainland
 
 =head3 Sri Lanka (LK)
 
@@ -3426,9 +3426,9 @@ so that applications can easily present a list of timezones.
 =head3 Ukraine (UA)
 
   Europe/Kiev - most locations
-  Europe/Simferopol - central Crimea
   Europe/Uzhgorod - Ruthenia
   Europe/Zaporozhye - Zaporozh'ye, E Lugansk / Zaporizhia, E Luhansk
+  Europe/Simferopol - central Crimea
 
 =head3 United Arab Emirates (AE)
 
@@ -3440,35 +3440,35 @@ so that applications can easily present a list of timezones.
 
 =head3 United States (US)
 
-  America/Adak - Aleutian Islands
-  America/Anchorage - Alaska Time
-  America/Boise - Mountain Time - south Idaho & east Oregon
-  America/Chicago - Central Time
-  America/Denver - Mountain Time
+  America/New_York - Eastern Time
   America/Detroit - Eastern Time - Michigan - most locations
-  America/Indiana/Indianapolis - Eastern Time - Indiana - most locations
-  America/Indiana/Knox - Central Time - Indiana - Starke County
-  America/Indiana/Marengo - Eastern Time - Indiana - Crawford County
-  America/Indiana/Petersburg - Eastern Time - Indiana - Pike County
-  America/Indiana/Tell_City - Central Time - Indiana - Perry County
-  America/Indiana/Vevay - Eastern Time - Indiana - Switzerland County
-  America/Indiana/Vincennes - Eastern Time - Indiana - Daviess, Dubois, Knox & Martin Counties
-  America/Indiana/Winamac - Eastern Time - Indiana - Pulaski County
-  America/Juneau - Alaska Time - Alaska panhandle
   America/Kentucky/Louisville - Eastern Time - Kentucky - Louisville area
   America/Kentucky/Monticello - Eastern Time - Kentucky - Wayne County
-  America/Los_Angeles - Pacific Time
+  America/Indiana/Indianapolis - Eastern Time - Indiana - most locations
+  America/Indiana/Vincennes - Eastern Time - Indiana - Daviess, Dubois, Knox & Martin Counties
+  America/Indiana/Winamac - Eastern Time - Indiana - Pulaski County
+  America/Indiana/Marengo - Eastern Time - Indiana - Crawford County
+  America/Indiana/Petersburg - Eastern Time - Indiana - Pike County
+  America/Indiana/Vevay - Eastern Time - Indiana - Switzerland County
+  America/Chicago - Central Time
+  America/Indiana/Tell_City - Central Time - Indiana - Perry County
+  America/Indiana/Knox - Central Time - Indiana - Starke County
   America/Menominee - Central Time - Michigan - Dickinson, Gogebic, Iron & Menominee Counties
-  America/Metlakatla - Metlakatla Time - Annette Island
-  America/New_York - Eastern Time
-  America/Nome - Alaska Time - west Alaska
-  America/North_Dakota/Beulah - Central Time - North Dakota - Mercer County
   America/North_Dakota/Center - Central Time - North Dakota - Oliver County
   America/North_Dakota/New_Salem - Central Time - North Dakota - Morton County (except Mandan area)
-  America/Phoenix - Mountain Standard Time - Arizona
+  America/North_Dakota/Beulah - Central Time - North Dakota - Mercer County
+  America/Denver - Mountain Time
+  America/Boise - Mountain Time - south Idaho & east Oregon
   America/Shiprock - Mountain Time - Navajo
+  America/Phoenix - Mountain Standard Time - Arizona
+  America/Los_Angeles - Pacific Time
+  America/Anchorage - Alaska Time
+  America/Juneau - Alaska Time - Alaska panhandle
   America/Sitka - Alaska Time - southeast Alaska panhandle
   America/Yakutat - Alaska Time - Alaska panhandle neck
+  America/Nome - Alaska Time - west Alaska
+  America/Adak - Aleutian Islands
+  America/Metlakatla - Metlakatla Time - Annette Island
   Pacific/Honolulu - Hawaii
 
 =head3 United States Minor Outlying Islands (UM)
