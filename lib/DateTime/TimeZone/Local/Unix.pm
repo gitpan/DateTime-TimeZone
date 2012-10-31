@@ -1,6 +1,6 @@
 package DateTime::TimeZone::Local::Unix;
 {
-  $DateTime::TimeZone::Local::Unix::VERSION = '1.51';
+  $DateTime::TimeZone::Local::Unix::VERSION = '1.52';
 }
 
 use strict;
@@ -236,7 +236,7 @@ sub _ReadEtcDefaultInit {
 
 # ABSTRACT: Determine the local system's time zone on Unix
 
-
+__END__
 
 =pod
 
@@ -246,7 +246,7 @@ DateTime::TimeZone::Local::Unix - Determine the local system's time zone on Unix
 
 =head1 VERSION
 
-version 1.51
+version 1.52
 
 =head1 SYNOPSIS
 
@@ -318,7 +318,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-

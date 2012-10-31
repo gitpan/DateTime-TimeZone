@@ -1,6 +1,6 @@
 package DateTime::TimeZone::Local::VMS;
 {
-  $DateTime::TimeZone::Local::VMS::VERSION = '1.51';
+  $DateTime::TimeZone::Local::VMS::VERSION = '1.52';
 }
 
 use strict;
@@ -18,7 +18,7 @@ sub EnvVars {
 
 # ABSTRACT: Determine the local system's time zone on VMS
 
-
+__END__
 
 =pod
 
@@ -28,7 +28,7 @@ DateTime::TimeZone::Local::VMS - Determine the local system's time zone on VMS
 
 =head1 VERSION
 
-version 1.51
+version 1.52
 
 =head1 SYNOPSIS
 
@@ -83,7 +83,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-

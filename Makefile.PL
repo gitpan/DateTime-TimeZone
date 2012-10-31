@@ -43,7 +43,7 @@ my %WriteMakefileArgs = (
     "vars" => 0,
     "warnings" => 0
   },
-  "VERSION" => "1.51",
+  "VERSION" => "1.52",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -67,11 +67,11 @@ delete $WriteMakefileArgs{CONFIGURE_REQUIRES}
   unless eval { ExtUtils::MakeMaker->VERSION(6.52) };
 
 if ( $^O eq 'MSWin32' ) {
-  $WriteMakefileArgs{PREREQ_PM}{'Win32::TieRegistry'} = '0';
+	$WriteMakefileArgs{PREREQ_PM}{'Win32::TieRegistry'} = '0';
 }
 
 if ( $^O eq 'hpux' ) {
-  $WriteMakefileArgs{PREREQ_PM}{'DateTime::TimeZone::HPUX'} = '0';
+	$WriteMakefileArgs{PREREQ_PM}{'DateTime::TimeZone::HPUX'} = '0';
 }
 
 WriteMakefile(%WriteMakefileArgs);

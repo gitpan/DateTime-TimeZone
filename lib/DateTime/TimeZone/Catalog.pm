@@ -7,7 +7,7 @@
 
 package DateTime::TimeZone::Catalog;
 {
-  $DateTime::TimeZone::Catalog::VERSION = '1.51';
+  $DateTime::TimeZone::Catalog::VERSION = '1.52';
 }
 
 use strict;
@@ -1921,7 +1921,7 @@ qw(
 
 ;
 
-sub OlsonVersion { '2012g' }
+sub OlsonVersion { '2012h' }
 
 
 1;
@@ -2961,7 +2961,7 @@ so that applications can easily present a list of timezones.
 
   Africa/Monrovia
 
-=head3 Libyan Arab Jamahiriya (LY)
+=head3 Libya (LY)
 
   Africa/Tripoli
 

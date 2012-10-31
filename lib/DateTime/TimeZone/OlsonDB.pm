@@ -1,6 +1,6 @@
 package DateTime::TimeZone::OlsonDB;
 {
-  $DateTime::TimeZone::OlsonDB::VERSION = '1.51';
+  $DateTime::TimeZone::OlsonDB::VERSION = '1.52';
 }
 
 use strict;
@@ -301,7 +301,7 @@ sub utc_datetime_for_time_spec {
 
 # ABSTRACT: An object to represent an Olson time zone database
 
-
+__END__
 
 =pod
 
@@ -311,7 +311,7 @@ DateTime::TimeZone::OlsonDB - An object to represent an Olson time zone database
 
 =head1 VERSION
 
-version 1.51
+version 1.52
 
 =head1 SYNOPSIS
 
@@ -356,7 +356,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-

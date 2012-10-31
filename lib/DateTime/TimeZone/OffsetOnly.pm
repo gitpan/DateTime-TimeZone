@@ -1,6 +1,6 @@
 package DateTime::TimeZone::OffsetOnly;
 {
-  $DateTime::TimeZone::OffsetOnly::VERSION = '1.51';
+  $DateTime::TimeZone::OffsetOnly::VERSION = '1.52';
 }
 
 use strict;
@@ -74,7 +74,7 @@ sub STORABLE_thaw {
 
 # ABSTRACT: A DateTime::TimeZone object that just contains an offset
 
-
+__END__
 
 =pod
 
@@ -84,7 +84,7 @@ DateTime::TimeZone::OffsetOnly - A DateTime::TimeZone object that just contains 
 
 =head1 VERSION
 
-version 1.51
+version 1.52
 
 =head1 SYNOPSIS
 
@@ -131,7 +131,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-

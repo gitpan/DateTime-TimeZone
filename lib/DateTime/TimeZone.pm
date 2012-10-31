@@ -1,6 +1,6 @@
 package DateTime::TimeZone;
 {
-  $DateTime::TimeZone::VERSION = '1.51';
+  $DateTime::TimeZone::VERSION = '1.52';
 }
 
 use 5.006;
@@ -551,7 +551,7 @@ sub names_in_country {
 
 # ABSTRACT: Time zone object base class and factory
 
-
+__END__
 
 =pod
 
@@ -561,7 +561,7 @@ DateTime::TimeZone - Time zone object base class and factory
 
 =head1 VERSION
 
-version 1.51
+version 1.52
 
 =head1 SYNOPSIS
 
@@ -845,7 +845,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-
