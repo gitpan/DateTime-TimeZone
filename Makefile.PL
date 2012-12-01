@@ -29,7 +29,7 @@ my %WriteMakefileArgs = (
   "NAME" => "DateTime::TimeZone",
   "PREREQ_PM" => {
     "Class::Load" => 0,
-    "Class::Singleton" => 0,
+    "Class::Singleton" => "1.03",
     "Cwd" => 3,
     "File::Basename" => 0,
     "File::Compare" => 0,
@@ -43,7 +43,7 @@ my %WriteMakefileArgs = (
     "vars" => 0,
     "warnings" => 0
   },
-  "VERSION" => "1.55",
+  "VERSION" => "1.56",
   "test" => {
     "TESTS" => "t/*.t"
   }
