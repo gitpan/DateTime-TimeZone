@@ -250,6 +250,7 @@ lib/DateTime/TimeZone/Asia/Kamchatka.pm
 lib/DateTime/TimeZone/Asia/Karachi.pm
 lib/DateTime/TimeZone/Asia/Kashgar.pm
 lib/DateTime/TimeZone/Asia/Kathmandu.pm
+lib/DateTime/TimeZone/Asia/Khandyga.pm
 lib/DateTime/TimeZone/Asia/Kolkata.pm
 lib/DateTime/TimeZone/Asia/Krasnoyarsk.pm
 lib/DateTime/TimeZone/Asia/Kuala_Lumpur.pm
@@ -285,6 +286,7 @@ lib/DateTime/TimeZone/Asia/Thimphu.pm
 lib/DateTime/TimeZone/Asia/Tokyo.pm
 lib/DateTime/TimeZone/Asia/Ulaanbaatar.pm
 lib/DateTime/TimeZone/Asia/Urumqi.pm
+lib/DateTime/TimeZone/Asia/Ust_Nera.pm
 lib/DateTime/TimeZone/Asia/Vientiane.pm
 lib/DateTime/TimeZone/Asia/Vladivostok.pm
 lib/DateTime/TimeZone/Asia/Yakutsk.pm

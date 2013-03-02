@@ -7,7 +7,7 @@
 
 package DateTime::TimeZone::Catalog;
 {
-  $DateTime::TimeZone::Catalog::VERSION = '1.56';
+  $DateTime::TimeZone::Catalog::VERSION = '1.57';
 }
 
 use strict;
@@ -258,6 +258,7 @@ qw(
   Asia/Karachi
   Asia/Kashgar
   Asia/Kathmandu
+  Asia/Khandyga
   Asia/Kolkata
   Asia/Krasnoyarsk
   Asia/Kuala_Lumpur
@@ -293,6 +294,7 @@ qw(
   Asia/Tokyo
   Asia/Ulaanbaatar
   Asia/Urumqi
+  Asia/Ust-Nera
   Asia/Vientiane
   Asia/Vladivostok
   Asia/Yakutsk
@@ -690,6 +692,7 @@ qw(
     Karachi
     Kashgar
     Kathmandu
+    Khandyga
     Kolkata
     Krasnoyarsk
     Kuala_Lumpur
@@ -725,6 +728,7 @@ qw(
     Tokyo
     Ulaanbaatar
     Urumqi
+    Ust-Nera
     Vientiane
     Vladivostok
     Yakutsk
@@ -1107,6 +1111,7 @@ qw(
 ) ],
   'de' => [ qw(
     Europe/Berlin
+    Europe/Busingen
 ) ],
   'dj' => [ qw(
     Africa/Djibouti
@@ -1554,8 +1559,10 @@ qw(
     Asia/Krasnoyarsk
     Asia/Irkutsk
     Asia/Yakutsk
+    Asia/Khandyga
     Asia/Vladivostok
     Asia/Sakhalin
+    Asia/Ust-Nera
     Asia/Magadan
     Asia/Kamchatka
     Asia/Anadyr
@@ -1854,6 +1861,7 @@ qw(
   'Etc/Zulu' => 'UTC',
   'Europe/Belfast' => 'Europe/London',
   'Europe/Bratislava' => 'Europe/Prague',
+  'Europe/Busingen' => 'Europe/Zurich',
   'Europe/Guernsey' => 'Europe/London',
   'Europe/Isle_of_Man' => 'Europe/London',
   'Europe/Jersey' => 'Europe/London',
@@ -1921,7 +1929,7 @@ qw(
 
 ;
 
-sub OlsonVersion { '2012j' }
+sub OlsonVersion { '2013a' }
 
 
 1;
@@ -2229,12 +2237,14 @@ so that applications can easily present a list of timezones.
   Asia/Anadyr
   Asia/Irkutsk
   Asia/Kamchatka
+  Asia/Khandyga
   Asia/Krasnoyarsk
   Asia/Magadan
   Asia/Novokuznetsk
   Asia/Novosibirsk
   Asia/Omsk
   Asia/Sakhalin
+  Asia/Ust-Nera
   Asia/Vladivostok
   Asia/Yakutsk
   Asia/Yekaterinburg
@@ -2779,7 +2789,8 @@ so that applications can easily present a list of timezones.
 
 =head3 Germany (DE)
 
-  Europe/Berlin
+  Europe/Berlin - most locations
+  Europe/Busingen - Busingen
 
 =head3 Ghana (GH)
 
@@ -3219,8 +3230,10 @@ so that applications can easily present a list of timezones.
   Asia/Krasnoyarsk - Moscow+04 - Yenisei River
   Asia/Irkutsk - Moscow+05 - Lake Baikal
   Asia/Yakutsk - Moscow+06 - Lena River
+  Asia/Khandyga - Moscow+06 - Tomponsky, Ust-Maysky
   Asia/Vladivostok - Moscow+07 - Amur River
   Asia/Sakhalin - Moscow+07 - Sakhalin Island
+  Asia/Ust-Nera - Moscow+07 - Oymyakonsky
   Asia/Magadan - Moscow+08 - Magadan
   Asia/Kamchatka - Moscow+08 - Kamchatka
   Asia/Anadyr - Moscow+08 - Bering Sea
@@ -3607,6 +3620,7 @@ A linked zone is an alias from one name to another.
   Etc/Zulu => UTC
   Europe/Belfast => Europe/London
   Europe/Bratislava => Europe/Prague
+  Europe/Busingen => Europe/Zurich
   Europe/Guernsey => Europe/London
   Europe/Isle_of_Man => Europe/London
   Europe/Jersey => Europe/London
