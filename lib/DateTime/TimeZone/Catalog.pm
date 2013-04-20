@@ -7,7 +7,7 @@
 
 package DateTime::TimeZone::Catalog;
 {
-  $DateTime::TimeZone::Catalog::VERSION = '1.58';
+  $DateTime::TimeZone::Catalog::VERSION = '1.59';
 }
 
 use strict;
@@ -899,7 +899,6 @@ qw(
     Antarctica/Vostok
     Antarctica/DumontDUrville
     Antarctica/Syowa
-    Antarctica/Macquarie
 ) ],
   'ar' => [ qw(
     America/Argentina/Buenos_Aires
@@ -923,6 +922,7 @@ qw(
 ) ],
   'au' => [ qw(
     Australia/Lord_Howe
+    Antarctica/Macquarie
     Australia/Hobart
     Australia/Currie
     Australia/Melbourne
@@ -1929,7 +1929,7 @@ qw(
 
 ;
 
-sub OlsonVersion { '2013b' }
+sub OlsonVersion { '2013c' }
 
 
 1;
@@ -2159,13 +2159,13 @@ so that applications can easily present a list of timezones.
   Antarctica/Casey
   Antarctica/Davis
   Antarctica/DumontDUrville
-  Antarctica/Macquarie
   Antarctica/Mawson
   Antarctica/McMurdo
   Antarctica/Palmer
   Antarctica/Rothera
   Antarctica/Syowa
   Antarctica/Vostok
+  Antarctica/Macquarie
 
 =head3 Asia
 
@@ -2424,7 +2424,6 @@ so that applications can easily present a list of timezones.
   Antarctica/Vostok - Vostok Station, Lake Vostok
   Antarctica/DumontDUrville - Dumont-d'Urville Station, Terre Adelie
   Antarctica/Syowa - Syowa Station, E Ongul I
-  Antarctica/Macquarie - Macquarie Island Station, Macquarie Island
 
 =head3 Antigua and Barbuda (AG)
 
@@ -2456,6 +2455,7 @@ so that applications can easily present a list of timezones.
 =head3 Australia (AU)
 
   Australia/Lord_Howe - Lord Howe Island
+  Antarctica/Macquarie - Macquarie Island
   Australia/Hobart - Tasmania - most locations
   Australia/Currie - Tasmania - King Island
   Australia/Melbourne - Victoria
@@ -3162,7 +3162,7 @@ so that applications can easily present a list of timezones.
 
   Pacific/Palau
 
-=head3 Palestinian Territory, Occupied (PS)
+=head3 Palestine, State of (PS)
 
   Asia/Gaza - Gaza Strip
   Asia/Hebron - West Bank
