@@ -1,6 +1,9 @@
 package DateTime::TimeZone::Local::VMS;
 {
-  $DateTime::TimeZone::Local::VMS::VERSION = '1.59';
+  $DateTime::TimeZone::Local::VMS::VERSION = '1.60';
+}
+BEGIN {
+  $DateTime::TimeZone::Local::VMS::AUTHORITY = 'cpan:DROLSKY';
 }
 
 use strict;
@@ -28,7 +31,7 @@ DateTime::TimeZone::Local::VMS - Determine the local system's time zone on VMS
 
 =head1 VERSION
 
-version 1.59
+version 1.60
 
 =head1 SYNOPSIS
 

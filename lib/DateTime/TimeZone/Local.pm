@@ -1,6 +1,9 @@
 package DateTime::TimeZone::Local;
 {
-  $DateTime::TimeZone::Local::VERSION = '1.59';
+  $DateTime::TimeZone::Local::VERSION = '1.60';
+}
+BEGIN {
+  $DateTime::TimeZone::Local::AUTHORITY = 'cpan:DROLSKY';
 }
 
 use strict;
@@ -99,7 +102,7 @@ DateTime::TimeZone::Local - Determine the local system's time zone
 
 =head1 VERSION
 
-version 1.59
+version 1.60
 
 =head1 SYNOPSIS
 
@@ -164,7 +167,7 @@ list of env vars to be checked by C<< $class->FromEnv() >>.
 =head2 $class->_IsValidName($name)
 
 Given a possible time zone name, this returns a boolean indicating
-whether or not the the name looks valid. It always return false for
+whether or not the name looks valid. It always return false for
 "local" in order to avoid infinite loops.
 
 =head1 EXAMPLE SUBCLASS

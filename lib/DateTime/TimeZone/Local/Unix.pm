@@ -1,6 +1,9 @@
 package DateTime::TimeZone::Local::Unix;
 {
-  $DateTime::TimeZone::Local::Unix::VERSION = '1.59';
+  $DateTime::TimeZone::Local::Unix::VERSION = '1.60';
+}
+BEGIN {
+  $DateTime::TimeZone::Local::Unix::AUTHORITY = 'cpan:DROLSKY';
 }
 
 use strict;
@@ -188,8 +191,7 @@ sub FromEtcSysconfigClock {
     return eval { DateTime::TimeZone->new( name => $name ) };
 }
 
-# this is a sparate function so that it can be overridden in the test
-# suite
+# this is a separate function so that it can be overridden in the test suite
 sub _ReadEtcSysconfigClock {
     my $class = shift;
 
@@ -246,7 +248,7 @@ DateTime::TimeZone::Local::Unix - Determine the local system's time zone on Unix
 
 =head1 VERSION
 
-version 1.59
+version 1.60
 
 =head1 SYNOPSIS
 

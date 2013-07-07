@@ -1,6 +1,9 @@
 package DateTime::TimeZone::OlsonDB::Observance;
 {
-  $DateTime::TimeZone::OlsonDB::Observance::VERSION = '1.59';
+  $DateTime::TimeZone::OlsonDB::Observance::VERSION = '1.60';
+}
+BEGIN {
+  $DateTime::TimeZone::OlsonDB::Observance::AUTHORITY = 'cpan:DROLSKY';
 }
 
 use strict;
