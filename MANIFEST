@@ -33,7 +33,6 @@ lib/DateTime/TimeZone/Africa/Freetown.pm
 lib/DateTime/TimeZone/Africa/Gaborone.pm
 lib/DateTime/TimeZone/Africa/Harare.pm
 lib/DateTime/TimeZone/Africa/Johannesburg.pm
-lib/DateTime/TimeZone/Africa/Juba.pm
 lib/DateTime/TimeZone/Africa/Kampala.pm
 lib/DateTime/TimeZone/Africa/Khartoum.pm
 lib/DateTime/TimeZone/Africa/Kigali.pm
@@ -62,7 +61,6 @@ lib/DateTime/TimeZone/Africa/Tunis.pm
 lib/DateTime/TimeZone/Africa/Windhoek.pm
 lib/DateTime/TimeZone/America/Adak.pm
 lib/DateTime/TimeZone/America/Anchorage.pm
-lib/DateTime/TimeZone/America/Anguilla.pm
 lib/DateTime/TimeZone/America/Antigua.pm
 lib/DateTime/TimeZone/America/Araguaina.pm
 lib/DateTime/TimeZone/America/Argentina/Buenos_Aires.pm
@@ -77,7 +75,6 @@ lib/DateTime/TimeZone/America/Argentina/San_Juan.pm
 lib/DateTime/TimeZone/America/Argentina/San_Luis.pm
 lib/DateTime/TimeZone/America/Argentina/Tucuman.pm
 lib/DateTime/TimeZone/America/Argentina/Ushuaia.pm
-lib/DateTime/TimeZone/America/Aruba.pm
 lib/DateTime/TimeZone/America/Asuncion.pm
 lib/DateTime/TimeZone/America/Atikokan.pm
 lib/DateTime/TimeZone/America/Bahia.pm
@@ -106,7 +103,6 @@ lib/DateTime/TimeZone/America/Dawson.pm
 lib/DateTime/TimeZone/America/Dawson_Creek.pm
 lib/DateTime/TimeZone/America/Denver.pm
 lib/DateTime/TimeZone/America/Detroit.pm
-lib/DateTime/TimeZone/America/Dominica.pm
 lib/DateTime/TimeZone/America/Edmonton.pm
 lib/DateTime/TimeZone/America/Eirunepe.pm
 lib/DateTime/TimeZone/America/El_Salvador.pm
@@ -115,8 +111,6 @@ lib/DateTime/TimeZone/America/Glace_Bay.pm
 lib/DateTime/TimeZone/America/Godthab.pm
 lib/DateTime/TimeZone/America/Goose_Bay.pm
 lib/DateTime/TimeZone/America/Grand_Turk.pm
-lib/DateTime/TimeZone/America/Grenada.pm
-lib/DateTime/TimeZone/America/Guadeloupe.pm
 lib/DateTime/TimeZone/America/Guatemala.pm
 lib/DateTime/TimeZone/America/Guayaquil.pm
 lib/DateTime/TimeZone/America/Guyana.pm
@@ -155,7 +149,6 @@ lib/DateTime/TimeZone/America/Moncton.pm
 lib/DateTime/TimeZone/America/Monterrey.pm
 lib/DateTime/TimeZone/America/Montevideo.pm
 lib/DateTime/TimeZone/America/Montreal.pm
-lib/DateTime/TimeZone/America/Montserrat.pm
 lib/DateTime/TimeZone/America/Nassau.pm
 lib/DateTime/TimeZone/America/New_York.pm
 lib/DateTime/TimeZone/America/Nipigon.pm
@@ -187,17 +180,12 @@ lib/DateTime/TimeZone/America/Sao_Paulo.pm
 lib/DateTime/TimeZone/America/Scoresbysund.pm
 lib/DateTime/TimeZone/America/Sitka.pm
 lib/DateTime/TimeZone/America/St_Johns.pm
-lib/DateTime/TimeZone/America/St_Kitts.pm
-lib/DateTime/TimeZone/America/St_Lucia.pm
-lib/DateTime/TimeZone/America/St_Thomas.pm
-lib/DateTime/TimeZone/America/St_Vincent.pm
 lib/DateTime/TimeZone/America/Swift_Current.pm
 lib/DateTime/TimeZone/America/Tegucigalpa.pm
 lib/DateTime/TimeZone/America/Thule.pm
 lib/DateTime/TimeZone/America/Thunder_Bay.pm
 lib/DateTime/TimeZone/America/Tijuana.pm
 lib/DateTime/TimeZone/America/Toronto.pm
-lib/DateTime/TimeZone/America/Tortola.pm
 lib/DateTime/TimeZone/America/Vancouver.pm
 lib/DateTime/TimeZone/America/Whitehorse.pm
 lib/DateTime/TimeZone/America/Winnipeg.pm
@@ -208,7 +196,6 @@ lib/DateTime/TimeZone/Antarctica/Davis.pm
 lib/DateTime/TimeZone/Antarctica/DumontDUrville.pm
 lib/DateTime/TimeZone/Antarctica/Macquarie.pm
 lib/DateTime/TimeZone/Antarctica/Mawson.pm
-lib/DateTime/TimeZone/Antarctica/McMurdo.pm
 lib/DateTime/TimeZone/Antarctica/Palmer.pm
 lib/DateTime/TimeZone/Antarctica/Rothera.pm
 lib/DateTime/TimeZone/Antarctica/Syowa.pm
@@ -356,7 +343,6 @@ lib/DateTime/TimeZone/Europe/Stockholm.pm
 lib/DateTime/TimeZone/Europe/Tallinn.pm
 lib/DateTime/TimeZone/Europe/Tirane.pm
 lib/DateTime/TimeZone/Europe/Uzhgorod.pm
-lib/DateTime/TimeZone/Europe/Vaduz.pm
 lib/DateTime/TimeZone/Europe/Vienna.pm
 lib/DateTime/TimeZone/Europe/Vilnius.pm
 lib/DateTime/TimeZone/Europe/Volgograd.pm
@@ -405,7 +391,6 @@ lib/DateTime/TimeZone/Pacific/Gambier.pm
 lib/DateTime/TimeZone/Pacific/Guadalcanal.pm
 lib/DateTime/TimeZone/Pacific/Guam.pm
 lib/DateTime/TimeZone/Pacific/Honolulu.pm
-lib/DateTime/TimeZone/Pacific/Johnston.pm
 lib/DateTime/TimeZone/Pacific/Kiritimati.pm
 lib/DateTime/TimeZone/Pacific/Kosrae.pm
 lib/DateTime/TimeZone/Pacific/Kwajalein.pm

@@ -1,6 +1,6 @@
 package DateTime::TimeZone::Local::Unix;
 {
-  $DateTime::TimeZone::Local::Unix::VERSION = '1.60';
+  $DateTime::TimeZone::Local::Unix::VERSION = '1.61';
 }
 BEGIN {
   $DateTime::TimeZone::Local::Unix::AUTHORITY = 'cpan:DROLSKY';
@@ -248,7 +248,7 @@ DateTime::TimeZone::Local::Unix - Determine the local system's time zone on Unix
 
 =head1 VERSION
 
-version 1.60
+version 1.61
 
 =head1 SYNOPSIS
 

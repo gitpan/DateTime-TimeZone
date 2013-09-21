@@ -7,7 +7,7 @@
 
 package DateTime::TimeZone::Catalog;
 {
-  $DateTime::TimeZone::Catalog::VERSION = '1.60';
+  $DateTime::TimeZone::Catalog::VERSION = '1.61';
 }
 BEGIN {
   $DateTime::TimeZone::Catalog::AUTHORITY = 'cpan:DROLSKY';
@@ -44,7 +44,6 @@ qw(
   Africa/Gaborone
   Africa/Harare
   Africa/Johannesburg
-  Africa/Juba
   Africa/Kampala
   Africa/Khartoum
   Africa/Kigali
@@ -73,7 +72,6 @@ qw(
   Africa/Windhoek
   America/Adak
   America/Anchorage
-  America/Anguilla
   America/Antigua
   America/Araguaina
   America/Argentina/Buenos_Aires
@@ -88,7 +86,6 @@ qw(
   America/Argentina/San_Luis
   America/Argentina/Tucuman
   America/Argentina/Ushuaia
-  America/Aruba
   America/Asuncion
   America/Atikokan
   America/Bahia
@@ -117,7 +114,6 @@ qw(
   America/Dawson_Creek
   America/Denver
   America/Detroit
-  America/Dominica
   America/Edmonton
   America/Eirunepe
   America/El_Salvador
@@ -126,8 +122,6 @@ qw(
   America/Godthab
   America/Goose_Bay
   America/Grand_Turk
-  America/Grenada
-  America/Guadeloupe
   America/Guatemala
   America/Guayaquil
   America/Guyana
@@ -166,7 +160,6 @@ qw(
   America/Monterrey
   America/Montevideo
   America/Montreal
-  America/Montserrat
   America/Nassau
   America/New_York
   America/Nipigon
@@ -198,17 +191,12 @@ qw(
   America/Scoresbysund
   America/Sitka
   America/St_Johns
-  America/St_Kitts
-  America/St_Lucia
-  America/St_Thomas
-  America/St_Vincent
   America/Swift_Current
   America/Tegucigalpa
   America/Thule
   America/Thunder_Bay
   America/Tijuana
   America/Toronto
-  America/Tortola
   America/Vancouver
   America/Whitehorse
   America/Winnipeg
@@ -219,7 +207,6 @@ qw(
   Antarctica/DumontDUrville
   Antarctica/Macquarie
   Antarctica/Mawson
-  Antarctica/McMurdo
   Antarctica/Palmer
   Antarctica/Rothera
   Antarctica/Syowa
@@ -366,7 +353,6 @@ qw(
   Europe/Tallinn
   Europe/Tirane
   Europe/Uzhgorod
-  Europe/Vaduz
   Europe/Vienna
   Europe/Vilnius
   Europe/Volgograd
@@ -404,7 +390,6 @@ qw(
   Pacific/Guadalcanal
   Pacific/Guam
   Pacific/Honolulu
-  Pacific/Johnston
   Pacific/Kiritimati
   Pacific/Kosrae
   Pacific/Kwajalein
@@ -472,7 +457,6 @@ qw(
     Gaborone
     Harare
     Johannesburg
-    Juba
     Kampala
     Khartoum
     Kigali
@@ -503,7 +487,6 @@ qw(
   'America' => [ qw(
     Adak
     Anchorage
-    Anguilla
     Antigua
     Araguaina
     Argentina/Buenos_Aires
@@ -518,7 +501,6 @@ qw(
     Argentina/San_Luis
     Argentina/Tucuman
     Argentina/Ushuaia
-    Aruba
     Asuncion
     Atikokan
     Bahia
@@ -547,7 +529,6 @@ qw(
     Dawson_Creek
     Denver
     Detroit
-    Dominica
     Edmonton
     Eirunepe
     El_Salvador
@@ -556,8 +537,6 @@ qw(
     Godthab
     Goose_Bay
     Grand_Turk
-    Grenada
-    Guadeloupe
     Guatemala
     Guayaquil
     Guyana
@@ -596,7 +575,6 @@ qw(
     Monterrey
     Montevideo
     Montreal
-    Montserrat
     Nassau
     New_York
     Nipigon
@@ -628,17 +606,12 @@ qw(
     Scoresbysund
     Sitka
     St_Johns
-    St_Kitts
-    St_Lucia
-    St_Thomas
-    St_Vincent
     Swift_Current
     Tegucigalpa
     Thule
     Thunder_Bay
     Tijuana
     Toronto
-    Tortola
     Vancouver
     Whitehorse
     Winnipeg
@@ -651,7 +624,6 @@ qw(
     DumontDUrville
     Macquarie
     Mawson
-    McMurdo
     Palmer
     Rothera
     Syowa
@@ -801,7 +773,6 @@ qw(
     Tallinn
     Tirane
     Uzhgorod
-    Vaduz
     Vienna
     Vilnius
     Volgograd
@@ -838,7 +809,6 @@ qw(
     Guadalcanal
     Guam
     Honolulu
-    Johnston
     Kiritimati
     Kosrae
     Kwajalein
@@ -893,7 +863,6 @@ qw(
 ) ],
   'aq' => [ qw(
     Antarctica/McMurdo
-    Antarctica/South_Pole
     Antarctica/Rothera
     Antarctica/Palmer
     Antarctica/Mawson
@@ -1029,7 +998,6 @@ qw(
     America/Moncton
     America/Goose_Bay
     America/Blanc-Sablon
-    America/Montreal
     America/Toronto
     America/Nipigon
     America/Thunder_Bay
@@ -1721,7 +1689,6 @@ qw(
     America/North_Dakota/Beulah
     America/Denver
     America/Boise
-    America/Shiprock
     America/Phoenix
     America/Los_Angeles
     America/Anchorage
@@ -1789,29 +1756,42 @@ qw(
 (
   'AKST9AKDT' => 'America/Anchorage',
   'Africa/Asmera' => 'Africa/Asmara',
+  'Africa/Juba' => 'Africa/Khartoum',
   'Africa/Timbuktu' => 'Africa/Bamako',
+  'America/Anguilla' => 'America/Port_of_Spain',
   'America/Argentina/ComodRivadavia' => 'America/Argentina/Catamarca',
+  'America/Aruba' => 'America/Curacao',
   'America/Atka' => 'America/Adak',
   'America/Buenos_Aires' => 'America/Argentina/Buenos_Aires',
   'America/Catamarca' => 'America/Argentina/Catamarca',
   'America/Coral_Harbour' => 'America/Atikokan',
   'America/Cordoba' => 'America/Argentina/Cordoba',
+  'America/Dominica' => 'America/Port_of_Spain',
   'America/Ensenada' => 'America/Tijuana',
   'America/Fort_Wayne' => 'America/Indiana/Indianapolis',
+  'America/Grenada' => 'America/Port_of_Spain',
+  'America/Guadeloupe' => 'America/Port_of_Spain',
   'America/Indianapolis' => 'America/Indiana/Indianapolis',
   'America/Jujuy' => 'America/Argentina/Jujuy',
   'America/Knox_IN' => 'America/Indiana/Knox',
   'America/Kralendijk' => 'America/Curacao',
   'America/Louisville' => 'America/Kentucky/Louisville',
   'America/Lower_Princes' => 'America/Curacao',
-  'America/Marigot' => 'America/Guadeloupe',
+  'America/Marigot' => 'America/Port_of_Spain',
   'America/Mendoza' => 'America/Argentina/Mendoza',
+  'America/Montserrat' => 'America/Port_of_Spain',
   'America/Porto_Acre' => 'America/Rio_Branco',
   'America/Rosario' => 'America/Argentina/Cordoba',
   'America/Shiprock' => 'America/Denver',
-  'America/St_Barthelemy' => 'America/Guadeloupe',
-  'America/Virgin' => 'America/St_Thomas',
-  'Antarctica/South_Pole' => 'Antarctica/McMurdo',
+  'America/St_Barthelemy' => 'America/Port_of_Spain',
+  'America/St_Kitts' => 'America/Port_of_Spain',
+  'America/St_Lucia' => 'America/Port_of_Spain',
+  'America/St_Thomas' => 'America/Port_of_Spain',
+  'America/St_Vincent' => 'America/Port_of_Spain',
+  'America/Tortola' => 'America/Port_of_Spain',
+  'America/Virgin' => 'America/Port_of_Spain',
+  'Antarctica/McMurdo' => 'Pacific/Auckland',
+  'Antarctica/South_Pole' => 'Pacific/Auckland',
   'Arctic/Longyearbyen' => 'Europe/Oslo',
   'Asia/Ashkhabad' => 'Asia/Ashgabat',
   'Asia/Calcutta' => 'Asia/Kolkata',
@@ -1876,6 +1856,7 @@ qw(
   'Europe/Sarajevo' => 'Europe/Belgrade',
   'Europe/Skopje' => 'Europe/Belgrade',
   'Europe/Tiraspol' => 'Europe/Chisinau',
+  'Europe/Vaduz' => 'Europe/Zurich',
   'Europe/Vatican' => 'Europe/Rome',
   'Europe/Zagreb' => 'Europe/Belgrade',
   'GB' => 'Europe/London',
@@ -1901,6 +1882,7 @@ qw(
   'NZ-CHAT' => 'Pacific/Chatham',
   'Navajo' => 'America/Denver',
   'PRC' => 'Asia/Shanghai',
+  'Pacific/Johnston' => 'Pacific/Honolulu',
   'Pacific/Ponape' => 'Pacific/Pohnpei',
   'Pacific/Samoa' => 'Pacific/Pago_Pago',
   'Pacific/Truk' => 'Pacific/Chuuk',
@@ -1932,7 +1914,7 @@ qw(
 
 ;
 
-sub OlsonVersion { '2013d' }
+sub OlsonVersion { '2013e' }
 
 
 1;
@@ -1982,7 +1964,6 @@ so that applications can easily present a list of timezones.
   Africa/Gaborone
   Africa/Harare
   Africa/Johannesburg
-  Africa/Juba
   Africa/Kampala
   Africa/Khartoum
   Africa/Kigali
@@ -2019,7 +2000,6 @@ so that applications can easily present a list of timezones.
   America/Thule
   America/Adak
   America/Anchorage
-  America/Anguilla
   America/Antigua
   America/Atikokan
   America/Bahia_Banderas
@@ -2038,14 +2018,11 @@ so that applications can easily present a list of timezones.
   America/Dawson_Creek
   America/Denver
   America/Detroit
-  America/Dominica
   America/Edmonton
   America/El_Salvador
   America/Glace_Bay
   America/Goose_Bay
   America/Grand_Turk
-  America/Grenada
-  America/Guadeloupe
   America/Guatemala
   America/Halifax
   America/Havana
@@ -2077,7 +2054,6 @@ so that applications can easily present a list of timezones.
   America/Moncton
   America/Monterrey
   America/Montreal
-  America/Montserrat
   America/Nassau
   America/New_York
   America/Nipigon
@@ -2099,16 +2075,11 @@ so that applications can easily present a list of timezones.
   America/Santo_Domingo
   America/Sitka
   America/St_Johns
-  America/St_Kitts
-  America/St_Lucia
-  America/St_Thomas
-  America/St_Vincent
   America/Swift_Current
   America/Tegucigalpa
   America/Thunder_Bay
   America/Tijuana
   America/Toronto
-  America/Tortola
   America/Vancouver
   America/Whitehorse
   America/Winnipeg
@@ -2127,7 +2098,6 @@ so that applications can easily present a list of timezones.
   America/Argentina/San_Luis
   America/Argentina/Tucuman
   America/Argentina/Ushuaia
-  America/Aruba
   America/Asuncion
   America/Bahia
   America/Belem
@@ -2163,7 +2133,6 @@ so that applications can easily present a list of timezones.
   Antarctica/Davis
   Antarctica/DumontDUrville
   Antarctica/Mawson
-  Antarctica/McMurdo
   Antarctica/Palmer
   Antarctica/Rothera
   Antarctica/Syowa
@@ -2318,7 +2287,6 @@ so that applications can easily present a list of timezones.
   Europe/Tallinn
   Europe/Tirane
   Europe/Uzhgorod
-  Europe/Vaduz
   Europe/Vienna
   Europe/Vilnius
   Europe/Volgograd
@@ -2354,7 +2322,6 @@ so that applications can easily present a list of timezones.
   Pacific/Gambier
   Pacific/Guadalcanal
   Pacific/Guam
-  Pacific/Johnston
   Pacific/Kiritimati
   Pacific/Kosrae
   Pacific/Kwajalein
@@ -2417,8 +2384,7 @@ so that applications can easily present a list of timezones.
 
 =head3 Antarctica (AQ)
 
-  Antarctica/McMurdo - McMurdo Station, Ross Island
-  Antarctica/South_Pole - Amundsen-Scott Station, South Pole
+  Antarctica/McMurdo - McMurdo, South Pole, Scott (New Zealand time)
   Antarctica/Rothera - Rothera Station, Adelaide Island
   Antarctica/Palmer - Palmer Station, Anvers Island
   Antarctica/Mawson - Mawson Station, Holme Bay
@@ -2590,8 +2556,7 @@ so that applications can easily present a list of timezones.
   America/Moncton - Atlantic Time - New Brunswick
   America/Goose_Bay - Atlantic Time - Labrador - most locations
   America/Blanc-Sablon - Atlantic Standard Time - Quebec - Lower North Shore
-  America/Montreal - Eastern Time - Quebec - most locations
-  America/Toronto - Eastern Time - Ontario - most locations
+  America/Toronto - Eastern Time - Ontario & Quebec - most locations
   America/Nipigon - Eastern Time - Ontario & Quebec - places that did not observe DST 1967-1973
   America/Thunder_Bay - Eastern Time - Thunder Bay, Ontario
   America/Iqaluit - Eastern Time - east Nunavut - most locations
@@ -3475,8 +3440,7 @@ so that applications can easily present a list of timezones.
   America/North_Dakota/Beulah - Central Time - North Dakota - Mercer County
   America/Denver - Mountain Time
   America/Boise - Mountain Time - south Idaho & east Oregon
-  America/Shiprock - Mountain Time - Navajo
-  America/Phoenix - Mountain Standard Time - Arizona
+  America/Phoenix - Mountain Standard Time - Arizona (except Navajo)
   America/Los_Angeles - Pacific Time
   America/Anchorage - Alaska Time
   America/Juneau - Alaska Time - Alaska panhandle
@@ -3548,29 +3512,42 @@ A linked zone is an alias from one name to another.
 
   AKST9AKDT => America/Anchorage
   Africa/Asmera => Africa/Asmara
+  Africa/Juba => Africa/Khartoum
   Africa/Timbuktu => Africa/Bamako
+  America/Anguilla => America/Port_of_Spain
   America/Argentina/ComodRivadavia => America/Argentina/Catamarca
+  America/Aruba => America/Curacao
   America/Atka => America/Adak
   America/Buenos_Aires => America/Argentina/Buenos_Aires
   America/Catamarca => America/Argentina/Catamarca
   America/Coral_Harbour => America/Atikokan
   America/Cordoba => America/Argentina/Cordoba
+  America/Dominica => America/Port_of_Spain
   America/Ensenada => America/Tijuana
   America/Fort_Wayne => America/Indiana/Indianapolis
+  America/Grenada => America/Port_of_Spain
+  America/Guadeloupe => America/Port_of_Spain
   America/Indianapolis => America/Indiana/Indianapolis
   America/Jujuy => America/Argentina/Jujuy
   America/Knox_IN => America/Indiana/Knox
   America/Kralendijk => America/Curacao
   America/Louisville => America/Kentucky/Louisville
   America/Lower_Princes => America/Curacao
-  America/Marigot => America/Guadeloupe
+  America/Marigot => America/Port_of_Spain
   America/Mendoza => America/Argentina/Mendoza
+  America/Montserrat => America/Port_of_Spain
   America/Porto_Acre => America/Rio_Branco
   America/Rosario => America/Argentina/Cordoba
   America/Shiprock => America/Denver
-  America/St_Barthelemy => America/Guadeloupe
-  America/Virgin => America/St_Thomas
-  Antarctica/South_Pole => Antarctica/McMurdo
+  America/St_Barthelemy => America/Port_of_Spain
+  America/St_Kitts => America/Port_of_Spain
+  America/St_Lucia => America/Port_of_Spain
+  America/St_Thomas => America/Port_of_Spain
+  America/St_Vincent => America/Port_of_Spain
+  America/Tortola => America/Port_of_Spain
+  America/Virgin => America/Port_of_Spain
+  Antarctica/McMurdo => Pacific/Auckland
+  Antarctica/South_Pole => Pacific/Auckland
   Arctic/Longyearbyen => Europe/Oslo
   Asia/Ashkhabad => Asia/Ashgabat
   Asia/Calcutta => Asia/Kolkata
@@ -3635,6 +3612,7 @@ A linked zone is an alias from one name to another.
   Europe/Sarajevo => Europe/Belgrade
   Europe/Skopje => Europe/Belgrade
   Europe/Tiraspol => Europe/Chisinau
+  Europe/Vaduz => Europe/Zurich
   Europe/Vatican => Europe/Rome
   Europe/Zagreb => Europe/Belgrade
   GB => Europe/London
@@ -3660,6 +3638,7 @@ A linked zone is an alias from one name to another.
   NZ-CHAT => Pacific/Chatham
   Navajo => America/Denver
   PRC => Asia/Shanghai
+  Pacific/Johnston => Pacific/Honolulu
   Pacific/Ponape => Pacific/Pohnpei
   Pacific/Samoa => Pacific/Pago_Pago
   Pacific/Truk => Pacific/Chuuk

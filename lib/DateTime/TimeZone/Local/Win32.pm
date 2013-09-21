@@ -1,6 +1,6 @@
 package DateTime::TimeZone::Local::Win32;
 {
-  $DateTime::TimeZone::Local::Win32::VERSION = '1.60';
+  $DateTime::TimeZone::Local::Win32::VERSION = '1.61';
 }
 BEGIN {
   $DateTime::TimeZone::Local::Win32::AUTHORITY = 'cpan:DROLSKY';
@@ -275,7 +275,7 @@ DateTime::TimeZone::Local::Win32 - Determine the local system's time zone on Win
 
 =head1 VERSION
 
-version 1.60
+version 1.61
 
 =head1 SYNOPSIS
 

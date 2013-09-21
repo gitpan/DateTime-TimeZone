@@ -1,6 +1,6 @@
 package DateTime::TimeZone;
 {
-  $DateTime::TimeZone::VERSION = '1.60';
+  $DateTime::TimeZone::VERSION = '1.61';
 }
 BEGIN {
   $DateTime::TimeZone::AUTHORITY = 'cpan:DROLSKY';
@@ -564,7 +564,7 @@ DateTime::TimeZone - Time zone object base class and factory
 
 =head1 VERSION
 
-version 1.60
+version 1.61
 
 =head1 SYNOPSIS
 
