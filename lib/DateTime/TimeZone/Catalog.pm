@@ -7,7 +7,7 @@
 
 package DateTime::TimeZone::Catalog;
 {
-  $DateTime::TimeZone::Catalog::VERSION = '1.61';
+  $DateTime::TimeZone::Catalog::VERSION = '1.62';
 }
 BEGIN {
   $DateTime::TimeZone::Catalog::AUTHORITY = 'cpan:DROLSKY';
@@ -1914,7 +1914,7 @@ qw(
 
 ;
 
-sub OlsonVersion { '2013e' }
+sub OlsonVersion { '2013f' }
 
 
 1;

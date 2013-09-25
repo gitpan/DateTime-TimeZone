@@ -1,6 +1,6 @@
 package DateTime::TimeZone::OffsetOnly;
 {
-  $DateTime::TimeZone::OffsetOnly::VERSION = '1.61';
+  $DateTime::TimeZone::OffsetOnly::VERSION = '1.62';
 }
 BEGIN {
   $DateTime::TimeZone::OffsetOnly::AUTHORITY = 'cpan:DROLSKY';
@@ -87,7 +87,7 @@ DateTime::TimeZone::OffsetOnly - A DateTime::TimeZone object that just contains 
 
 =head1 VERSION
 
-version 1.61
+version 1.62
 
 =head1 SYNOPSIS
 
