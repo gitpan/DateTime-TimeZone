@@ -1,6 +1,6 @@
 package DateTime::TimeZone::OlsonDB::Zone;
 {
-  $DateTime::TimeZone::OlsonDB::Zone::VERSION = '1.62';
+  $DateTime::TimeZone::OlsonDB::Zone::VERSION = '1.63';
 }
 BEGIN {
   $DateTime::TimeZone::OlsonDB::Zone::AUTHORITY = 'cpan:DROLSKY';

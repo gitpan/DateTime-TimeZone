@@ -1,6 +1,6 @@
 package DateTime::TimeZone::Floating;
 {
-  $DateTime::TimeZone::Floating::VERSION = '1.62';
+  $DateTime::TimeZone::Floating::VERSION = '1.63';
 }
 BEGIN {
   $DateTime::TimeZone::Floating::AUTHORITY = 'cpan:DROLSKY';
@@ -60,7 +60,7 @@ DateTime::TimeZone::Floating - A time zone that is always local
 
 =head1 VERSION
 
-version 1.62
+version 1.63
 
 =head1 SYNOPSIS
 
