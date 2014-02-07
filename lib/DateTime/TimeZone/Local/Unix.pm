@@ -1,11 +1,5 @@
 package DateTime::TimeZone::Local::Unix;
-{
-  $DateTime::TimeZone::Local::Unix::VERSION = '1.63';
-}
-BEGIN {
-  $DateTime::TimeZone::Local::Unix::AUTHORITY = 'cpan:DROLSKY';
-}
-
+$DateTime::TimeZone::Local::Unix::VERSION = '1.64';
 use strict;
 use warnings;
 
@@ -133,11 +127,10 @@ sub FromEtcTimezone {
 
     return unless -f $tz_file && -r _;
 
-    local *TZ;
-    open TZ, "<$tz_file"
+    open my $fh, '<', $tz_file
         or die "Cannot read $tz_file: $!";
-    my $name = join '', <TZ>;
-    close TZ;
+    my $name = join '', <$fh>;
+    close $fh;
 
     $name =~ s/^\s+|\s+$//g;
 
@@ -155,19 +148,18 @@ sub FromEtcTIMEZONE {
 
     return unless -f $tz_file && -r _;
 
-    local *TZ;
-    open TZ, "<$tz_file"
+    open my $fh, '<', $tz_file
         or die "Cannot read $tz_file: $!";
 
     my $name;
-    while ( defined( $name = <TZ> ) ) {
+    while ( defined( $name = <$fh> ) ) {
         if ( $name =~ /\A\s*TZ\s*=\s*(\S+)/ ) {
             $name = $1;
             last;
         }
     }
 
-    close TZ;
+    close $fh;
 
     return unless $class->_IsValidName($name);
 
@@ -195,12 +187,11 @@ sub FromEtcSysconfigClock {
 sub _ReadEtcSysconfigClock {
     my $class = shift;
 
-    local *CLOCK;
-    open CLOCK, '</etc/sysconfig/clock'
+    open my $fh, '<', '/etc/sysconfig/clock'
         or die "Cannot read /etc/sysconfig/clock: $!";
 
     local $_;
-    while (<CLOCK>) {
+    while (<$fh>) {
         return $1 if /^(?:TIME)?ZONE="([^"]+)"/;
     }
 }
@@ -224,12 +215,11 @@ sub FromEtcDefaultInit {
 sub _ReadEtcDefaultInit {
     my $class = shift;
 
-    local *INIT;
-    open INIT, '</etc/default/init'
+    open my $fh, '<', '/etc/default/init'
         or die "Cannot read /etc/default/init: $!";
 
     local $_;
-    while (<INIT>) {
+    while (<$fh>) {
         return $1 if /^TZ=(.+)/;
     }
 }
@@ -248,7 +238,7 @@ DateTime::TimeZone::Local::Unix - Determine the local system's time zone on Unix
 
 =head1 VERSION
 
-version 1.63
+version 1.64
 
 =head1 SYNOPSIS
 
@@ -314,7 +304,7 @@ Dave Rolsky <autarch@urth.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2013 by Dave Rolsky.
+This software is copyright (c) 2014 by Dave Rolsky.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
