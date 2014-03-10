@@ -1,5 +1,5 @@
 package DateTime::TimeZone::OlsonDB;
-$DateTime::TimeZone::OlsonDB::VERSION = '1.64';
+$DateTime::TimeZone::OlsonDB::VERSION = '1.65';
 use strict;
 use warnings;
 
@@ -33,7 +33,7 @@ sub parse_file {
     my $self = shift;
     my $file = shift;
 
-    open my $fh, '<', '$file'
+    open my $fh, '<', $file
         or die "Cannot read $file: $!";
 
     while (<$fh>) {
@@ -308,7 +308,7 @@ DateTime::TimeZone::OlsonDB - An object to represent an Olson time zone database
 
 =head1 VERSION
 
-version 1.64
+version 1.65
 
 =head1 SYNOPSIS
 
