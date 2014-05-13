@@ -4,6 +4,9 @@ author:
   - 'Dave Rolsky <autarch@urth.org>'
 build_requires:
   File::Copy: '0'
+  File::Path: '0'
+  File::Spec::Functions: '0'
+  File::Temp: '0'
   Storable: '0'
   Sys::Hostname: '0'
   Test::Fatal: '0'
@@ -41,5 +44,5 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=DateTime-TimeZone
   repository: git://git.urth.org/DateTime-TimeZone.git
-version: '1.67'
+version: '1.68'
 x_authority: cpan:DROLSKY

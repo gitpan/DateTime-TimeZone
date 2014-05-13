@@ -38,6 +38,9 @@ my %WriteMakefileArgs = (
   },
   "TEST_REQUIRES" => {
     "File::Copy" => 0,
+    "File::Path" => 0,
+    "File::Spec::Functions" => 0,
+    "File::Temp" => 0,
     "Storable" => 0,
     "Sys::Hostname" => 0,
     "Test::Fatal" => 0,
@@ -48,7 +51,7 @@ my %WriteMakefileArgs = (
     "lib" => 0,
     "overload" => 0
   },
-  "VERSION" => "1.67",
+  "VERSION" => "1.68",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -63,7 +66,10 @@ my %FallbackPrereqs = (
   "File::Compare" => 0,
   "File::Copy" => 0,
   "File::Find" => 0,
+  "File::Path" => 0,
   "File::Spec" => 0,
+  "File::Spec::Functions" => 0,
+  "File::Temp" => 0,
   "List::Util" => 0,
   "Params::Validate" => "0.72",
   "Storable" => 0,

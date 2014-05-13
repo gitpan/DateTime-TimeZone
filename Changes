@@ -1,4 +1,12 @@
+1.68    2014-05-13
+
+- The last release was missing some changes I made on another machine. Doh.
+
+
 1.67    2014-05-13
+
+- I accidentally skipped 1.66, don't read anything into the 0.02 version bump
+  here.
 
 - This release is based on version 2014c of the IANA database (I skipped 2014b
   for lack of debuggint time). This release includes contemporary changes for
