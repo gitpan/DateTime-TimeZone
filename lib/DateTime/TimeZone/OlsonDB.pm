@@ -1,5 +1,5 @@
 package DateTime::TimeZone::OlsonDB;
-$DateTime::TimeZone::OlsonDB::VERSION = '1.65';
+$DateTime::TimeZone::OlsonDB::VERSION = '1.67';
 use strict;
 use warnings;
 
@@ -52,7 +52,7 @@ sub _parse_line {
     # remove any comments at the end of the line
     $line =~ s/\s*#.+$//;
 
-    if ( $self->{in_zone} && $line =~ /^\t/ ) {
+    if ( $self->{in_zone} && $line =~ /^[ \t]/ ) {
         $self->_parse_zone( $line, $self->{in_zone} );
         return;
     }
@@ -308,7 +308,7 @@ DateTime::TimeZone::OlsonDB - An object to represent an Olson time zone database
 
 =head1 VERSION
 
-version 1.65
+version 1.67
 
 =head1 SYNOPSIS
 
