@@ -1,5 +1,5 @@
 package DateTime::TimeZone;
-$DateTime::TimeZone::VERSION = '1.69';
+$DateTime::TimeZone::VERSION = '1.70';
 use 5.006;
 
 use strict;
@@ -554,13 +554,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 DateTime::TimeZone - Time zone object base class and factory
 
 =head1 VERSION
 
-version 1.69
+version 1.70
 
 =head1 SYNOPSIS
 

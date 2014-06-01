@@ -19,7 +19,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: '6.30'
 dynamic_config: 1
-generated_by: 'Dist::Zilla version 5.016, CPAN::Meta::Converter version 2.131560'
+generated_by: 'Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.131560'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -44,5 +44,5 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=DateTime-TimeZone
   repository: git://git.urth.org/DateTime-TimeZone.git
-version: '1.69'
+version: '1.70'
 x_authority: cpan:DROLSKY
