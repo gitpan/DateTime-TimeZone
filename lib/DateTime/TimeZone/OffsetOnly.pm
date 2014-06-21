@@ -1,5 +1,5 @@
 package DateTime::TimeZone::OffsetOnly;
-$DateTime::TimeZone::OffsetOnly::VERSION = '1.70';
+$DateTime::TimeZone::OffsetOnly::VERSION = '1.71';
 use strict;
 use warnings;
 
@@ -75,15 +75,13 @@ __END__
 
 =pod
 
-=encoding UTF-8
-
 =head1 NAME
 
 DateTime::TimeZone::OffsetOnly - A DateTime::TimeZone object that just contains an offset
 
 =head1 VERSION
 
-version 1.70
+version 1.71
 
 =head1 SYNOPSIS
 

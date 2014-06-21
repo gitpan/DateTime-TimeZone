@@ -1,5 +1,5 @@
 package DateTime::TimeZone::UTC;
-$DateTime::TimeZone::UTC::VERSION = '1.70';
+$DateTime::TimeZone::UTC::VERSION = '1.71';
 use strict;
 use warnings;
 
@@ -34,15 +34,13 @@ __END__
 
 =pod
 
-=encoding UTF-8
-
 =head1 NAME
 
 DateTime::TimeZone::UTC - The UTC time zone
 
 =head1 VERSION
 
-version 1.70
+version 1.71
 
 =head1 SYNOPSIS
 
