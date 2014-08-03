@@ -1,3 +1,11 @@
+1.72    2014-08-03
+
+- Added support for getting the local time zone on Android. Patch from Brian
+  Fraser. RT #97711.
+
+- The primary repo for this distro is now on GitHub.
+
+
 1.71    2014-06-21
 
 - This release is based on version 2014e of the Olson database. This release
@@ -6,8 +14,8 @@
 
 1.70    2014-06-01
 
-- Unset $ENV{TZ} in t/04local..t test to avoid interference from
-  system. Reported by Mark Gardner. RT #96083.
+- Unset $ENV{TZ} in the t/04local.t test to avoid interference from
+  the system. Reported by Mark Gardner. RT #96083.
 
 - This release is based on version 2014d of the IANA database, but there are
   no data changes from 2014c.
