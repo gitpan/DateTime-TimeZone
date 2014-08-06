@@ -14,9 +14,7 @@ lib/DateTime/TimeZone/Africa/Accra.pm
 lib/DateTime/TimeZone/Africa/Addis_Ababa.pm
 lib/DateTime/TimeZone/Africa/Algiers.pm
 lib/DateTime/TimeZone/Africa/Asmara.pm
-lib/DateTime/TimeZone/Africa/Bamako.pm
 lib/DateTime/TimeZone/Africa/Bangui.pm
-lib/DateTime/TimeZone/Africa/Banjul.pm
 lib/DateTime/TimeZone/Africa/Bissau.pm
 lib/DateTime/TimeZone/Africa/Blantyre.pm
 lib/DateTime/TimeZone/Africa/Brazzaville.pm
@@ -24,13 +22,10 @@ lib/DateTime/TimeZone/Africa/Bujumbura.pm
 lib/DateTime/TimeZone/Africa/Cairo.pm
 lib/DateTime/TimeZone/Africa/Casablanca.pm
 lib/DateTime/TimeZone/Africa/Ceuta.pm
-lib/DateTime/TimeZone/Africa/Conakry.pm
-lib/DateTime/TimeZone/Africa/Dakar.pm
 lib/DateTime/TimeZone/Africa/Dar_es_Salaam.pm
 lib/DateTime/TimeZone/Africa/Djibouti.pm
 lib/DateTime/TimeZone/Africa/Douala.pm
 lib/DateTime/TimeZone/Africa/El_Aaiun.pm
-lib/DateTime/TimeZone/Africa/Freetown.pm
 lib/DateTime/TimeZone/Africa/Gaborone.pm
 lib/DateTime/TimeZone/Africa/Harare.pm
 lib/DateTime/TimeZone/Africa/Johannesburg.pm
@@ -40,7 +35,6 @@ lib/DateTime/TimeZone/Africa/Kigali.pm
 lib/DateTime/TimeZone/Africa/Kinshasa.pm
 lib/DateTime/TimeZone/Africa/Lagos.pm
 lib/DateTime/TimeZone/Africa/Libreville.pm
-lib/DateTime/TimeZone/Africa/Lome.pm
 lib/DateTime/TimeZone/Africa/Luanda.pm
 lib/DateTime/TimeZone/Africa/Lubumbashi.pm
 lib/DateTime/TimeZone/Africa/Lusaka.pm
@@ -53,10 +47,7 @@ lib/DateTime/TimeZone/Africa/Monrovia.pm
 lib/DateTime/TimeZone/Africa/Nairobi.pm
 lib/DateTime/TimeZone/Africa/Ndjamena.pm
 lib/DateTime/TimeZone/Africa/Niamey.pm
-lib/DateTime/TimeZone/Africa/Nouakchott.pm
-lib/DateTime/TimeZone/Africa/Ouagadougou.pm
 lib/DateTime/TimeZone/Africa/Porto_Novo.pm
-lib/DateTime/TimeZone/Africa/Sao_Tome.pm
 lib/DateTime/TimeZone/Africa/Tripoli.pm
 lib/DateTime/TimeZone/Africa/Tunis.pm
 lib/DateTime/TimeZone/Africa/Windhoek.pm
@@ -216,8 +207,8 @@ lib/DateTime/TimeZone/Asia/Bangkok.pm
 lib/DateTime/TimeZone/Asia/Beirut.pm
 lib/DateTime/TimeZone/Asia/Bishkek.pm
 lib/DateTime/TimeZone/Asia/Brunei.pm
+lib/DateTime/TimeZone/Asia/Chita.pm
 lib/DateTime/TimeZone/Asia/Choibalsan.pm
-lib/DateTime/TimeZone/Asia/Chongqing.pm
 lib/DateTime/TimeZone/Asia/Colombo.pm
 lib/DateTime/TimeZone/Asia/Damascus.pm
 lib/DateTime/TimeZone/Asia/Dhaka.pm
@@ -225,7 +216,6 @@ lib/DateTime/TimeZone/Asia/Dili.pm
 lib/DateTime/TimeZone/Asia/Dubai.pm
 lib/DateTime/TimeZone/Asia/Dushanbe.pm
 lib/DateTime/TimeZone/Asia/Gaza.pm
-lib/DateTime/TimeZone/Asia/Harbin.pm
 lib/DateTime/TimeZone/Asia/Hebron.pm
 lib/DateTime/TimeZone/Asia/Ho_Chi_Minh.pm
 lib/DateTime/TimeZone/Asia/Hong_Kong.pm
@@ -237,7 +227,6 @@ lib/DateTime/TimeZone/Asia/Jerusalem.pm
 lib/DateTime/TimeZone/Asia/Kabul.pm
 lib/DateTime/TimeZone/Asia/Kamchatka.pm
 lib/DateTime/TimeZone/Asia/Karachi.pm
-lib/DateTime/TimeZone/Asia/Kashgar.pm
 lib/DateTime/TimeZone/Asia/Kathmandu.pm
 lib/DateTime/TimeZone/Asia/Khandyga.pm
 lib/DateTime/TimeZone/Asia/Kolkata.pm
@@ -267,6 +256,7 @@ lib/DateTime/TimeZone/Asia/Samarkand.pm
 lib/DateTime/TimeZone/Asia/Seoul.pm
 lib/DateTime/TimeZone/Asia/Shanghai.pm
 lib/DateTime/TimeZone/Asia/Singapore.pm
+lib/DateTime/TimeZone/Asia/Srednekolymsk.pm
 lib/DateTime/TimeZone/Asia/Taipei.pm
 lib/DateTime/TimeZone/Asia/Tashkent.pm
 lib/DateTime/TimeZone/Asia/Tbilisi.pm
@@ -289,7 +279,6 @@ lib/DateTime/TimeZone/Atlantic/Faroe.pm
 lib/DateTime/TimeZone/Atlantic/Madeira.pm
 lib/DateTime/TimeZone/Atlantic/Reykjavik.pm
 lib/DateTime/TimeZone/Atlantic/South_Georgia.pm
-lib/DateTime/TimeZone/Atlantic/St_Helena.pm
 lib/DateTime/TimeZone/Atlantic/Stanley.pm
 lib/DateTime/TimeZone/Australia/Adelaide.pm
 lib/DateTime/TimeZone/Australia/Brisbane.pm
