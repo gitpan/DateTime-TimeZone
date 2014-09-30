@@ -233,7 +233,6 @@ Moscow
 Gambier
 Boise
 HST
-Gaborone
 Atikokan
 Macau
 Edmonton
@@ -249,7 +248,6 @@ Port_Moresby
 Swift_Current
 Kabul
 Auckland
-Lusaka
 Efate
 Colombo
 Whitehorse
@@ -273,7 +271,6 @@ Kolkata
 Beirut
 Cuiaba
 La_Rioja
-Kigali
 Fakaofo
 Phnom_Penh
 Cayenne
@@ -299,8 +296,6 @@ Taipei
 Marquesas
 EST5EDT
 Ceuta
-Maseru
-Harare
 Eirunepe
 EST
 Tongatapu
@@ -330,7 +325,6 @@ Oslo
 Kuching
 Tallinn
 London
-Lubumbashi
 Jayapura
 Kentucky
 Louisville
@@ -421,7 +415,6 @@ New_York
 Jerusalem
 Athens
 Maldives
-Mbabane
 Cayman
 Change
 Brisbane
@@ -478,12 +471,10 @@ Danmarkshavn
 Zaporozhye
 Madeira
 Cambridge_Bay
-Blantyre
 Ushuaia
 Vladivostok
 Dar_es_Salaam
 Aden
-Bujumbura
 Menominee
 Currie
 Moncton
