@@ -1,7 +1,7 @@
 package DateTime::TimeZone;
-# git description: v1.74-3-g53bc6be
-$DateTime::TimeZone::VERSION = '1.75';
+# git description: v1.75-12-ga1c58be
 
+$DateTime::TimeZone::VERSION = '1.76';
 use 5.006;
 
 use strict;
@@ -61,8 +61,11 @@ sub new {
     }
 
     my $subclass = $p{name};
-    $subclass =~ s/-/_/g;
     $subclass =~ s{/}{::}g;
+    $subclass =~ s/-(\d)/_Minus$1/;
+    $subclass =~ s/\+/_Plus/;
+    $subclass =~ s/-/_/g;
+
     my $real_class = "DateTime::TimeZone::$subclass";
 
     die "The timezone '$p{name}' in an invalid name.\n"
@@ -564,7 +567,7 @@ DateTime::TimeZone - Time zone object base class and factory
 
 =head1 VERSION
 
-version 1.75
+version 1.76
 
 =head1 SYNOPSIS
 

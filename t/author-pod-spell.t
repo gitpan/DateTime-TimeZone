@@ -171,10 +171,16 @@ autarch
 Alexey
 Molchanov
 alexey
+Alfie
+John
+alfiej
 devnull
 convert
 dpinkowitz
 jhoblitt
+Karen
+Etheridge
+ether
 koschei
 lestrrat
 unknown
@@ -272,7 +278,6 @@ Beirut
 Cuiaba
 La_Rioja
 Fakaofo
-Phnom_Penh
 Cayenne
 Berlin
 Australia
@@ -386,8 +391,8 @@ Pago_Pago
 Manila
 Djibouti
 Sofia
-Los_Angeles
 Amman
+Los_Angeles
 Johannesburg
 Norfolk
 Puerto_Rico
@@ -419,7 +424,6 @@ Cayman
 Change
 Brisbane
 Kaliningrad
-Vientiane
 Toronto
 La_Paz
 Jakarta
@@ -500,6 +504,7 @@ Prague
 Yerevan
 Reykjavik
 Chita
+Bougainville
 Thimphu
 Sitka
 Juneau
