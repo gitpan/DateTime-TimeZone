@@ -1,5 +1,5 @@
 package DateTime::TimeZone::Local::Unix;
-$DateTime::TimeZone::Local::Unix::VERSION = '1.77';
+$DateTime::TimeZone::Local::Unix::VERSION = '1.78';
 use strict;
 use warnings;
 
@@ -57,7 +57,7 @@ sub FromEtcLocaltime {
             );
 
             my $tz = try {
-                local $SIG{__DIE__} = undef;
+                local $SIG{__DIE__};
                 DateTime::TimeZone->new( name => $name );
             };
 
@@ -90,7 +90,7 @@ sub _FindMatchingZoneinfoFile {
 
     my $real_name;
     try {
-        local $SIG{__DIE__} = undef;
+        local $SIG{__DIE__};
         local $_;
 
         File::Find::find(
@@ -143,7 +143,7 @@ sub FromEtcTimezone {
     return unless $class->_IsValidName($name);
 
     return try {
-        local $SIG{__DIE__} = undef;
+        local $SIG{__DIE__};
         DateTime::TimeZone->new( name => $name );
     };
 }
@@ -170,7 +170,7 @@ sub FromEtcTIMEZONE {
     return unless $class->_IsValidName($name);
 
     return try {
-        local $SIG{__DIE__} = undef;
+        local $SIG{__DIE__};
         DateTime::TimeZone->new( name => $name );
     };
 }
@@ -187,7 +187,7 @@ sub FromEtcSysconfigClock {
     return unless $class->_IsValidName($name);
 
     return try {
-        local $SIG{__DIE__} = undef;
+        local $SIG{__DIE__};
         DateTime::TimeZone->new( name => $name );
     };
 }
@@ -217,7 +217,7 @@ sub FromEtcDefaultInit {
     return unless $class->_IsValidName($name);
 
     return try {
-        local $SIG{__DIE__} = undef;
+        local $SIG{__DIE__};
         DateTime::TimeZone->new( name => $name );
     };
 }
@@ -251,7 +251,7 @@ DateTime::TimeZone::Local::Unix - Determine the local system's time zone on Unix
 
 =head1 VERSION
 
-version 1.77
+version 1.78
 
 =head1 SYNOPSIS
 

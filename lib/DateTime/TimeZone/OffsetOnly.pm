@@ -1,5 +1,5 @@
 package DateTime::TimeZone::OffsetOnly;
-$DateTime::TimeZone::OffsetOnly::VERSION = '1.77';
+$DateTime::TimeZone::OffsetOnly::VERSION = '1.78';
 use strict;
 use warnings;
 
@@ -81,7 +81,7 @@ DateTime::TimeZone::OffsetOnly - A DateTime::TimeZone object that just contains 
 
 =head1 VERSION
 
-version 1.77
+version 1.78
 
 =head1 SYNOPSIS
 

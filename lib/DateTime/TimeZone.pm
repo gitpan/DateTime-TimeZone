@@ -1,7 +1,7 @@
 package DateTime::TimeZone;
-# git description: v1.76-22-g0f6e58d
+# git description: v1.77-6-g3d09412
 
-$DateTime::TimeZone::VERSION = '1.77';
+$DateTime::TimeZone::VERSION = '1.78';
 use 5.006;
 
 use strict;
@@ -78,7 +78,7 @@ sub new {
 
         my $e;
         try {
-            local $SIG{__DIE__} = undef;
+            local $SIG{__DIE__};
             require_module($real_class);
         }
         catch {
@@ -404,7 +404,7 @@ sub is_valid_name {
     my $name  = shift;
 
     my $tz = try {
-        local $SIG{__DIE__} = undef;
+        local $SIG{__DIE__};
         $class->new( name => $name );
     };
 
@@ -443,7 +443,7 @@ sub STORABLE_thaw {
 sub offset_as_seconds {
     my $offset = shift;
     $offset = shift if try {
-        local $SIG{__DIE__} = undef;
+        local $SIG{__DIE__};
         $offset->isa('DateTime::TimeZone');
     };
 
@@ -478,7 +478,7 @@ sub offset_as_seconds {
 sub offset_as_string {
     my $offset = shift;
     $offset = shift if try {
-        local $SIG{__DIE__} = undef;
+        local $SIG{__DIE__};
         $offset->isa('DateTime::TimeZone');
     };
 
@@ -566,7 +566,7 @@ DateTime::TimeZone - Time zone object base class and factory
 
 =head1 VERSION
 
-version 1.77
+version 1.78
 
 =head1 SYNOPSIS
 
@@ -844,7 +844,7 @@ Dave Rolsky <autarch@urth.org>
 
 =head1 CONTRIBUTORS
 
-=for stopwords Alexey Molchanov Alfie John Daisuke Maki David Pinkowitz Iain Truskett Joshua Hoblitt Karen Etheridge
+=for stopwords Alexey Molchanov Alfie John Daisuke Maki David Pinkowitz Iain Truskett Joshua Hoblitt Karen Etheridge Peter Rabbitson
 
 =over 4
 
@@ -875,6 +875,10 @@ Joshua Hoblitt <jhoblitt@cpan.org>
 =item *
 
 Karen Etheridge <ether@cpan.org>
+
+=item *
+
+Peter Rabbitson <ribasushi@cpan.org>
 
 =back
 

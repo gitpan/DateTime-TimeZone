@@ -1,5 +1,5 @@
 package DateTime::TimeZone::Local::Win32;
-$DateTime::TimeZone::Local::Win32::VERSION = '1.77';
+$DateTime::TimeZone::Local::Win32::VERSION = '1.78';
 use strict;
 use warnings;
 
@@ -221,7 +221,7 @@ sub EnvVars { return 'TZ' }
         return unless $class->_IsValidName($olson);
 
         return try {
-            local $SIG{__DIE__} = undef;
+            local $SIG{__DIE__};
             DateTime::TimeZone->new( name => $olson );
         };
     }
@@ -277,7 +277,7 @@ DateTime::TimeZone::Local::Win32 - Determine the local system's time zone on Win
 
 =head1 VERSION
 
-version 1.77
+version 1.78
 
 =head1 SYNOPSIS
 
