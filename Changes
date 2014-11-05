@@ -1,3 +1,11 @@
+1.77    2014-11-04
+
+- Updated the mapping of Windows -> IANA time zones. Patch by David
+  Pinkowitz. RT #10025.
+
+- Replaced Class::Load with Module::Runtime, and replaced eval with Try::Tiny.
+
+
 1.76    2014-10-26
 
 - When searching for the local timezone we now look at /etc/timezone before

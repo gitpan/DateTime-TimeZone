@@ -1,11 +1,12 @@
 package DateTime::TimeZone::Local::Win32;
-$DateTime::TimeZone::Local::Win32::VERSION = '1.76';
+$DateTime::TimeZone::Local::Win32::VERSION = '1.77';
 use strict;
 use warnings;
 
-use parent 'DateTime::TimeZone::Local';
-
+use Try::Tiny;
 use Win32::TieRegistry ( 'KEY_READ', Delimiter => q{/} );
+
+use parent 'DateTime::TimeZone::Local';
 
 sub Methods { return qw( FromEnv FromRegistry ) }
 
@@ -40,6 +41,7 @@ sub EnvVars { return 'TZ' }
         'Bangkok Standard Time'           => 'Asia/Bangkok',
         'Bangladesh Standard Time'        => 'Asia/Dhaka',
         'Beijing'                         => 'Asia/Shanghai',
+        'Belarus Standard Time'           => 'Europe/Minsk',
         'Canada Central'                  => 'America/Regina',
         'Canada Central Standard Time'    => 'America/Regina',
         'Cape Verde Standard Time'        => 'Atlantic/Cape_Verde',
@@ -68,8 +70,8 @@ sub EnvVars { return 'TZ' }
         'E. Africa Standard Time'         => 'Africa/Nairobi',
         'E. Australia'                    => 'Australia/Brisbane',
         'E. Australia Standard Time'      => 'Australia/Brisbane',
-        'E. Europe'                       => 'Europe/Minsk',
-        'E. Europe Standard Time'         => 'Europe/Minsk',
+        'E. Europe'                       => 'Europe/Helsinki',
+        'E. Europe Standard Time'         => 'Europe/Helsinki',
         'E. South America'                => 'America/Sao_Paulo',
         'E. South America Standard Time'  => 'America/Sao_Paulo',
         'Eastern'                         => 'America/New_York',
@@ -105,6 +107,8 @@ sub EnvVars { return 'TZ' }
         'Kamchatka Standard Time'         => 'Asia/Kamchatka',
         'Korea'                           => 'Asia/Seoul',
         'Korea Standard Time'             => 'Asia/Seoul',
+        'Libya Standard Time'             => 'Africa/Tripoli',
+        'Line Islands Standard Time'      => 'Pacific/Kiritimati',
         'Magadan Standard Time'           => 'Asia/Magadan',
         'Mauritius Standard Time'         => 'Indian/Mauritius',
         'Mexico'                          => 'America/Mexico_City',
@@ -138,6 +142,9 @@ sub EnvVars { return 'TZ' }
         'Prague Bratislava'               => 'Europe/Prague',
         'Romance'                         => 'Europe/Paris',
         'Romance Standard Time'           => 'Europe/Paris',
+        'Russia Time Zone 10'             => 'Asia/Srednekolymsk',
+        'Russia Time Zone 11'             => 'Asia/Anadyr',
+        'Russia Time Zone 3'              => 'Europe/Samara',
         'Russian'                         => 'Europe/Moscow',
         'Russian Standard Time'           => 'Europe/Moscow',
         'SA Eastern'                      => 'America/Cayenne',
@@ -213,9 +220,10 @@ sub EnvVars { return 'TZ' }
 
         return unless $class->_IsValidName($olson);
 
-        local $@;
-        local $SIG{__DIE__};
-        return eval { DateTime::TimeZone->new( name => $olson ) };
+        return try {
+            local $SIG{__DIE__} = undef;
+            DateTime::TimeZone->new( name => $olson );
+        };
     }
 }
 
@@ -263,15 +271,13 @@ __END__
 
 =pod
 
-=encoding UTF-8
-
 =head1 NAME
 
 DateTime::TimeZone::Local::Win32 - Determine the local system's time zone on Windows
 
 =head1 VERSION
 
-version 1.76
+version 1.77
 
 =head1 SYNOPSIS
 

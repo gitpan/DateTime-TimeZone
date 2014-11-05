@@ -1,7 +1,7 @@
 package DateTime::TimeZone;
-# git description: v1.75-12-ga1c58be
+# git description: v1.76-22-g0f6e58d
 
-$DateTime::TimeZone::VERSION = '1.76';
+$DateTime::TimeZone::VERSION = '1.77';
 use 5.006;
 
 use strict;
@@ -12,7 +12,9 @@ use DateTime::TimeZone::Floating;
 use DateTime::TimeZone::Local;
 use DateTime::TimeZone::OffsetOnly;
 use DateTime::TimeZone::UTC;
+use Module::Runtime qw( require_module );
 use Params::Validate 0.72 qw( validate validate_pos SCALAR ARRAYREF BOOLEAN );
+use Try::Tiny;
 
 use constant INFINITY => 100**1000;
 use constant NEG_INFINITY => -1 * ( 100**1000 );
@@ -68,17 +70,19 @@ sub new {
 
     my $real_class = "DateTime::TimeZone::$subclass";
 
-    die "The timezone '$p{name}' in an invalid name.\n"
+    die "The timezone '$p{name}' is an invalid name.\n"
         unless $real_class =~ /^\w+(::\w+)*$/;
 
     unless ( $real_class->can('instance') ) {
         ($real_class) = $real_class =~ m{\A([a-zA-Z0-9_]+(?:::[a-zA-Z0-9_]+)*)\z};
 
-        my $e = do {
-            local $@;
-            local $SIG{__DIE__};
-            eval "require $real_class";
-            $@;
+        my $e;
+        try {
+            local $SIG{__DIE__} = undef;
+            require_module($real_class);
+        }
+        catch {
+            $e = $_;
         };
 
         if ($e) {
@@ -396,12 +400,13 @@ sub name { $_[0]->{name} }
 sub category { ( split /\//, $_[0]->{name}, 2 )[0] }
 
 sub is_valid_name {
-    my $tz;
-    {
-        local $@;
-        local $SIG{__DIE__};
-        $tz = eval { $_[0]->new( name => $_[1] ) };
-    }
+    my $class = shift;
+    my $name  = shift;
+
+    my $tz = try {
+        local $SIG{__DIE__} = undef;
+        $class->new( name => $name );
+    };
 
     return $tz && $tz->isa('DateTime::TimeZone') ? 1 : 0;
 }
@@ -436,13 +441,11 @@ sub STORABLE_thaw {
 # Functions
 #
 sub offset_as_seconds {
-    {
-        local $@;
-        local $SIG{__DIE__};
-        shift if eval { $_[0]->isa('DateTime::TimeZone') };
-    }
-
     my $offset = shift;
+    $offset = shift if try {
+        local $SIG{__DIE__} = undef;
+        $offset->isa('DateTime::TimeZone');
+    };
 
     return undef unless defined $offset;
 
@@ -473,13 +476,11 @@ sub offset_as_seconds {
 }
 
 sub offset_as_string {
-    {
-        local $@;
-        local $SIG{__DIE__};
-        shift if eval { $_[0]->isa('DateTime::TimeZone') };
-    }
-
     my $offset = shift;
+    $offset = shift if try {
+        local $SIG{__DIE__} = undef;
+        $offset->isa('DateTime::TimeZone');
+    };
 
     return undef unless defined $offset;
     return undef unless $offset >= -359999 && $offset <= 359999;
@@ -559,15 +560,13 @@ __END__
 
 =pod
 
-=encoding UTF-8
-
 =head1 NAME
 
 DateTime::TimeZone - Time zone object base class and factory
 
 =head1 VERSION
 
-version 1.76
+version 1.77
 
 =head1 SYNOPSIS
 
@@ -842,6 +841,42 @@ flag to see what they can be used for.
 =head1 AUTHOR
 
 Dave Rolsky <autarch@urth.org>
+
+=head1 CONTRIBUTORS
+
+=for stopwords Alexey Molchanov Alfie John Daisuke Maki David Pinkowitz Iain Truskett Joshua Hoblitt Karen Etheridge
+
+=over 4
+
+=item *
+
+Alexey Molchanov <alexey.molchanov@gmail.com>
+
+=item *
+
+Alfie John <alfiej@fastmail.fm>
+
+=item *
+
+Daisuke Maki <dmaki@cpan.org>
+
+=item *
+
+David Pinkowitz <dave@pinkowitz.com>
+
+=item *
+
+Iain Truskett <deceased>
+
+=item *
+
+Joshua Hoblitt <jhoblitt@cpan.org>
+
+=item *
+
+Karen Etheridge <ether@cpan.org>
+
+=back
 
 =head1 COPYRIGHT AND LICENSE
 
