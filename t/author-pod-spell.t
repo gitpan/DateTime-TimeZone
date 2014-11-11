@@ -219,11 +219,10 @@ Stanley
 San_Juan
 Montevideo
 San_Luis
-Africa
-Mogadishu
 Europe
 Bucharest
 Tahiti
+Africa
 Casablanca
 Yakutat
 Aqtobe
@@ -291,7 +290,6 @@ Cayenne
 Berlin
 Australia
 Sydney
-Addis_Ababa
 Denver
 Riga
 Indiana
@@ -315,14 +313,12 @@ EST
 Tongatapu
 Boa_Vista
 Dushanbe
-Kampala
 Andorra
 Adak
 Rothera
 El_Salvador
 Curacao
 Santa_Isabel
-Comoro
 Tokyo
 Thunder_Bay
 Merida
@@ -398,7 +394,6 @@ Troll
 Budapest
 Pago_Pago
 Manila
-Djibouti
 Sofia
 Amman
 Los_Angeles
@@ -476,7 +471,6 @@ Bogota
 Fortaleza
 Tunis
 Abidjan
-Antananarivo
 Qatar
 Tell_City
 Havana
@@ -486,11 +480,10 @@ Madeira
 Cambridge_Bay
 Ushuaia
 Vladivostok
-Dar_es_Salaam
 Aden
-Menominee
 Currie
 Moncton
+Menominee
 Lagos
 Dhaka
 Pangnirtung
@@ -533,7 +526,6 @@ Seoul
 Adelaide
 Montreal
 Center
-Asmara
 Detroit
 Cairo
 Novokuznetsk
