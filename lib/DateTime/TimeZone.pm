@@ -1,7 +1,7 @@
 package DateTime::TimeZone;
-# git description: v1.78-2-g163c81d
+# git description: v1.79-3-gbf49f97
 
-$DateTime::TimeZone::VERSION = '1.79';
+$DateTime::TimeZone::VERSION = '1.80';
 use 5.006;
 
 use strict;
@@ -110,7 +110,7 @@ sub new {
 
         if ( $object_version ne $catalog_version ) {
             warn
-                "Loaded $real_class, which is from an older version ($object_version) of the Olson database than this installation of DateTime::TimeZone ($catalog_version).\n";
+                "Loaded $real_class, which is from a different version ($object_version) of the Olson database than this installation of DateTime::TimeZone ($catalog_version).\n";
         }
     }
 
@@ -566,7 +566,7 @@ DateTime::TimeZone - Time zone object base class and factory
 
 =head1 VERSION
 
-version 1.79
+version 1.80
 
 =head1 SYNOPSIS
 

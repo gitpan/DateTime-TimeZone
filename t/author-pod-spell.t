@@ -385,7 +385,6 @@ Funafuti
 Belize
 Mawson
 Cancun
-Win32
 Easter
 Monaco
 Casey
@@ -501,8 +500,8 @@ Gaza
 Catamarca
 Tbilisi
 Apia
-Blanc_Sablon
 Prague
+Blanc_Sablon
 Yerevan
 Reykjavik
 Chita

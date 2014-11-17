@@ -329,7 +329,6 @@ lib/DateTime/TimeZone/Local.pm
 lib/DateTime/TimeZone/Local/Android.pm
 lib/DateTime/TimeZone/Local/Unix.pm
 lib/DateTime/TimeZone/Local/VMS.pm
-lib/DateTime/TimeZone/Local/Win32.pm
 lib/DateTime/TimeZone/MET.pm
 lib/DateTime/TimeZone/MST.pm
 lib/DateTime/TimeZone/MST7MDT.pm
