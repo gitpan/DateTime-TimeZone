@@ -1,7 +1,7 @@
 package DateTime::TimeZone;
-# git description: v1.79-3-gbf49f97
+# git description: v1.80-2-g83a230f
 
-$DateTime::TimeZone::VERSION = '1.80';
+$DateTime::TimeZone::VERSION = '1.81';
 use 5.006;
 
 use strict;
@@ -566,7 +566,7 @@ DateTime::TimeZone - Time zone object base class and factory
 
 =head1 VERSION
 
-version 1.80
+version 1.81
 
 =head1 SYNOPSIS
 

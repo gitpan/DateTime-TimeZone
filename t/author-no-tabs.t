@@ -404,7 +404,6 @@ my @files = (
     't/16has-dst-changes.t',
     't/17special-names.t',
     't/18olson-version-check.t',
-    't/19local-win32.t',
     't/20local-subclass.t',
     't/21stack-corruption.t',
     't/22taint-mode.t',

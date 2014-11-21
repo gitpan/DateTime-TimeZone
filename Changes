@@ -1,3 +1,8 @@
+1.81    2014-11-21
+
+- Removed tests for Win32 code.
+
+
 1.80    2014-11-16
 
 - This distro no longer ships the DateTime::TimeZone::Local::Win32
