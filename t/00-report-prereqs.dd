@@ -19,7 +19,7 @@ do { my $x = {
                     },
        'runtime' => {
                       'requires' => {
-                                      'Class::Singleton' => '0',
+                                      'Class::Singleton' => '1.03',
                                       'Cwd' => '3',
                                       'File::Basename' => '0',
                                       'File::Compare' => '0',

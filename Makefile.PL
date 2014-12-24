@@ -21,7 +21,7 @@ my %WriteMakefileArgs = (
   "MIN_PERL_VERSION" => "5.006",
   "NAME" => "DateTime::TimeZone",
   "PREREQ_PM" => {
-    "Class::Singleton" => 0,
+    "Class::Singleton" => "1.03",
     "Cwd" => 3,
     "File::Basename" => 0,
     "File::Compare" => 0,
@@ -54,7 +54,7 @@ my %WriteMakefileArgs = (
     "lib" => 0,
     "overload" => 0
   },
-  "VERSION" => "1.82",
+  "VERSION" => "1.83",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -62,7 +62,7 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
-  "Class::Singleton" => 0,
+  "Class::Singleton" => "1.03",
   "Cwd" => 3,
   "ExtUtils::MakeMaker" => 0,
   "File::Basename" => 0,
