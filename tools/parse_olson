@@ -189,8 +189,8 @@ sub parse_file {
 
         my $spans = serialize_spans( zone_as_spans($zone) );
 
-        $spans =~ s/-inf/DateTime::TimeZone::NEG_INFINITY/g;
-        $spans =~ s/inf/DateTime::TimeZone::INFINITY/g;
+        $spans =~ s/inf/DateTime::TimeZone::INFINITY/gi;
+        $spans =~ s/-inf/DateTime::TimeZone::NEG_INFINITY/gi;
 
         $spans =~ s/('(?:start|end)_date'\s+=>\s+)'(\d+)'/$1$2/g;
 
@@ -310,7 +310,7 @@ sub zone_as_spans {
                 utc_end     => $INFINITY,
                 local_start => $utc_start - $last_observance->total_offset,
                 local_end   => $INFINITY,
-                short_name  => sprintf( $last_observance->format, '' ),
+                short_name  => $last_observance->formatted_short_name(q{}),
                 offset      => $last_observance->total_offset,
                 is_dst      => 0,
                 };
@@ -411,11 +411,11 @@ EOF
     # This is cleaner than making the above a double-quoted string
     $generator =~ s/!RULES/Dumper \@rules/eg;
     $generator =~ s/!LAST_OBSERVANCE/Dumper $last_observance/eg;
-    $generator =~ s/\$VAR1->{'local_start_datetime'}{'tz'}/bless( {
+    $generator =~ s/\$VAR1->\{'local_start_datetime'\}\{'tz'\}/bless( {
       'name' => 'floating',
       'offset' => 0
     }, 'DateTime::TimeZone::Floating' )/;
-    $generator =~ s/\$VAR1->{'utc_start_datetime'}{'tz'}/bless( {
+    $generator =~ s/\$VAR1->\{'utc_start_datetime'\}\{'tz'\}/bless( {
       'name' => 'floating',
       'offset' => 0
     }, 'DateTime::TimeZone::Floating' )/;

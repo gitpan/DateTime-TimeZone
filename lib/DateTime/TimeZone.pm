@@ -1,7 +1,7 @@
 package DateTime::TimeZone;
-# git description: v1.80-2-g83a230f
+# git description: v1.81-8-ged5f2d3
 
-$DateTime::TimeZone::VERSION = '1.81';
+$DateTime::TimeZone::VERSION = '1.82';
 use 5.006;
 
 use strict;
@@ -339,9 +339,8 @@ sub _generate_spans_until_match {
                     seconds => $self->{last_observance}->total_offset
                         + $rule->offset_from_std
                 ),
-                short_name => sprintf(
-                    $self->{last_observance}->format, $rule->letter
-                ),
+                short_name => $self->{last_observance}
+                    ->formatted_short_name( $rule->letter ),
                 observance => $self->{last_observance},
                 rule       => $rule,
                 );
@@ -566,7 +565,7 @@ DateTime::TimeZone - Time zone object base class and factory
 
 =head1 VERSION
 
-version 1.81
+version 1.82
 
 =head1 SYNOPSIS
 
